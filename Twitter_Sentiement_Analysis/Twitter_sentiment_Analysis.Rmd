@@ -3,6 +3,8 @@ title: "Does Time of the day and Week Influence Happiness?"
 output: html_document
 ---
 
+## Overview
+
 In this project I want to find out how people's mood oscillates through out the day and through out the week. I will be using Twitter archive data and perform sentiment analysis on the tweet content to see how people's mood oscilliated. 
 
 The following packages from R is required to run the Rmd file:
@@ -10,14 +12,14 @@ The following packages from R is required to run the Rmd file:
 install.packages('streamR')
 ```
 
-I will be only using the Twitter archive data from 2011/10/24 to 2011/10/30 and selecting the tweets from the UK and in english language. The reason I am only using data from 1 week is to reduce the run time (It already takes a few hours to download and precess the data). I am aware of the fact that this might be a special week and the conclusion might be biased to the events that happened this week (ie. politics, economy, weather). The reason I am only using UK data is because I will be analyisng how people's oscillates each hour. Having the whole country in the same timezone is very important in this respect.
+I will be only using the Twitter archive data from 2011/10/24 to 2011/10/30 and selecting the tweets from the UK and in english language. The reason I am only using data from 1 week is to reduce the run time (It already takes a few hours to download and process the data). I am aware of the fact that this might be a special week and the conclusion might be biased to the events that happened this week (ie. politics, economy, weather). The reason I am only using UK data is because I will be analysing how people's oscillates each hour. Having the whole country in the same timezone is very important in this respect.
 
 
-Part 1: Download Data
+## Part 1: Download Data
 All the data is downloaded from https://archive.org/details/archiveteam-json-twitterstream which is a archive of old tweets. As this part takes some time to run. A csv file of cleaned and parsed data is also included if part 1 is to be skipped.
 
 Download Data from https://archive.org/details/archiveteam-json-twitterstream download for 2011/10/24 to 2011/10/30
-```{r echo=FALSE, warning=FALSE, message=FALSE, eval=FALSE}
+```{r warning=FALSE, message=FALSE, eval=FALSE}
 dir.create("data")
 for(i in 23:30){
   URL = paste("https://archive.org/download/archiveteam-json-twitterstream/twitter-stream-2011-10-",i,".zip", sep="")
@@ -28,7 +30,10 @@ for(i in 23:30){
 
 ```
 
+
 Read the tweets file by file and only keep the ones from the UK and in English. It takes some time to run. The result is written to a csv file to avoid the need to run this part in the future.
+
+
 ```{r eval=FALSE, message=FALSE}
 require(streamR)
 
@@ -69,7 +74,10 @@ write.csv(tweets, file = "tweets.csv",row.names=FALSE, na="")
 ```
 
 
-Analyze the sentiment of the tweets using qdap package. 
+## Part 2 Analysis
+
+If the Tweets from the UK has already been extracted and saved as 'tweets.csv', then start the project from there. Analyze the sentiment of the tweets using qdap package, each tweet is broken into sentences and fed to QDAP to perform sentiment analysis. QDAP returns a number which represent the sentiment of the text. A possitive value represents positive sentiment and vice versa for negetive value. The absolute value of the sentiment value represents the strength of the sentiment.
+
 ```{r warning=FALSE, message=FALSE}
 require(qdap)
 tweets=read.csv("tweets.csv", header = TRUE, stringsAsFactors = FALSE )
@@ -106,18 +114,11 @@ tweets=tweets[!is.nan(tweets$sentiment)&!is.na(tweets$sentiment),]
 
 
 
-```{r}
 
-#sentimentts = as.xts(tweets$sentiment, order.by=strptime(tweet2$time, "%a %b %d %H:%M:%S %z %Y", tz = "UTC"))
-#sentimenthr = period.apply(sentimentts["2011-10-26"], endpoints(sentimentts["2011-10-26"], "hours", 2), mean)
-#sentimentdl = apply.daily(sentimentts["2011-10-24/2011-10-30"], mean)
-#plot.xts(sentimenthr, main="Hourly QDAP")
-#plot.xts(sentimentdl, main="Daily QDAP")
-```
 
 
 Now convert the data frame to a time serie and average the sentiment by hour and by day and plot the results
-```{r}
+```{r warning=FALSE, message=FALSE}
 require(xts)
 qdap = as.xts(cbind(tweets$postw, tweets$negtw, tweets$tottw), order.by=strptime(tweets$time, "%a %b %d %H:%M:%S %z %Y", tz = "UTC"))
 #sum over hour
@@ -127,151 +128,21 @@ qdapdl = apply.daily(qdap["2011-10-24/2011-10-30"], colSums)
 index(qdapdl) = as.Date(index(qdapdl))
 
 #plot positive sentiment and negetive sentiment tweets as a percent of total tweets over a day
-plot(as.zoo(cbind(qdaphr[,1]/qdaphr[,3], qdaphr[,2]/qdaphr[,3])), main="Hourly QDAP Ratio", col=c("red", "blue") ,ylab=c("positive", "negative"))
+plot(as.zoo(cbind(qdaphr[,1]/qdaphr[,3], qdaphr[,2]/qdaphr[,3])), main="Hourly Twitter Sentiment", col=c("red", "blue") ,ylab=c("positive", "negative"))
 legend(x = "bottomright", legend = c("Positive", "Negative"), lty = 1,col = c("red", "blue"))
 
 #plot positive sentiment and negetive sentiment tweets as a percent of total tweets over a week
-plot(as.zoo(cbind(qdapdl[,1]/qdapdl[,3], qdapdl[,2]/qdapdl[,3])), main="Daily QDAP Ratio", col=c("red", "blue") ,ylab=c("positive", "negative") )
+plot(as.zoo(cbind(qdapdl[,1]/qdapdl[,3], qdapdl[,2]/qdapdl[,3])), main="Daily Twitter Sentiment", col=c("red", "blue") ,ylab=c("positive", "negative") )
 legend(x = "bottomright", legend = c("Positive", "Negative"), lty = 1,col = c("red", "blue"))
 ```
 
 We can clearly see a big dip in both positive and negative tweets aroung 7:00. Positive tweets spike around 17:00 (finished work), and negative tweets spike aroung midnight.
 
-Over the week, people are happier close to the weekend and are quite negative on Sunday
+Over the week, people are happier close to the weekend and are quite negative on Sunday. This can be explained by expectation theory. On Friday, people have the weekend to look forward to where as on Sunday, people are already seeing themselves waking up early on Monday and going to work.
 
 
 
-### MPQA
 
-Get file from this site http://mpqa.cs.pitt.edu/data/subjectivity_clues_hltemnlp05.zip
-```{r}
-MPQA=read.csv("subjclueslen1_HLTEMNLP05.tff", header = FALSE, sep=" ", stringsAsFactors = FALSE)[c(3,6)]
-colnames(MPQA)=c("word1", "polarity")
-for (i in 1:nrow(MPQA)){
-  MPQA$word1[i]=unlist(strsplit(MPQA$word1[i], split='=', fixed=TRUE))[2]
-  MPQA$polarity[i]=unlist(strsplit(MPQA$polarity[i], split='=', fixed=TRUE))[2]
-}
-
-MPQApos=MPQA[MPQA$polarity=="positive",1]
-MPQAneg=MPQA[MPQA$polarity=="negative",1]
-
-
-
-```
-
-
-```{r}
-tweets=read.csv("tweets.csv", header = TRUE, stringsAsFactors = FALSE )
-tweet3=data.frame(time=tweets$created_at, text=tweets$text, posword=0, negword=0, words=0)
-for(i in 1:nrow(tweet3)){
-  words=bag_o_words(tweet3$text[i])
-  tweet3$posword[i]=sum(words%in%MPQApos, na.rm = TRUE)
-  tweet3$negword[i]=sum(words%in%MPQAneg, na.rm = TRUE)
-  tweet3$words[i]=length(words)
-}
-```
-
-```{r}
-MPQAsen = as.xts(cbind(tweet3$posword, tweet3$negword, tweet3$words), order.by = strptime(tweet3$time, "%a %b %d %H:%M:%S %z %Y", tz = "UTC"))
-MPQAhr = period.apply(MPQAsen["2011-10-26"], endpoints(MPQAsen["2011-10-26"], "hours", 2), colSums)
-MPQAdl = apply.daily(MPQAsen["2011-10-24/2011-10-30"], colSums)
-index(MPQAdl) = as.Date(index(MPQAdl))
-
-
-plot(as.zoo(cbind(MPQAhr[,1]/MPQAhr[,3], MPQAhr[,2]/MPQAhr[,3])), main="Hourly MPQA Ratio", col=c("red", "blue"),ylab=c("positive", "negative") )
-
-plot(as.zoo(cbind(MPQAdl[,1]/MPQAdl[,3], MPQAdl[,2]/MPQAdl[,3])), main="Daily MPQA Ratio", col=c("red", "blue") ,ylab=c("positive", "negative"))
-```
-
-
-### EMPATH
-
-```{r}
-empath=read.csv("categories.tsv", header = FALSE, sep="\t", stringsAsFactors = FALSE)
-empathpos = paste(glob2rx(empath[empath[1]=='positive_emotion',]), collapse = '|')
-empathneg = paste(glob2rx(empath[empath[1]=='negative_emotion',]), collapse = '|')
-```
-
-
-
-```{r}
-tweets=read.csv("tweets.csv", header = TRUE, stringsAsFactors = FALSE )
-tweet4=data.frame(time=tweets$created_at, text=tweets$text, posword=0, negword=0, words=0)
-
-for(i in 1:nrow(tweet4)){
-  words=bag_o_words(tweet3$text[i])
-  tweet4$posword[i]=sum(words%in%empathpos, na.rm = TRUE)
-  tweet4$negword[i]=sum(words%in%empathneg, na.rm = TRUE)
-  tweet4$words[i] =length(words)
-}
-```
-
-
-```{r}
-empathsen = as.xts(cbind(tweet4$posword, tweet4$negword, tweet4$words), order.by = strptime(tweet4$time, "%a %b %d %H:%M:%S %z %Y", tz = "UTC"))
-empathhr = period.apply(empathsen["2011-10-26"], endpoints(empathsen["2011-10-26"], "hours", 2), colSums)
-empathdl = apply.daily(empathsen["2011-10-24/2011-10-30"], colSums)
-index(empathdl) = as.Date(index(empathdl))
-
-plot.zoo(as.zoo(cbind(empathhr[,1]/empathhr[,3], empathhr[,2]/empathhr[,3])), main="Hourly Empath Ratio", col=c("red", "blue") ,ylab=c("positive", "negative"))
-
-
-plot.zoo(as.zoo(cbind(empathdl[,1]/empathdl[,3], empathdl[,2]/empathdl[,3])), main="Daily Empath Ratio", col=c("red", "blue") ,ylab=c("positive", "negative"))
-
-```
-
-## Comparing techniques with 5 evaluated texts
-
-```{r, eval=TRUE,cache=TRUE}
-filenames <- c("1041MySpace",
-               "bbc1000",
-               "digg1084",
-               "rw1046",
-               "YouTube3407")
-sentistrength<-data.frame(stringsAsFactors=FALSE)
-for (filename in filenames){
-  oneset <- read.csv(file=paste("data2/",filename,".txt",sep=""), header=TRUE, sep="\t",quote="", stringsAsFactors=FALSE, fileEncoding="latin-9")
-  colnames(oneset)<- c("mean.pos","mean.neg","body")
-  oneset$filename<- filename
-  sentistrength<- rbind(sentistrength,oneset)
-  }
-```
-
-```{r, eval=TRUE,cache=TRUE}
-sentistrength$QDAPpos=0
-sentistrength$QDAPneg=0
-sentistrength$MPQApos=0
-sentistrength$MPQAneg=0
-sentistrength$Empathpos=0
-sentistrength$Empathneg=0
-
-for (i in 1:nrow(sentistrength)){
-  
-  sentiment=polarity(sentistrength$body[i])
-  if(sentiment$group$ave.polarity > 0 & !is.nan(sentiment$group$ave.polarity)){
-    sentistrength$QDAPpos[i]=sentiment$group$ave.polarity
-  }else if(!is.nan(sentiment$group$ave.polarity)) {
-    sentistrength$QDAPneg[i]=-sentiment$group$ave.polarity
-  }
-  
-  
-  words=bag_o_words(sentistrength$body[i])
-
-  sentistrength$MPQApos[i]=sum(words%in%MPQApos, na.rm = TRUE)
-  sentistrength$MPQAneg[i]=sum(words%in%MPQAneg, na.rm = TRUE)
-  
-  sentistrength$Empathpos[i]=sum(grepl(empathpos, words))/length((words))
-  sentistrength$Empathneg[i]=sum(grepl(empathpos, words))/length((words))
-
-}
-
-
-cor.test(sentistrength$mean.pos, sentistrength$QDAPpos, method="spearman")
-cor.test(sentistrength$mean.neg, sentistrength$QDAPneg)
-
-cor.test(sentistrength$mean.pos, sentistrength$Empathpos)
-cor.test(sentistrength$mean.neg, sentistrength$Empathneg)
-```
 
 
 
