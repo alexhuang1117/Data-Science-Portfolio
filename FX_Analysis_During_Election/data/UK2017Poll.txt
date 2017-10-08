@@ -1,0 +1,634 @@
+
+Conservatives	Labour	Liberal Democrats	SNP	Plaid Cymru	Greens	UKIP	Other	Seat	Region	2015
+55	22	9	0	0	2	13	0	Aldershot	South East	Conservatives
+65	27	5	0	0	0	0	1	Aldridge-Brownhills	West Midlands	Conservatives
+59	27	12	0	0	2	0	0	Altrincham and Sale West	North West	Conservatives
+57	36	4	0	0	2	0	0	Amber Valley	East Midlands	Conservatives
+63	16	9	0	0	2	10	0	Arundel and South Downs	South East	Conservatives
+35	38	10	0	0	1	15	1	Ashfield	East Midlands	Labour
+56	22	7	0	0	1	14	0	Ashford	South East	Conservatives
+29	50	3	0	0	1	17	0	Ashton-under-Lyne	North West	Labour
+53	20	10	0	0	2	14	0	Aylesbury	South East	Conservatives
+56	24	8	0	0	1	10	1	Banbury	South East	Conservatives
+22	53	3	0	0	1	20	1	Barking	London	Labour
+24	52	4	0	0	0	17	2	Barnsley Central	Yorkshire and The Humber	Labour
+23	51	5	0	0	0	18	3	Barnsley East	Yorkshire and The Humber	Labour
+47	40	4	0	0	1	8	0	Barrow and Furness	North West	Labour
+54	25	5	0	0	0	16	0	Basildon and Billericay	East of England	Conservatives
+52	28	7	0	0	0	11	1	Basingstoke	South East	Conservatives
+47	47	4	0	0	0	0	0	Bassetlaw	East Midlands	Labour
+40	17	37	0	0	6	0	0	Bath	South West	Conservatives
+44	46	6	0	0	4	0	1	Batley and Spen	Yorkshire and The Humber	Labour
+50	37	9	0	0	1	3	0	Battersea	London	Conservatives
+65	16	9	0	0	1	9	0	Beaconsfield	South East	Conservatives
+67	24	6	0	0	3	0	0	Beckenham	London	Conservatives
+51	40	5	0	0	3	0	0	Bedford	East of England	Conservatives
+19	39	36	0	0	2	3	1	Bermondsey and Old Southwark	London	Labour
+59	17	22	0	0	3	0	0	Berwick-upon-Tweed	North East	Conservatives
+19	59	7	0	0	7	5	3	Bethnal Green and Bow	London	Labour
+58	29	8	0	0	4	0	1	Beverley and Holderness	Yorkshire and The Humber	Conservatives
+58	19	8	0	0	2	13	0	Bexhill and Battle	South East	Conservatives
+49	28	3	0	0	1	17	1	Bexleyheath and Crayford	London	Conservatives
+26	67	4	0	0	2	0	0	Birkenhead	North West	Labour
+47	45	4	0	0	4	0	1	Birmingham, Edgbaston	West Midlands	Labour
+47	46	4	0	0	3	0	0	Birmingham, Erdington	West Midlands	Labour
+27	57	12	0	0	4	0	0	Birmingham, Hall Green	West Midlands	Labour
+23	61	6	0	0	1	9	0	Birmingham, Hodge Hill	West Midlands	Labour
+26	67	4	0	0	2	0	0	Birmingham, Ladywood	West Midlands	Labour
+50	43	4	0	0	3	0	0	Birmingham, Northfield	West Midlands	Labour
+36	55	5	0	0	3	0	1	Birmingham, Perry Barr	West Midlands	Labour
+41	47	6	0	0	6	0	0	Birmingham, Selly Oak	West Midlands	Labour
+20	37	23	0	0	3	16	1	Birmingham, Yardley	West Midlands	Labour
+46	44	6	0	0	0	0	0	Bishop Auckland	North East	Labour
+40	55	4	0	0	0	0	0	Blackburn	North West	Labour
+22	61	3	0	0	2	12	0	Blackley and Broughton	North West	Labour
+50	35	4	0	0	0	11	0	Blackpool North and Cleveleys	North West	Conservatives
+41	42	3	0	0	1	13	0	Blackpool South	North West	Labour
+26	48	11	0	0	1	15	0	Blaydon	North East	Labour
+39	49	6	0	0	6	0	0	Blyth Valley	North East	Labour
+55	19	8	0	0	2	16	0	Bognor Regis and Littlehampton	South East	Conservatives
+33	45	3	0	0	0	19	0	Bolsover	East Midlands	Labour
+39	42	3	0	0	1	14	0	Bolton North East	North West	Labour
+27	50	3	0	0	1	19	0	Bolton South East	North West	Labour
+45	37	6	0	0	0	12	0	Bolton West	North West	Conservatives
+19	75	3	0	0	1	0	1	Bootle	North West	Labour
+43	22	3	0	0	0	30	1	Boston and Skegness	East Midlands	Conservatives
+58	18	22	0	0	2	0	0	Bosworth	East Midlands	Conservatives
+53	21	9	0	0	3	13	2	Bournemouth East	South West	Conservatives
+61	22	10	0	0	6	0	0	Bournemouth West	South West	Conservatives
+57	22	9	0	0	0	11	0	Bracknell	South East	Conservatives
+20	48	18	0	0	1	14	1	Bradford East	Yorkshire and The Humber	Labour
+32	43	5	0	0	2	18	0	Bradford South	Yorkshire and The Humber	Labour
+23	45	6	0	0	1	12	13	Bradford West	Yorkshire and The Humber	Labour
+57	22	6	0	0	1	15	0	Braintree	East of England	Conservatives
+29	56	10	0	0	1	3	0	Brent Central	London	Labour
+43	48	7	0	0	1	0	1	Brent North	London	Labour
+50	41	7	0	0	0	0	0	Brentford and Isleworth	London	Labour
+62	17	8	0	0	1	12	0	Brentwood and Ongar	East of England	Conservatives
+54	20	11	0	0	1	14	0	Bridgwater and West Somerset	South West	Conservatives
+57	29	4	0	0	0	9	0	Brigg and Goole	Yorkshire and The Humber	Conservatives
+46	41	8	0	0	0	0	0	Brighton, Kemptown	South East	Conservatives
+22	36	0	0	0	32	6	0	Brighton, Pavilion	South East	Greens
+43	41	6	0	0	9	0	0	Bristol East	South West	Labour
+49	37	7	0	0	7	0	0	Bristol North West	South West	Conservatives
+32	40	9	0	0	4	14	1	Bristol South	South West	Labour
+19	38	24	0	0	18	0	1	Bristol West	South West	Labour
+53	22	10	0	0	2	14	0	Broadland	East of England	Conservatives
+55	25	6	0	0	2	12	0	Bromley and Chislehurst	London	Conservatives
+65	27	5	0	0	3	0	0	Bromsgrove	West Midlands	Conservatives
+59	21	4	0	0	1	15	0	Broxbourne	East of England	Conservatives
+49	36	6	0	0	1	8	0	Broxtowe	East Midlands	Conservatives
+0	0	0	0	0	0	0	100	Buckingham	South East	Other
+26	37	18	0	0	1	18	0	Burnley	North West	Labour
+63	32	4	0	0	2	0	0	Burton	West Midlands	Conservatives
+49	43	6	0	0	0	0	0	Bury North	North West	Conservatives
+41	43	5	0	0	0	9	1	Bury South	North West	Labour
+66	22	6	0	0	5	0	0	Bury St Edmunds	East of England	Conservatives
+48	37	6	0	0	1	7	1	Calder Valley	Yorkshire and The Humber	Conservatives
+19	61	8	0	0	9	0	3	Camberwell and Peckham	London	Labour
+54	29	12	0	0	4	0	0	Camborne and Redruth	South West	Conservatives
+24	39	32	0	0	5	0	0	Cambridge	East of England	Labour
+48	34	4	0	0	1	13	0	Cannock Chase	West Midlands	Conservatives
+53	28	13	0	0	6	0	0	Canterbury	South East	Conservatives
+49	37	5	0	0	0	9	0	Carlisle	North West	Conservatives
+50	17	27	0	0	5	0	1	Carshalton and Wallington	London	Liberal Democrats
+53	19	4	0	0	0	23	0	Castle Point	East of England	Conservatives
+54	18	13	0	0	3	11	1	Central Devon	South West	Conservatives
+60	22	6	0	0	2	10	0	Central Suffolk and North Ipswich	East of England	Conservatives
+59	23	7	0	0	0	11	0	Charnwood	East Midlands	Conservatives
+54	25	4	0	0	1	15	1	Chatham and Aylesford	South East	Conservatives
+56	17	27	0	0	0	0	0	Cheadle	North West	Conservatives
+55	21	12	0	0	1	11	0	Chelmsford	East of England	Conservatives
+62	27	6	0	0	1	4	0	Chelsea and Fulham	London	Conservatives
+48	13	37	0	0	2	0	0	Cheltenham	South West	Conservatives
+61	18	10	0	0	2	9	0	Chesham and Amersham	South East	Conservatives
+30	46	11	0	0	1	12	0	Chesterfield	East Midlands	Labour
+60	17	10	0	0	2	10	0	Chichester	South East	Conservatives
+59	31	6	0	0	4	0	0	Chingford and Woodford Green	London	Conservatives
+53	15	29	0	0	0	0	0	Chippenham	South West	Conservatives
+56	35	6	0	0	3	0	0	Chipping Barnet	London	Conservatives
+49	45	4	0	0	2	0	0	Chorley	North West	Labour
+71	16	9	0	0	4	0	0	Christchurch	South West	Conservatives
+54	30	8	0	0	2	4	1	Cities of London and Westminster	London	Conservatives
+50	40	9	0	0	0	0	0	City of Chester	North West	Labour
+29	46	11	0	0	2	10	1	City of Durham	North East	Labour
+43	17	2	0	0	1	37	0	Clacton	East of England	UKIP
+51	31	5	0	0	1	12	0	Cleethorpes	Yorkshire and The Humber	Conservatives
+50	20	26	0	0	4	0	0	Colchester	East of England	Conservatives
+52	37	7	0	0	2	0	1	Colne Valley	Yorkshire and The Humber	Conservatives
+59	22	9	0	0	1	10	0	Congleton	North West	Conservatives
+42	41	5	0	0	0	11	0	Copeland	North West	Labour
+47	36	4	0	0	1	12	0	Corby	East Midlands	Conservatives
+32	48	5	0	0	1	12	2	Coventry North East	West Midlands	Labour
+38	40	5	0	0	1	13	3	Coventry North West	West Midlands	Labour
+39	41	5	0	0	2	11	1	Coventry South	West Midlands	Labour
+58	35	6	0	0	0	0	0	Crawley	South East	Conservatives
+49	35	4	0	0	0	11	0	Crewe and Nantwich	North West	Conservatives
+46	40	4	0	0	1	9	1	Croydon Central	London	Conservatives
+29	57	7	0	0	2	5	1	Croydon North	London	Labour
+57	27	6	0	0	1	9	1	Croydon South	London	Conservatives
+27	40	3	0	0	2	27	1	Dagenham and Rainham	London	Labour
+41	43	4	0	0	1	11	0	Darlington	North East	Labour
+53	27	4	0	0	1	15	1	Dartford	South East	Conservatives
+62	22	5	0	0	1	11	0	Daventry	East Midlands	Conservatives
+31	50	3	0	0	1	14	1	Denton and Reddish	North West	Labour
+42	35	11	0	0	0	10	0	Derby North	East Midlands	Conservatives
+36	46	4	0	0	1	13	0	Derby South	East Midlands	Labour
+62	24	10	0	0	3	0	0	Derbyshire Dales	East Midlands	Conservatives
+59	18	8	0	0	2	12	0	Devizes	South West	Conservatives
+50	43	5	0	0	2	0	0	Dewsbury	Yorkshire and The Humber	Labour
+39	50	6	0	0	0	0	1	Don Valley	Yorkshire and The Humber	Labour
+35	53	7	0	0	0	0	1	Doncaster Central	Yorkshire and The Humber	Labour
+27	50	5	0	0	0	17	2	Doncaster North	Yorkshire and The Humber	Labour
+48	30	4	0	0	1	16	0	Dover	South East	Conservatives
+38	40	3	0	0	0	18	0	Dudley North	West Midlands	Labour
+48	33	4	0	0	1	14	0	Dudley South	West Midlands	Conservatives
+27	52	14	0	0	7	0	1	Dulwich and West Norwood	London	Labour
+45	41	12	0	0	0	0	0	Ealing Central and Acton	London	Labour
+37	50	5	0	0	1	7	0	Ealing North	London	Labour
+29	59	7	0	0	1	4	1	Ealing, Southall	London	Labour
+23	56	4	0	0	0	15	2	Easington	North East	Labour
+43	17	13	0	0	0	11	14	East Devon	South West	Conservatives
+20	68	5	0	0	1	5	1	East Ham	London	Labour
+68	16	12	0	0	4	0	0	East Hampshire	South East	Conservatives
+60	17	9	0	0	1	12	1	East Surrey	South East	Conservatives
+53	23	8	0	0	2	13	2	East Worthing and Shoreham	South East	Conservatives
+53	25	7	0	0	1	13	1	East Yorkshire	Yorkshire and The Humber	Conservatives
+51	17	29	0	0	3	0	0	Eastbourne	South East	Conservatives
+47	19	20	0	0	2	11	0	Eastleigh	South East	Conservatives
+57	25	9	0	0	1	9	1	Eddisbury	North West	Conservatives
+31	56	5	0	0	1	7	0	Edmonton	London	Labour
+43	44	4	0	0	1	8	0	Ellesmere Port and Neston	North West	Labour
+56	36	6	0	0	1	0	0	Elmet and Rothwell	Yorkshire and The Humber	Conservatives
+47	41	7	0	0	0	0	0	Eltham	London	Labour
+47	41	4	0	0	1	8	0	Enfield North	London	Labour
+54	38	6	0	0	2	0	0	Enfield, Southgate	London	Conservatives
+58	20	7	0	0	1	14	0	Epping Forest	East of England	Conservatives
+66	20	11	0	0	3	0	0	Epsom and Ewell	South East	Conservatives
+56	36	5	0	0	3	0	0	Erewash	East Midlands	Conservatives
+33	46	4	0	0	2	15	1	Erith and Thamesmead	London	Labour
+63	17	11	0	0	1	6	1	Esher and Walton	South East	Conservatives
+43	47	5	0	0	5	0	1	Exeter	South West	Labour
+60	19	9	0	0	1	11	0	Fareham	South East	Conservatives
+58	20	7	0	0	1	13	0	Faversham and Mid Kent	South East	Conservatives
+37	47	4	0	0	1	10	0	Feltham and Heston	London	Labour
+58	30	8	0	0	5	0	0	Filton and Bradley Stoke	South West	Conservatives
+50	39	7	0	0	1	4	0	Finchley and Golders Green	London	Conservatives
+51	20	9	0	0	2	17	1	Folkestone and Hythe	South East	Conservatives
+53	26	6	0	0	2	13	0	Forest of Dean	South West	Conservatives
+61	28	8	0	0	3	0	0	Fylde	North West	Conservatives
+66	24	7	0	0	2	0	0	Gainsborough	East Midlands	Conservatives
+25	68	5	0	0	2	0	0	Garston and Halewood	North West	Labour
+23	54	7	0	0	1	15	0	Gateshead	North East	Labour
+43	40	4	0	0	1	12	0	Gedling	East Midlands	Labour
+52	27	5	0	0	1	15	1	Gillingham and Rainham	South East	Conservatives
+51	32	5	0	0	1	11	1	Gloucester	South West	Conservatives
+59	19	7	0	0	1	14	0	Gosport	South East	Conservatives
+57	21	6	0	0	1	13	2	Grantham and Stamford	East Midlands	Conservatives
+52	30	4	0	0	0	14	0	Gravesham	South East	Conservatives
+31	41	6	0	0	0	19	1	Great Grimsby	Yorkshire and The Humber	Labour
+46	29	4	0	0	1	20	0	Great Yarmouth	East of England	Conservatives
+35	50	8	0	0	7	0	0	Greenwich and Woolwich	London	Labour
+62	17	17	0	0	3	0	1	Guildford	South East	Conservatives
+19	60	8	0	0	13	0	1	Hackney North and Stoke Newington	London	Labour
+18	60	7	0	0	13	0	2	Hackney South and Shoreditch	London	Labour
+46	36	4	0	0	1	13	0	Halesowen and Rowley Regis	West Midlands	Conservatives
+45	41	5	0	0	0	8	0	Halifax	Yorkshire and The Humber	Labour
+62	26	8	0	0	3	0	1	Haltemprice and Howden	Yorkshire and The Humber	Conservatives
+26	60	3	0	0	0	10	1	Halton	North West	Labour
+40	46	8	0	0	2	3	0	Hammersmith	London	Labour
+44	42	11	0	0	3	0	1	Hampstead and Kilburn	London	Labour
+59	18	13	0	0	1	8	0	Harborough	East Midlands	Conservatives
+52	30	3	0	0	1	14	0	Harlow	East of England	Conservatives
+58	18	20	0	0	0	0	0	Harrogate and Knaresborough	Yorkshire and The Humber	Conservatives
+57	38	4	0	0	1	0	0	Harrow East	London	Conservatives
+49	42	5	0	0	1	4	0	Harrow West	London	Labour
+36	40	4	0	0	0	18	0	Hartlepool	North East	Labour
+54	23	7	0	0	1	14	0	Harwich and North Essex	East of England	Conservatives
+49	34	5	0	0	0	11	0	Hastings and Rye	South East	Conservatives
+55	21	7	0	0	2	15	0	Havant	South East	Conservatives
+34	52	3	0	0	0	10	0	Hayes and Harlington	London	Labour
+59	19	21	0	0	2	0	0	Hazel Grove	North West	Conservatives
+64	27	6	0	0	3	0	0	Hemel Hempstead	East of England	Conservatives
+32	49	4	0	0	0	13	2	Hemsworth	Yorkshire and The Humber	Labour
+51	39	4	0	0	1	5	0	Hendon	London	Conservatives
+61	17	13	0	0	2	7	0	Henley	South East	Conservatives
+59	18	9	0	0	2	12	0	Hereford and South Herefordshire	West Midlands	Conservatives
+66	22	8	0	0	4	0	0	Hertford and Stortford	East of England	Conservatives
+58	24	7	0	0	1	10	0	Hertsmere	East of England	Conservatives
+59	27	5	0	0	2	7	0	Hexham	North East	Conservatives
+24	44	3	0	0	0	28	0	Heywood and Middleton	North West	Labour
+52	37	8	0	0	0	0	0	High Peak	East Midlands	Conservatives
+63	24	9	0	0	4	0	0	Hitchin and Harpenden	East of England	Conservatives
+24	53	10	0	0	8	4	1	Holborn and St Pancras	London	Labour
+49	25	3	0	0	1	21	1	Hornchurch and Upminster	London	Conservatives
+17	44	35	0	0	2	1	0	Hornsey and Wood Green	London	Labour
+60	17	12	0	0	1	9	1	Horsham	South East	Conservatives
+27	53	3	0	0	1	16	0	Houghton and Sunderland South	North East	Labour
+46	39	10	0	0	4	0	1	Hove	South East	Labour
+38	47	7	0	0	7	0	1	Huddersfield	Yorkshire and The Humber	Labour
+56	21	8	0	0	1	13	0	Huntingdon	East of England	Conservatives
+38	42	3	0	0	0	16	0	Hyndburn	North West	Labour
+54	40	5	0	0	0	0	0	Ilford North	London	Labour
+34	56	5	0	0	1	4	0	Ilford South	London	Labour
+47	36	4	0	0	2	11	0	Ipswich	East of England	Conservatives
+42	19	11	0	0	6	18	3	Isle of Wight	South East	Conservatives
+21	56	11	0	0	8	3	0	Islington North	London	Labour
+27	49	13	0	0	6	5	0	Islington South and Finsbury	London	Labour
+26	54	4	0	0	1	16	0	Jarrow	North East	Labour
+48	39	5	0	0	1	7	0	Keighley	Yorkshire and The Humber	Conservatives
+61	20	9	0	0	1	9	0	Kenilworth and Southam	West Midlands	Conservatives
+55	33	7	0	0	3	0	1	Kensington	London	Conservatives
+64	28	5	0	0	3	0	0	Kettering	East Midlands	Conservatives
+47	16	31	0	0	1	4	1	Kingston and Surbiton	London	Conservatives
+25	50	6	0	0	0	19	0	Kingston upon Hull East	Yorkshire and The Humber	Labour
+24	52	7	0	0	2	15	0	Kingston upon Hull North	Yorkshire and The Humber	Labour
+26	48	7	0	0	1	17	1	Kingston upon Hull West and Hessle	Yorkshire and The Humber	Labour
+60	32	5	0	0	3	0	0	Kingswood	South West	Conservatives
+16	74	3	0	0	1	6	0	Knowsley	North West	Labour
+49	42	6	0	0	3	0	0	Lancaster and Fleetwood	North West	Labour
+26	53	5	0	0	3	12	1	Leeds Central	Yorkshire and The Humber	Labour
+30	52	4	0	0	1	13	0	Leeds East	Yorkshire and The Humber	Labour
+41	48	7	0	0	3	0	1	Leeds North East	Yorkshire and The Humber	Labour
+28	34	33	0	0	5	0	0	Leeds North West	Yorkshire and The Humber	Liberal Democrats
+27	47	6	0	0	3	16	1	Leeds West	Yorkshire and The Humber	Labour
+35	58	4	0	0	2	0	1	Leicester East	East Midlands	Labour
+32	58	6	0	0	4	0	0	Leicester South	East Midlands	Labour
+31	46	4	0	0	2	16	1	Leicester West	East Midlands	Labour
+31	51	3	0	0	0	15	0	Leigh	North West	Labour
+45	20	31	0	0	0	0	0	Lewes	South East	Conservatives
+27	53	8	0	0	4	7	1	Lewisham East	London	Labour
+28	49	10	0	0	5	6	1	Lewisham West and Penge	London	Labour
+19	58	8	0	0	13	0	2	Lewisham, Deptford	London	Labour
+30	56	9	0	0	5	0	0	Leyton and Wanstead	London	Labour
+67	25	5	0	0	3	0	0	Lichfield	West Midlands	Conservatives
+47	36	6	0	0	1	9	1	Lincoln	East Midlands	Conservatives
+16	67	5	0	0	13	0	0	Liverpool, Riverside	North West	Labour
+16	80	3	0	0	1	0	0	Liverpool, Walton	North West	Labour
+20	69	6	0	0	5	0	1	Liverpool, Wavertree	North West	Labour
+16	75	3	0	0	1	0	3	Liverpool, West Derby	North West	Labour
+53	32	6	0	0	1	8	0	Loughborough	East Midlands	Conservatives
+54	23	5	0	0	0	16	1	Louth and Horncastle	East Midlands	Conservatives
+68	18	11	0	0	3	0	0	Ludlow	West Midlands	Conservatives
+45	50	3	0	0	2	0	0	Luton North	East of England	Labour
+36	42	6	0	0	1	12	2	Luton South	East of England	Labour
+62	25	10	0	0	3	0	0	Macclesfield	North West	Conservatives
+67	16	11	0	0	1	5	1	Maidenhead	South East	Conservatives
+50	17	19	0	0	2	11	1	Maidstone and The Weald	South East	Conservatives
+35	57	5	0	0	0	0	0	Makerfield	North West	Labour
+65	17	4	0	0	1	10	4	Maldon	East of England	Conservatives
+20	62	5	0	0	6	7	1	Manchester Central	North West	Labour
+17	68	5	0	0	5	5	1	Manchester, Gorton	North West	Labour
+21	53	20	0	0	5	0	0	Manchester, Withington	North West	Labour
+32	38	3	0	0	0	25	1	Mansfield	East Midlands	Labour
+63	16	10	0	0	1	10	0	Meon Valley	South East	Conservatives
+59	23	5	0	0	1	12	0	Meriden	West Midlands	Conservatives
+67	20	8	0	0	4	0	1	Mid Bedfordshire	East of England	Conservatives
+62	28	6	0	0	3	0	0	Mid Derbyshire	East Midlands	Conservatives
+59	14	26	0	0	0	0	0	Mid Dorset and North Poole	South West	Conservatives
+55	22	7	0	0	1	15	0	Mid Norfolk	East of England	Conservatives
+58	18	12	0	0	1	8	2	Mid Sussex	South East	Conservatives
+61	19	6	0	0	1	13	0	Mid Worcestershire	West Midlands	Conservatives
+26	54	4	0	0	1	15	0	Middlesbrough	North East	Labour
+50	44	4	0	0	0	0	0	Middlesbrough South and East Cleveland	North East	Labour
+51	30	8	0	0	1	9	1	Milton Keynes North	South East	Conservatives
+51	31	6	0	0	1	11	0	Milton Keynes South	South East	Conservatives
+30	55	5	0	0	1	8	1	Mitcham and Morden	London	Labour
+63	14	14	0	0	2	7	0	Mole Valley	South East	Conservatives
+51	34	5	0	0	1	9	0	Morecambe and Lunesdale	North West	Conservatives
+48	42	7	0	0	0	0	0	Morley and Outwood	Yorkshire and The Humber	Conservatives
+68	18	10	0	0	4	0	0	New Forest East	South East	Conservatives
+69	17	9	0	0	4	0	0	New Forest West	South East	Conservatives
+60	25	6	0	0	0	8	0	Newark	East Midlands	Conservatives
+68	15	15	0	0	2	0	1	Newbury	South East	Conservatives
+26	53	7	0	0	1	13	0	Newcastle upon Tyne Central	North East	Labour
+26	49	11	0	0	4	10	0	Newcastle upon Tyne East	North East	Labour
+31	45	8	0	0	1	14	1	Newcastle upon Tyne North	North East	Labour
+49	40	8	0	0	0	0	0	Newcastle-under-Lyme	West Midlands	Labour
+58	16	23	0	0	3	0	0	Newton Abbot	South West	Conservatives
+31	52	4	0	0	0	13	0	Normanton, Pontefract and Castleford	Yorkshire and The Humber	Labour
+53	13	30	0	0	0	0	1	North Cornwall	South West	Conservatives
+47	12	29	0	0	2	10	0	North Devon	South West	Conservatives
+67	15	13	0	0	5	0	0	North Dorset	South West	Conservatives
+28	52	5	0	0	0	14	0	North Durham	North East	Labour
+62	20	6	0	0	1	10	0	North East Bedfordshire	East of England	Conservatives
+58	19	5	0	0	1	17	0	North East Cambridgeshire	East of England	Conservatives
+44	38	4	0	0	1	13	0	North East Derbyshire	East Midlands	Labour
+67	15	11	0	0	1	5	1	North East Hampshire	South East	Conservatives
+66	23	8	0	0	4	0	0	North East Hertfordshire	East of England	Conservatives
+58	29	8	0	0	4	0	0	North East Somerset	South West	Conservatives
+70	17	9	0	0	4	0	0	North Herefordshire	West Midlands	Conservatives
+44	20	34	0	0	0	0	0	North Norfolk	East of England	Liberal Democrats
+66	25	6	0	0	4	0	0	North Shropshire	West Midlands	Conservatives
+61	20	14	0	0	5	0	0	North Somerset	South West	Conservatives
+55	29	4	0	0	1	12	0	North Swindon	South West	Conservatives
+51	22	5	0	0	1	20	0	North Thanet	South East	Conservatives
+27	53	5	0	0	1	14	0	North Tyneside	North East	Labour
+55	39	4	0	0	2	0	0	North Warwickshire	West Midlands	Conservatives
+55	21	7	0	0	1	16	0	North West Cambridgeshire	East of England	Conservatives
+31	46	8	0	0	1	14	0	North West Durham	North East	Labour
+61	18	9	0	0	1	10	0	North West Hampshire	South East	Conservatives
+62	29	5	0	0	3	0	0	North West Leicestershire	East Midlands	Conservatives
+56	25	4	0	0	1	14	0	North West Norfolk	East of England	Conservatives
+57	16	15	0	0	2	9	1	North Wiltshire	South West	Conservatives
+47	34	5	0	0	1	14	0	Northampton North	East Midlands	Conservatives
+46	32	5	0	0	1	16	0	Northampton South	East Midlands	Conservatives
+55	35	5	0	0	4	0	0	Norwich North	East of England	Conservatives
+34	42	11	0	0	12	0	0	Norwich South	East of England	Labour
+27	55	5	0	0	4	8	1	Nottingham East	East Midlands	Labour
+28	51	2	0	0	1	18	0	Nottingham North	East Midlands	Labour
+37	47	5	0	0	2	9	0	Nottingham South	East Midlands	Labour
+49	35	3	0	0	1	11	0	Nuneaton	West Midlands	Conservatives
+53	25	3	0	0	1	16	3	Old Bexley and Sidcup	London	Conservatives
+35	39	9	0	0	0	16	0	Oldham East and Saddleworth	North West	Labour
+27	53	3	0	0	0	16	0	Oldham West and Royton	North West	Labour
+60	21	5	0	0	1	13	0	Orpington	London	Conservatives
+29	49	13	0	0	8	0	1	Oxford East	South East	Labour
+47	19	29	0	0	0	4	0	Oxford West and Abingdon	South East	Conservatives
+58	35	5	0	0	1	0	0	Pendle	North West	Conservatives
+33	43	7	0	0	0	16	0	Penistone and Stocksbridge	Yorkshire and The Humber	Labour
+65	18	8	0	0	1	8	0	Penrith and The Border	North West	Conservatives
+54	38	5	0	0	3	0	0	Peterborough	East of England	Conservatives
+49	33	3	0	0	1	15	0	Plymouth, Moor View	South West	Conservatives
+44	37	5	0	0	3	11	0	Plymouth, Sutton and Devonport	South West	Conservatives
+61	19	13	0	0	4	0	3	Poole	South West	Conservatives
+31	54	7	0	0	3	5	1	Poplar and Limehouse	London	Labour
+52	26	6	0	0	1	15	1	Portsmouth North	South East	Conservatives
+41	24	21	0	0	3	11	0	Portsmouth South	South East	Conservatives
+28	55	4	0	0	1	11	0	Preston	North West	Labour
+51	40	7	0	0	0	0	0	Pudsey	Yorkshire and The Humber	Conservatives
+53	32	8	0	0	2	4	1	Putney	London	Conservatives
+60	18	4	0	0	1	17	0	Rayleigh and Wickford	East of England	Conservatives
+52	33	12	0	0	3	0	0	Reading East	South East	Conservatives
+58	33	7	0	0	2	0	0	Reading West	South East	Conservatives
+26	43	15	0	0	0	17	0	Redcar	North East	Labour
+49	32	4	0	0	1	12	1	Redditch	West Midlands	Conservatives
+60	18	11	0	0	2	9	0	Reigate	South East	Conservatives
+61	28	8	0	0	3	0	0	Ribble Valley	North West	Conservatives
+59	18	9	0	0	7	0	6	Richmond (Yorks)	Yorkshire and The Humber	Conservatives
+60	18	19	0	0	0	2	0	Richmond Park	London	Conservatives
+24	48	8	0	0	0	15	3	Rochdale	North West	Labour
+45	23	4	0	0	2	25	1	Rochester and Strood	South East	Conservatives
+49	27	5	0	0	2	18	0	Rochford and Southend East	East of England	Conservatives
+52	25	3	0	0	1	19	0	Romford	London	Conservatives
+62	18	17	0	0	3	0	0	Romsey and Southampton North	South East	Conservatives
+57	37	5	0	0	1	0	0	Rossendale and Darwen	North West	Conservatives
+29	44	5	0	0	1	21	0	Rother Valley	Yorkshire and The Humber	Labour
+19	49	5	0	0	0	24	2	Rotherham	Yorkshire and The Humber	Labour
+60	31	6	0	0	3	0	0	Rugby	West Midlands	Conservatives
+61	24	4	0	0	1	9	0	Ruislip, Northwood and Pinner	London	Conservatives
+62	19	8	0	0	1	9	0	Runnymede and Weybridge	South East	Conservatives
+54	29	7	0	0	2	8	0	Rushcliffe	East Midlands	Conservatives
+61	19	8	0	0	1	11	0	Rutland and Melton	East Midlands	Conservatives
+62	17	11	0	0	0	9	0	Saffron Walden	East of England	Conservatives
+27	53	4	0	0	2	15	0	Salford and Eccles	North West	Labour
+56	20	10	0	0	2	10	1	Salisbury	South West	Conservatives
+47	32	7	0	0	2	12	1	Scarborough and Whitby	Yorkshire and The Humber	Conservatives
+47	45	6	0	0	0	0	0	Scunthorpe	Yorkshire and The Humber	Labour
+36	46	4	0	0	1	13	0	Sedgefield	North East	Labour
+40	52	6	0	0	2	0	0	Sefton Central	North West	Labour
+55	30	6	0	0	0	9	0	Selby and Ainsty	Yorkshire and The Humber	Conservatives
+59	18	8	0	0	2	12	0	Sevenoaks	South East	Conservatives
+21	54	8	0	0	7	8	1	Sheffield Central	Yorkshire and The Humber	Labour
+26	50	6	0	0	0	17	1	Sheffield South East	Yorkshire and The Humber	Labour
+20	53	5	0	0	1	19	1	Sheffield, Brightside and Hillsborough	Yorkshire and The Humber	Labour
+21	37	37	0	0	2	3	1	Sheffield, Hallam	Yorkshire and The Humber	Liberal Democrats
+24	48	9	0	0	2	17	1	Sheffield, Heeley	Yorkshire and The Humber	Labour
+49	34	3	0	0	1	12	0	Sherwood	East Midlands	Conservatives
+55	35	7	0	0	0	0	1	Shipley	Yorkshire and The Humber	Conservatives
+47	29	9	0	0	3	12	0	Shrewsbury and Atcham	West Midlands	Conservatives
+64	25	6	0	0	4	0	1	Sittingbourne and Sheppey	South East	Conservatives
+64	23	0	0	0	4	0	0	Skipton and Ripon	Yorkshire and The Humber	Conservatives
+60	21	5	0	0	0	11	3	Sleaford and North Hykeham	East Midlands	Conservatives
+42	43	4	0	0	0	11	0	Slough	South East	Labour
+49	14	24	0	0	2	11	0	Solihull	West Midlands	Conservatives
+58	14	21	0	0	6	0	1	Somerton and Frome	South West	Conservatives
+46	26	4	0	0	0	22	1	South Basildon and East Thurrock	East of England	Conservatives
+58	21	17	0	0	4	0	0	South Cambridgeshire	East of England	Conservatives
+62	29	5	0	0	3	0	0	South Derbyshire	East Midlands	Conservatives
+61	29	7	0	0	3	0	0	South Dorset	South West	Conservatives
+55	20	21	0	0	0	0	0	South East Cambridgeshire	East of England	Conservatives
+61	16	18	0	0	5	0	0	South East Cornwall	South West	Conservatives
+62	18	3	0	0	1	16	0	South Holland and The Deepings	East Midlands	Conservatives
+58	22	7	0	0	0	12	0	South Leicestershire	East Midlands	Conservatives
+65	22	9	0	0	4	0	0	South Norfolk	East of England	Conservatives
+64	20	6	0	0	1	9	0	South Northamptonshire	East Midlands	Conservatives
+51	33	5	0	0	0	11	0	South Ribble	North West	Conservatives
+28	51	3	0	0	1	16	0	South Shields	North East	Labour
+72	24	3	0	0	2	0	0	South Staffordshire	West Midlands	Conservatives
+56	22	8	0	0	2	12	0	South Suffolk	East of England	Conservatives
+49	35	4	0	0	2	10	0	South Swindon	South West	Conservatives
+39	26	4	0	0	2	27	1	South Thanet	South East	Conservatives
+67	24	6	0	0	3	0	0	South West Bedfordshire	East of England	Conservatives
+59	21	7	0	0	2	12	0	South West Devon	South West	Conservatives
+60	20	11	0	0	2	8	0	South West Hertfordshire	East of England	Conservatives
+54	21	6	0	0	0	18	0	South West Norfolk	East of England	Conservatives
+58	16	11	0	0	0	6	6	South West Surrey	South East	Conservatives
+65	19	11	0	0	5	0	0	South West Wiltshire	South West	Conservatives
+48	34	5	0	0	1	12	0	Southampton, Itchen	South East	Conservatives
+41	43	9	0	0	0	0	2	Southampton, Test	South East	Labour
+53	22	9	0	0	2	14	1	Southend West	East of England	Conservatives
+41	21	23	0	0	0	13	0	Southport	North West	Liberal Democrats
+54	23	7	0	0	1	16	0	Spelthorne	South East	Conservatives
+51	24	22	0	0	3	0	0	St Albans	East of England	Conservatives
+53	18	26	0	0	0	0	0	St Austell and Newquay	South West	Conservatives
+28	55	4	0	0	1	11	0	St Helens North	North West	Labour
+25	59	5	0	0	1	10	0	St Helens South and Whiston	North West	Labour
+46	16	34	0	0	0	0	0	St Ives	South West	Conservatives
+61	33	3	0	0	2	0	0	Stafford	West Midlands	Conservatives
+62	31	4	0	0	2	0	0	Staffordshire Moorlands	West Midlands	Conservatives
+43	49	4	0	0	4	0	0	Stalybridge and Hyde	North West	Labour
+56	36	5	0	0	3	0	0	Stevenage	East of England	Conservatives
+32	49	7	0	0	2	10	0	Stockport	North West	Labour
+35	47	3	0	0	0	15	0	Stockton North	North East	Labour
+49	38	3	0	0	0	10	0	Stockton South	North East	Conservatives
+31	38	6	0	0	1	19	5	Stoke-on-Trent Central	West Midlands	Labour
+47	44	5	0	0	4	0	0	Stoke-on-Trent North	West Midlands	Labour
+50	42	4	0	0	3	0	0	Stoke-on-Trent South	West Midlands	Labour
+58	24	5	0	0	1	12	0	Stone	West Midlands	Conservatives
+49	32	5	0	0	1	13	0	Stourbridge	West Midlands	Conservatives
+68	18	10	0	0	3	0	0	Stratford-on-Avon	West Midlands	Conservatives
+28	51	14	0	0	5	2	0	Streatham	London	Labour
+34	52	4	0	0	2	8	1	Stretford and Urmston	North West	Labour
+46	39	4	0	0	3	8	0	Stroud	South West	Conservatives
+64	22	9	0	0	4	0	0	Suffolk Coastal	East of England	Conservatives
+31	49	3	0	0	1	15	1	Sunderland Central	North East	Labour
+69	17	11	0	0	3	0	0	Surrey Heath	South East	Conservatives
+57	15	26	0	0	2	0	0	Sutton and Cheam	London	Conservatives
+64	27	5	0	0	3	0	1	Sutton Coldfield	West Midlands	Conservatives
+62	31	5	0	0	0	0	0	Tamworth	West Midlands	Conservatives
+67	21	10	0	0	2	0	0	Tatton	North West	Conservatives
+51	15	23	0	0	2	9	0	Taunton Deane	South West	Conservatives
+53	40	4	0	0	3	0	0	Telford	West Midlands	Conservatives
+57	19	12	0	0	1	10	0	Tewkesbury	South West	Conservatives
+56	15	18	0	0	2	8	0	The Cotswolds	South West	Conservatives
+52	28	5	0	0	1	13	0	The Wrekin	West Midlands	Conservatives
+55	20	9	0	0	2	12	3	Thirsk and Malton	Yorkshire and The Humber	Conservatives
+48	14	36	0	0	2	0	0	Thornbury and Yate	South West	Conservatives
+35	31	4	0	0	0	30	0	Thurrock	East of England	Conservatives
+65	19	11	0	0	5	0	0	Tiverton and Honiton	South West	Conservatives
+62	19	8	0	0	1	10	0	Tonbridge and Malling	South East	Conservatives
+43	44	9	0	0	2	2	0	Tooting	London	Labour
+46	13	29	0	0	1	10	0	Torbay	South West	Conservatives
+63	17	14	0	0	6	0	0	Torridge and West Devon	South West	Conservatives
+55	18	11	0	0	4	12	0	Totnes	South West	Conservatives
+17	64	7	0	0	9	3	0	Tottenham	London	Labour
+48	20	19	0	0	3	9	0	Truro and Falmouth	South West	Conservatives
+60	19	10	0	0	2	8	1	Tunbridge Wells	South East	Conservatives
+48	14	36	0	0	0	0	0	Twickenham	London	Conservatives
+36	47	4	0	0	1	11	0	Tynemouth	North East	Labour
+54	28	5	0	0	1	12	0	Uxbridge and South Ruislip	London	Conservatives
+31	51	12	0	0	5	0	1	Vauxhall	London	Labour
+45	43	7	0	0	0	0	1	Wakefield	Yorkshire and The Humber	Labour
+30	57	3	0	0	1	8	0	Wallasey	North West	Labour
+41	38	4	0	0	0	17	0	Walsall North	West Midlands	Labour
+39	44	4	0	0	0	12	0	Walsall South	West Midlands	Labour
+22	65	7	0	0	6	0	0	Walthamstow	London	Labour
+29	49	6	0	0	1	15	0	Wansbeck	North East	Labour
+56	20	13	0	0	2	8	0	Wantage	South East	Conservatives
+30	53	3	0	0	1	13	0	Warley	West Midlands	Labour
+36	46	4	0	0	1	13	0	Warrington North	North West	Labour
+50	39	9	0	0	0	0	1	Warrington South	North West	Conservatives
+47	37	6	0	0	3	8	0	Warwick and Leamington	West Midlands	Conservatives
+28	53	4	0	0	1	15	0	Washington and Sunderland West	North East	Labour
+46	26	18	0	0	1	8	0	Watford	East of England	Conservatives
+45	36	3	0	0	1	14	0	Waveney	East of England	Conservatives
+60	17	10	0	0	2	11	0	Wealden	South East	Conservatives
+51	41	7	0	0	2	0	0	Weaver Vale	North West	Conservatives
+56	23	4	0	0	1	15	0	Wellingborough	East Midlands	Conservatives
+51	14	32	0	0	0	0	1	Wells	South West	Conservatives
+53	27	7	0	0	2	11	1	Welwyn Hatfield	East of England	Conservatives
+31	61	5	0	0	0	0	0	Wentworth and Dearne	Yorkshire and The Humber	Labour
+43	51	4	0	0	2	0	0	West Bromwich East	West Midlands	Labour
+33	44	4	0	0	1	19	0	West Bromwich West	West Midlands	Labour
+58	16	22	0	0	4	0	0	West Dorset	South West	Conservatives
+23	63	6	0	0	2	7	1	West Ham	London	Labour
+44	49	4	0	0	2	0	0	West Lancashire	North West	Labour
+55	21	6	0	0	1	17	0	West Suffolk	East of England	Conservatives
+61	18	8	0	0	2	10	0	West Worcestershire	West Midlands	Conservatives
+47	43	7	0	0	2	0	1	Westminster North	London	Labour
+44	11	43	0	0	0	0	0	Westmorland and Lonsdale	North West	Liberal Democrats
+54	21	10	0	0	2	13	0	Weston-Super-Mare	South West	Conservatives
+28	53	3	0	0	1	15	0	Wigan	North West	Labour
+54	27	14	0	0	1	4	0	Wimbledon	London	Conservatives
+56	14	24	0	0	1	4	0	Winchester	South East	Conservatives
+69	18	11	0	0	2	0	0	Windsor	South East	Conservatives
+47	46	6	0	0	2	0	0	Wirral South	North West	Labour
+52	41	6	0	0	1	0	0	Wirral West	North West	Labour
+70	21	6	0	0	3	0	0	Witham	East of England	Conservatives
+63	20	9	0	0	1	6	0	Witney	South East	Conservatives
+58	20	12	0	0	1	7	1	Woking	South East	Conservatives
+64	19	15	0	0	2	0	0	Wokingham	South East	Conservatives
+38	43	4	0	0	1	15	0	Wolverhampton North East	West Midlands	Labour
+32	48	4	0	0	0	15	0	Wolverhampton South East	West Midlands	Labour
+45	42	3	0	0	1	9	0	Wolverhampton South West	West Midlands	Labour
+48	35	4	0	0	2	10	1	Worcester	West Midlands	Conservatives
+37	42	5	0	0	0	15	1	Workington	North West	Labour
+44	48	4	0	0	3	0	0	Worsley and Eccles South	North West	Labour
+55	20	9	0	0	2	13	0	Worthing West	South East	Conservatives
+56	25	10	0	0	2	7	0	Wycombe	South East	Conservatives
+64	27	7	0	0	2	0	0	Wyre and Preston North	North West	Conservatives
+62	24	3	0	0	0	11	0	Wyre Forest	West Midlands	Conservatives
+32	49	5	0	0	1	11	1	Wythenshawe and Sale East	North West	Labour
+53	14	30	0	0	2	0	0	Yeovil	South West	Conservatives
+33	46	13	0	0	0	0	0	York Central	Yorkshire and The Humber	Labour
+56	29	11	0	0	3	0	0	York Outer	Yorkshire and The Humber	Conservatives
+32	30	3	0	23	0	12	0	Ynys Môn	Wales	Labour
+36	51	7	0	4	0	0	0	Delyn	Wales	Labour
+27	47	6	0	3	0	16	0	Alyn and Deeside	Wales	Labour
+39	48	6	0	6	0	0	0	Wrexham	Wales	Labour
+14	45	3	0	19	0	18	0	Llanelli	Wales	Labour
+27	39	4	0	6	0	7	17	Gower	Wales	Conservatives
+23	52	8	0	5	4	0	7	Swansea West	Wales	Labour
+15	56	4	0	11	0	14	0	Swansea East	Wales	Labour
+13	51	4	0	12	0	20	0	Aberavon	Wales	Labour
+36	35	18	0	2	4	6	0	Cardiff Central	Wales	Labour
+35	42	10	0	6	0	8	0	Cardiff North	Wales	Conservatives
+13	47	2	0	24	0	13	0	Rhondda	Wales	Labour
+20	49	5	0	4	0	21	0	Torfaen	Wales	Labour
+41	35	6	0	5	2	12	0	Monmouth	Wales	Conservatives
+21	42	6	0	3	0	15	13	Newport East	Wales	Labour
+28	48	6	0	3	1	14	0	Newport West	Wales	Labour
+14	37	4	0	44	0	0	0	Arfon	Wales	Plaid Cymru
+41	38	6	0	12	0	0	0	Aberconwy	Wales	Conservatives
+40	41	5	0	12	0	0	0	Clwyd West	Wales	Conservatives
+35	54	4	0	7	0	0	0	Vale of Clwyd	Wales	Conservatives
+21	19	6	0	39	0	12	0	Dwyfor Meirionnydd	Wales	Plaid Cymru
+26	44	5	0	8	0	16	0	Clwyd South	Wales	Labour
+44	13	32	0	9	2	0	0	Montgomeryshire	Wales	Conservatives
+11	17	37	0	21	1	6	5	Ceredigion	Wales	Liberal Democrats
+29	32	5	0	4	0	15	15	Preseli Pembrokeshire	Wales	Conservatives
+35	39	3	0	10	0	10	0	Carmarthen West and Pembrokeshire South	Wales	Conservatives
+20	30	3	0	33	0	10	0	Carmarthen East and Dinefwr	Wales	Plaid Cymru
+33	21	31	0	9	0	5	0	Brecon and Radnorshire	Wales	Conservatives
+15	50	4	0	17	0	14	0	Neath	Wales	Labour
+12	53	4	0	15	0	15	0	Cynon Valley	Wales	Labour
+11	58	4	0	10	0	16	0	Merthyr Tydfil and Rhymney	Wales	Labour
+11	55	3	0	7	0	17	7	Blaenau Gwent	Wales	Labour
+26	37	5	0	5	0	12	15	Bridgend	Wales	Labour
+15	58	4	0	9	0	12	0	Ogmore	Wales	Labour
+16	53	10	0	11	0	10	0	Pontypridd	Wales	Labour
+16	50	4	0	12	1	18	0	Caerphilly	Wales	Labour
+14	52	4	0	9	0	20	0	Islwyn	Wales	Labour
+32	37	3	0	4	1	7	15	Vale of Glamorgan	Wales	Conservatives
+22	46	10	0	12	0	8	0	Cardiff West	Wales	Labour
+22	45	7	0	5	2	9	10	Cardiff South and Penarth	Wales	Labour
+22	26	3	47	0	0	0	1	Aberdeen North	Scotland	SNP
+33	26	4	37	0	0	0	0	Aberdeen South	Scotland	SNP
+18	34	2	45	0	0	0	0	Airdrie and Shotts	Scotland	SNP
+39	13	3	44	0	0	0	0	Angus	Scotland	SNP
+28	14	20	38	0	0	0	0	Argyll and Bute	Scotland	SNP
+29	27	2	42	0	0	0	0	Ayr, Carrick and Cumnock	Scotland	SNP
+38	11	3	48	0	0	0	0	Banff and Buchan	Scotland	SNP
+47	9	14	29	0	0	0	0	Berwickshire, Roxburgh and Selkirk	Scotland	SNP
+20	14	27	38	0	0	0	0	Caithness, Sutherland and Easter Ross	Scotland	SNP
+27	26	2	45	0	0	0	0	Central Ayrshire	Scotland	SNP
+17	33	2	48	0	0	0	0	Coatbridge, Chryston and Bellshill	Scotland	SNP
+18	30	2	49	0	0	1	0	Cumbernauld, Kilsyth and Kirkintilloch East	Scotland	SNP
+38	24	2	36	0	0	0	0	Dumfries and Galloway	Scotland	SNP
+44	13	4	38	0	0	0	0	Dumfriesshire, Clydesdale and Tweeddale	Scotland	Conservatives
+25	22	2	50	0	0	0	0	Dundee East	Scotland	SNP
+19	26	2	51	0	0	0	1	Dundee West	Scotland	SNP
+22	31	3	43	0	0	0	0	Dunfermline and West Fife	Scotland	SNP
+22	15	29	33	0	0	0	0	East Dunbartonshire	Scotland	SNP
+22	29	2	46	0	0	1	0	East Kilbride, Strathaven and Lesmahagow	Scotland	SNP
+29	30	3	36	0	0	0	0	East Lothian	Scotland	SNP
+30	31	3	36	0	0	0	0	East Renfrewshire	Scotland	SNP
+20	30	5	42	0	0	0	0	Edinburgh East	Scotland	SNP
+27	30	5	35	0	3	0	0	Edinburgh North and Leith	Scotland	SNP
+26	35	4	33	0	0	0	0	Edinburgh South	Scotland	Labour
+30	26	4	38	0	0	0	0	Edinburgh South West	Scotland	SNP
+26	15	26	32	0	0	0	1	Edinburgh West	Scotland	SNP
+18	30	3	44	0	0	0	5	Na h-Eileanan an Iar	Scotland	SNP
+22	26	2	47	0	0	2	0	Falkirk	Scotland	SNP
+17	32	3	45	0	0	0	0	Glasgow Central	Scotland	SNP
+16	33	2	47	0	0	2	1	Glasgow East	Scotland	SNP
+19	30	3	44	0	3	0	0	Glasgow North	Scotland	SNP
+15	34	2	48	0	0	0	0	Glasgow North East	Scotland	SNP
+19	30	3	47	0	0	0	0	Glasgow North West	Scotland	SNP
+20	29	2	47	0	0	0	0	Glasgow South	Scotland	SNP
+15	34	2	47	0	0	2	0	Glasgow South West	Scotland	SNP
+18	30	2	50	0	0	0	0	Glenrothes	Scotland	SNP
+25	11	24	39	0	0	0	0	Gordon	Scotland	SNP
+20	31	2	47	0	0	0	0	Inverclyde	Scotland	SNP
+20	13	24	41	0	0	0	1	Inverness, Nairn, Badenoch and Strathspey	Scotland	SNP
+22	29	2	47	0	0	0	0	Kilmarnock and Loudoun	Scotland	SNP
+20	32	2	44	0	0	1	0	Kirkcaldy and Cowdenbeath	Scotland	SNP
+25	29	2	42	0	0	2	0	Lanark and Hamilton East	Scotland	SNP
+22	31	2	45	0	0	0	0	Linlithgow and East Falkirk	Scotland	SNP
+21	29	2	48	0	0	0	0	Livingston	Scotland	SNP
+22	30	3	43	0	0	0	0	Midlothian	Scotland	SNP
+40	14	4	40	0	0	0	0	Moray	Scotland	SNP
+18	32	2	47	0	0	2	0	Motherwell and Wishaw	Scotland	SNP
+24	28	2	45	0	0	0	0	North Ayrshire and Arran	Scotland	SNP
+29	12	24	32	0	0	0	1	North East Fife	Scotland	SNP
+30	28	3	40	0	0	0	0	Ochil and South Perthshire	Scotland	SNP
+13	14	42	26	0	0	3	0	Orkney and Shetland	Scotland	Liberal Democrats
+22	31	2	44	0	0	0	0	Paisley and Renfrewshire North	Scotland	SNP
+17	36	3	43	0	0	0	1	Paisley and Renfrewshire South	Scotland	SNP
+42	12	3	41	0	0	0	0	Perth and North Perthshire	Scotland	SNP
+20	12	28	39	0	0	0	1	Ross, Skye and Lochaber	Scotland	SNP
+17	34	2	44	0	0	1	1	Rutherglen and Hamilton West	Scotland	SNP
+32	25	3	39	0	0	0	0	Stirling	Scotland	SNP
+41	9	15	34	0	0	0	0	West Aberdeenshire and Kincardine	Scotland	SNP
+17	31	2	49	0	0	0	0	West Dunbartonshire	Scotland	SNP

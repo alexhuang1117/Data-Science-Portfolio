@@ -78,10 +78,18 @@ write.csv(tweets, file = "tweets.csv",row.names=FALSE, na="")
 
 If the Tweets from the UK has already been extracted and saved as 'tweets.csv', then start the project from there. Analyze the sentiment of the tweets using qdap package, each tweet is broken into sentences and fed to QDAP to perform sentiment analysis. QDAP returns a number which represent the sentiment of the text. A possitive value represents positive sentiment and vice versa for negetive value. The absolute value of the sentiment value represents the strength of the sentiment.
 
+
+
+
 ```{r warning=FALSE, message=FALSE}
 require(qdap)
 tweets=read.csv("tweets.csv", header = TRUE, stringsAsFactors = FALSE )
+#take a look at the first few lines of tweets
+head(tweets$text)
+```
+Here are the first few tweets of the day. Good, We spotted one negative(#3) and one positive(#4) tweets already
 
+```{r warning=FALSE, message=FALSE}
 #create data frame
 tweets=data.frame(time=tweets$created_at, text=tweets$text, sentiment=NA, postw=0, negtw=0, tottw=1)
 
@@ -110,8 +118,11 @@ for(i in 1:nrow(tweets)){
 #remove tweets that qdap() cannot distinguish
 tweets=tweets[!is.nan(tweets$sentiment)&!is.na(tweets$sentiment),]
 
-```
 
+
+head(tweets[,c('text', 'postw', 'negtw')])
+```
+It seeems that tweet 3 and tweet 4 are both correctly classified as negative and positive respectively. Great!
 
 
 
