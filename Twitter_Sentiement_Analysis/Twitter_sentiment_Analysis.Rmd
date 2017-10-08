@@ -1,6 +1,6 @@
 ---
 title: "Does Time of the day and Week Influence Happiness?"
-output: html_document
+output: rmarkdown::github_document
 ---
 
 ## Overview

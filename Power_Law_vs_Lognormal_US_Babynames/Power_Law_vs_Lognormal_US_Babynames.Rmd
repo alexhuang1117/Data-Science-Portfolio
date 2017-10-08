@@ -1,8 +1,6 @@
 ---
 title: "Exercise04 Solution"
-output:
-  html_document: default
-  pdf_document: default
+output: rmarkdown::github_document
 ---
 
 ## Goal:
