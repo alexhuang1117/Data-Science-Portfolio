@@ -3,18 +3,16 @@ title: "Exercise04 Solution"
 output: rmarkdown::github_document
 ---
 
-## Goal:
+## Fitting Power-law and Log-Normal Distributions
 
-1. Plot a histogram of baby name popularities for the year 2014. I.e. your 'x' axis should be how many people got a name, and the 'y' should be the count of how many names have that many named babies. Interpret the results and fit a power law. Is it a power law distribution?
-2. Get many Twitter user profiles (in the order of a thousands) and plot the histograms of their status count, follower count, favorites count and friends count. Use maximum likelihood estimation to fit distributions to your data.
-
-
+### Part 1:
+Some names are more popular than others. When you meet a stranger, it is much more likely to meet a James than an Edmund. But just how are baby names distributed? This project will try to find out. I will be using US baby names as it is a big country and the data is easily accessible.
 
 
 
 ### Retrieve Baby name Data
 
-Retrieve data from website, same as before
+Retrieve data from the US government website
 ```{r message=FALSE, warning=FALSE}
 URL = "https://www.ssa.gov/oact/babynames/names.zip"
 dir.create("data")
@@ -22,14 +20,14 @@ download.file(URL, destfile = "./data/babyname.zip")
 unzip("./data/babyname.zip", exdir = "./data")
 
 ```
-1
 
-Aggregate count based on name.
+
+The data set contains all the babynames from 1960 to 2015. Each file contains a list of names and the count of babies with this name of a certain year. I first aggregate all the counts for each name into one big table.
 ```{r message=FALSE, warning=FALSE}
 library(dplyr)
 
 table=data.frame()
-for( i in 1960:2014){
+for( i in 1960:2015){
   
 filename= paste("./data/yob", i, ".txt", sep = "")
 table = rbind(table ,read.csv(file=filename, header=FALSE, sep = ',', stringsAsFactors = FALSE))
@@ -38,16 +36,26 @@ table = rbind(table ,read.csv(file=filename, header=FALSE, sep = ',', stringsAsF
 colnames(table) = c("name", "gender", "count")
 table = aggregate(count~name, data=table, FUN=sum)
 table = table[order(table$count, decreasing = TRUE),]
+head(table)
 ```
+Nice, it worked!
 
 
-Plot the log-log histogram of the baby name to see if it is a power law distribution
+
+Now let's plot the histogram of the baby names and see how it is distributed. 
 ```{r}
 count = table$count
-r <- hist(count, plot=FALSE,breaks=50)
-plot(r$mids, r$counts, log="xy", main = "Baby name Histogram", ylab ='frequency', xlab='babies')
+x <- hist(count, plot=FALSE,breaks=100)
+plot(x$mids, x$counts, log="xy", main = "Baby name Histogram", ylab ='frequency', xlab='babies')
 ```
+This seems like a power-law distribution. A power-law distribution is a straight line on a log-log histogram plot. The equation of power-law is:
+distribution is:
 
+$$f(x)=(cx)^{-\alpha}$$
+
+where $\alpha$ is the power of the distribution
+
+Let's also take a look at the complementary cumulative density distribution (CCDF). If the distribution is power law, it should also form a straight line.
 
 ```{r}
 library(magrittr)
@@ -60,7 +68,7 @@ plot(xval, 1-yval,log = "xy", main="Baby Name CCDF", ylab="P(X>x)", xlab='babies
 ```
 
 
-This function fits a power law distribution to the available data
+Here I use the 'PoweRlaw' pakcage to fit a distribution of the baby names by minimizing the ks distance (largest distance between data and function). 
 ```{r}
 require(poweRlaw)
 mm=displ$new(table$count)
@@ -76,21 +84,27 @@ legend("bottomleft", "Power-law", col="red")
 
 
 
+We see that at the tail the function drops down quite a bit. Power-law might not be the best fit.
 
 
-
-Bootstrapping of powerlaw distribution coeffcients
+Bootstrapping of powerlaw distribution coeffcients. Bootstraping is sampling the data with replacement to form multiple data samples. Each sample will return a parameter for $\alpha$ and $c$. This part takes some time to run.
 ```{r}
-# bs=bootstrap(mm, no_of_sims = 200, threads = 2)
-# hist(bs$bootstraps[,2], breaks="fd")
-# hist(bs$bootstraps[,3], breaks="fd")
-# plot(jitter(bs$bootstraps[,2], factor=1.2), bs$bootstraps[,3])
-# bs_p=bootstrap_p(mm, no_of_sims = 200, threads=2)
-# bs_p$p
+bs=bootstrap(mm, no_of_sims = 100, threads = 8)
+hist(bs$bootstraps[,2], breaks="fd", main = 'Distribution of Xmin')
+hist(bs$bootstraps[,3], breaks="fd", main = 'Distribution of alpha')
+plot(jitter(bs$bootstraps[,2], factor=1.2), bs$bootstraps[,3])
+bs_p=bootstrap_p(mm, no_of_sims = 200, threads=2)
+bs_p$p
 
 ```
+bs_p$p shows the p value of the distribution being a power-law distribution. High p value means the disitribution is likely to follow power-law.
 
-
+The result might not be a power-law distribution, we can try to fit a log-normal distribution instead. Let's see if the fit is better. Log-normal distribution is defined by the following formula.
+$$f(x) =  c
+                                    \frac{1}{x^{p}}\,
+                                    \exp\!\!\left(-\frac{\ln(x/\mu)^2}{2\sigma^2}\right)$$
+                                    
+Where the log of the distribution follows a Gaussian distribution.
 ```{r}
 mm2 = dislnorm$new(X)
 #mm2$setXmin(30145) #If you want to analyze the top 1000
@@ -102,10 +116,12 @@ lines(mm2, col=3)
 legend("bottomleft", c("power-law","log-normal"), col=c(2,3), lwd=c(1,1))
 ```
 
+In this case the Log-normal distribution seems to be a better fit.
 
+### Part 2: Twitter data
+Let's see if Twitter user's attributes (i.e. friends count, followers count) follow the power-law distribution.
 
-### Twitter data
-Log in to Twitter using the 'twitteR' package using your log in
+Log in to Twitter using the 'twitteR' package using your log in. The code is not shown.
 ```{r echo=FALSE}
 require(twitteR)
 consumer_key <- 'X2QkLTfDYZJQee3eZIfs4PbfO'
@@ -116,7 +132,7 @@ access_secret <- 'TClX1U2Tscj0QCCL5fGVWwhjjx4m0vJjtuFrlqvHcwkLI'
 setup_twitter_oauth(consumer_key, consumer_secret, access_token, access_secret)
 ```
 
-Lookup 10k Twitter users by searching random Twitter IDs. This part takes time to run. 
+Lookup 20k Twitter users by searching random Twitter IDs. This part takes time to run. To get the power law distribution, we need sufficiently large number of samples, otherwise we can't see the fat tail.
 ```{r message=FALSE, warning=FALSE}
 users=list()
 while(length(users)<=20000){
@@ -138,14 +154,15 @@ while(length(users)<=20000){
 ```
 
 
+### Cleaning up the data and convert to a table
 
-
+Initialize data frame
 ```{r}
 twtable=data.frame(matrix(0, ncol=5, nrow=length(users)))
 colnames(twtable)=c("users", "status_count", "follower_count", "favorites_count", "friends_count")
 ```
 
-
+Sort results
 ```{r}
 i=1
 for (person in users){
@@ -165,32 +182,19 @@ for (person in users){
 require(poweRlaw)
 
 
-mm=displ$new(twtable$status_count[twtable$status_count!=0])
-(est=estimate_pars(mm))
-(est=estimate_xmin(mm))
-mm$setXmin(est)
-plot(mm)
-lines(mm, col=2)
-
 mm=displ$new(twtable$follower_count[twtable$follower_count!=0])
 (est=estimate_pars(mm))
 (est=estimate_xmin(mm))
 mm$setXmin(est)
-plot(mm)
+plot(mm, main='Twitter Followers Count Distribution', ylab='P(X>x)', xlab='Followers Count')
 lines(mm, col=2)
 
-mm=displ$new(twtable$favorites_count[twtable$favorites_count!=0])
-(est=estimate_pars(mm))
-(est=estimate_xmin(mm))
-mm$setXmin(est)
-plot(mm)
-lines(mm, col=2)
 
 mm=displ$new(twtable$friends_count[twtable$friends_count!=0])
 (est=estimate_pars(mm))
 (est=estimate_xmin(mm))
 mm$setXmin(est)
-plot(mm)
+plot(mm, main='Twitter Friends Count Distribution', ylab='P(X>x)', xlab='Friends Count')
 lines(mm, col=2)
 
 
@@ -198,5 +202,5 @@ lines(mm, col=2)
 
 
 
-
+It could be argue that both of these distribution are power-law distributions or another distribution. In real life it is hard to pin point the distribution with 100% certainty.
 

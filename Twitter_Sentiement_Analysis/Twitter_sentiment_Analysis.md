@@ -154,7 +154,7 @@ qdapdl = apply.daily(qdap["2011-10-24/2011-10-30"], colSums)
 index(qdapdl) = as.Date(index(qdapdl))
 
 #plot positive sentiment and negetive sentiment tweets as a percent of total tweets over a day
-plot(as.zoo(cbind(qdaphr[,1]/qdaphr[,3], qdaphr[,2]/qdaphr[,3])), main="Hourly Twitter Sentiment", col=c("red", "blue") ,ylab=c("positive", "negative"))
+plot(as.zoo(cbind(qdaphr[,1]/qdaphr[,3], qdaphr[,2]/qdaphr[,3])), main="Hourly Twitter Sentiment", col=c("red", "blue") ,ylab=c("positive", "negative"),ylim=c(0, 0.15))
 legend(x = "bottomright", legend = c("Positive", "Negative"), lty = 1,col = c("red", "blue"))
 ```
 

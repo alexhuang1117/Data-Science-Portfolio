@@ -145,7 +145,7 @@ require(lmtest)
 test =  grangertest(weeklybitcoin~weeklystock , order=1)
 test2 =  grangertest(weeklystock~weeklybitcoin , order=1)
 ```
-After performing a Granger we got a P value of 0.277 for S&P500 Granger causing Bitcoin price and a P value of 0.308 for Bitcoin price causing S&P500. Since the are both high than 0.05, we cannot reject the null hypothesis that changing in the value of one time series does not cause a subsequent change in the other.
+After performing a Granger we got a P value of 0.277 for S&P500 Granger causing Bitcoin price and a P value of 0.308 for Bitcoin price causing S&P500. Since the are both high than 0.05, we cannot reject the null hypothesis that changing in the value of one time series does not cause a subsequent change in the other. (The values might change as time goes on)
 
 ### Result
 
