@@ -236,147 +236,6 @@ while(length(users)<=20000){
 }
 ```
 
-    ## [1] "Server error: (500) Internal Server Error"
-    ## [1] "This error is likely transient, retrying up to 5 more times ..."
-    ## [1] "Server error: (500) Internal Server Error"
-    ## [1] "This error is likely transient, retrying up to 4 more times ..."
-    ## [1] "Server error: (500) Internal Server Error"
-    ## [1] "This error is likely transient, retrying up to 3 more times ..."
-    ## [1] "Server error: (500) Internal Server Error"
-    ## [1] "This error is likely transient, retrying up to 2 more times ..."
-    ## [1] "Server error: (500) Internal Server Error"
-    ## [1] "This error is likely transient, retrying up to 1 more times ..."
-    ## [1] "Server error: (500) Internal Server Error"
-    ## [1] "This error is likely transient, retrying up to 0 more times ..."
-    ## [1] "Server error: (500) Internal Server Error"
-    ## [1] "This error is likely transient, retrying up to -1 more times ..."
-    ## [1] "Server error: (500) Internal Server Error"
-    ## [1] "This error is likely transient, retrying up to -2 more times ..."
-    ## [1] "Server error: (500) Internal Server Error"
-    ## [1] "This error is likely transient, retrying up to -3 more times ..."
-    ## [1] "Server error: (500) Internal Server Error"
-    ## [1] "This error is likely transient, retrying up to -4 more times ..."
-    ## [1] "Server error: (500) Internal Server Error"
-    ## [1] "This error is likely transient, retrying up to -5 more times ..."
-    ## [1] "Server error: (500) Internal Server Error"
-    ## [1] "This error is likely transient, retrying up to -6 more times ..."
-    ## [1] "Server error: (500) Internal Server Error"
-    ## [1] "This error is likely transient, retrying up to -7 more times ..."
-    ## [1] "Server error: (500) Internal Server Error"
-    ## [1] "This error is likely transient, retrying up to 5 more times ..."
-    ## [1] "Server error: (500) Internal Server Error"
-    ## [1] "This error is likely transient, retrying up to 4 more times ..."
-    ## [1] "Server error: (500) Internal Server Error"
-    ## [1] "This error is likely transient, retrying up to 3 more times ..."
-    ## [1] "Server error: (500) Internal Server Error"
-    ## [1] "This error is likely transient, retrying up to 2 more times ..."
-    ## [1] "Server error: (500) Internal Server Error"
-    ## [1] "This error is likely transient, retrying up to 5 more times ..."
-    ## [1] "Server error: (500) Internal Server Error"
-    ## [1] "This error is likely transient, retrying up to 4 more times ..."
-    ## [1] "Server error: (500) Internal Server Error"
-    ## [1] "This error is likely transient, retrying up to 3 more times ..."
-    ## [1] "Server error: (500) Internal Server Error"
-    ## [1] "This error is likely transient, retrying up to 2 more times ..."
-    ## [1] "Server error: (500) Internal Server Error"
-    ## [1] "This error is likely transient, retrying up to 1 more times ..."
-    ## [1] "Server error: (500) Internal Server Error"
-    ## [1] "This error is likely transient, retrying up to 0 more times ..."
-    ## [1] "Server error: (500) Internal Server Error"
-    ## [1] "This error is likely transient, retrying up to -1 more times ..."
-    ## [1] "Server error: (500) Internal Server Error"
-    ## [1] "This error is likely transient, retrying up to -2 more times ..."
-    ## [1] "Server error: (500) Internal Server Error"
-    ## [1] "This error is likely transient, retrying up to -3 more times ..."
-    ## [1] "Server error: (500) Internal Server Error"
-    ## [1] "This error is likely transient, retrying up to -4 more times ..."
-    ## [1] "Server error: (500) Internal Server Error"
-    ## [1] "This error is likely transient, retrying up to -5 more times ..."
-    ## [1] "Server error: (500) Internal Server Error"
-    ## [1] "This error is likely transient, retrying up to -6 more times ..."
-    ## [1] "Server error: (500) Internal Server Error"
-    ## [1] "This error is likely transient, retrying up to -7 more times ..."
-    ## [1] "Server error: (500) Internal Server Error"
-    ## [1] "This error is likely transient, retrying up to -8 more times ..."
-    ## [1] "Server error: (500) Internal Server Error"
-    ## [1] "This error is likely transient, retrying up to -9 more times ..."
-    ## [1] "Server error: (500) Internal Server Error"
-    ## [1] "This error is likely transient, retrying up to -10 more times ..."
-    ## [1] "Server error: (500) Internal Server Error"
-    ## [1] "This error is likely transient, retrying up to -11 more times ..."
-    ## [1] "Server error: (500) Internal Server Error"
-    ## [1] "This error is likely transient, retrying up to -12 more times ..."
-    ## [1] "Server error: (500) Internal Server Error"
-    ## [1] "This error is likely transient, retrying up to -13 more times ..."
-    ## [1] "Server error: (500) Internal Server Error"
-    ## [1] "This error is likely transient, retrying up to -14 more times ..."
-    ## [1] "Server error: (500) Internal Server Error"
-    ## [1] "This error is likely transient, retrying up to -15 more times ..."
-    ## [1] "Server error: (500) Internal Server Error"
-    ## [1] "This error is likely transient, retrying up to -16 more times ..."
-    ## [1] "Server error: (500) Internal Server Error"
-    ## [1] "This error is likely transient, retrying up to -17 more times ..."
-    ## [1] "Server error: (500) Internal Server Error"
-    ## [1] "This error is likely transient, retrying up to -18 more times ..."
-    ## [1] "Server error: (500) Internal Server Error"
-    ## [1] "This error is likely transient, retrying up to 5 more times ..."
-    ## [1] "Server error: (500) Internal Server Error"
-    ## [1] "This error is likely transient, retrying up to 4 more times ..."
-    ## [1] "Server error: (500) Internal Server Error"
-    ## [1] "This error is likely transient, retrying up to 3 more times ..."
-    ## [1] "Server error: (500) Internal Server Error"
-    ## [1] "This error is likely transient, retrying up to 2 more times ..."
-    ## [1] "Server error: (500) Internal Server Error"
-    ## [1] "This error is likely transient, retrying up to 1 more times ..."
-    ## [1] "Server error: (500) Internal Server Error"
-    ## [1] "This error is likely transient, retrying up to 0 more times ..."
-    ## [1] "Server error: (500) Internal Server Error"
-    ## [1] "This error is likely transient, retrying up to -1 more times ..."
-    ## [1] "Server error: (500) Internal Server Error"
-    ## [1] "This error is likely transient, retrying up to -2 more times ..."
-    ## [1] "Server error: (500) Internal Server Error"
-    ## [1] "This error is likely transient, retrying up to -3 more times ..."
-    ## [1] "Server error: (500) Internal Server Error"
-    ## [1] "This error is likely transient, retrying up to -4 more times ..."
-    ## [1] "Server error: (500) Internal Server Error"
-    ## [1] "This error is likely transient, retrying up to -5 more times ..."
-    ## [1] "Server error: (500) Internal Server Error"
-    ## [1] "This error is likely transient, retrying up to -6 more times ..."
-    ## [1] "Server error: (500) Internal Server Error"
-    ## [1] "This error is likely transient, retrying up to -7 more times ..."
-    ## [1] "Server error: (500) Internal Server Error"
-    ## [1] "This error is likely transient, retrying up to -8 more times ..."
-    ## [1] "Server error: (500) Internal Server Error"
-    ## [1] "This error is likely transient, retrying up to -9 more times ..."
-    ## [1] "Server error: (500) Internal Server Error"
-    ## [1] "This error is likely transient, retrying up to -10 more times ..."
-    ## [1] "Server error: (500) Internal Server Error"
-    ## [1] "This error is likely transient, retrying up to -11 more times ..."
-    ## [1] "Server error: (500) Internal Server Error"
-    ## [1] "This error is likely transient, retrying up to 5 more times ..."
-    ## [1] "Server error: (500) Internal Server Error"
-    ## [1] "This error is likely transient, retrying up to 4 more times ..."
-    ## [1] "Server error: (500) Internal Server Error"
-    ## [1] "This error is likely transient, retrying up to 3 more times ..."
-    ## [1] "Server error: (500) Internal Server Error"
-    ## [1] "This error is likely transient, retrying up to 5 more times ..."
-    ## [1] "Server error: (500) Internal Server Error"
-    ## [1] "This error is likely transient, retrying up to 4 more times ..."
-    ## [1] "Server error: (500) Internal Server Error"
-    ## [1] "This error is likely transient, retrying up to 3 more times ..."
-    ## [1] "Server error: (500) Internal Server Error"
-    ## [1] "This error is likely transient, retrying up to 2 more times ..."
-    ## [1] "Server error: (500) Internal Server Error"
-    ## [1] "This error is likely transient, retrying up to 1 more times ..."
-    ## [1] "Server error: (500) Internal Server Error"
-    ## [1] "This error is likely transient, retrying up to 0 more times ..."
-    ## [1] "Server error: (500) Internal Server Error"
-    ## [1] "This error is likely transient, retrying up to -1 more times ..."
-    ## [1] "Server error: (500) Internal Server Error"
-    ## [1] "This error is likely transient, retrying up to -2 more times ..."
-    ## [1] "Server error: (500) Internal Server Error"
-    ## [1] "This error is likely transient, retrying up to -3 more times ..."
-
 ### Cleaning up the data and convert to a table
 
 Initialize data frame
@@ -411,10 +270,10 @@ mm=displ$new(twtable$follower_count[twtable$follower_count!=0])
 ```
 
     ## $pars
-    ## [1] 1.370783
+    ## [1] 1.367268
     ## 
     ## $value
-    ## [1] 52773.2
+    ## [1] 53530.14
     ## 
     ## $counts
     ## function gradient 
@@ -434,16 +293,16 @@ mm=displ$new(twtable$follower_count[twtable$follower_count!=0])
 ```
 
     ## $gof
-    ## [1] 0.03446463
+    ## [1] 0.02706097
     ## 
     ## $xmin
-    ## [1] 413
+    ## [1] 250
     ## 
     ## $pars
-    ## [1] 2.164413
+    ## [1] 2.053771
     ## 
     ## $ntail
-    ## [1] 540
+    ## [1] 876
     ## 
     ## $distance
     ## [1] "ks"
@@ -465,10 +324,10 @@ mm=displ$new(twtable$friends_count[twtable$friends_count!=0])
 ```
 
     ## $pars
-    ## [1] 1.290112
+    ## [1] 1.287557
     ## 
     ## $value
-    ## [1] 81029.72
+    ## [1] 81625.13
     ## 
     ## $counts
     ## function gradient 
@@ -488,16 +347,16 @@ mm=displ$new(twtable$friends_count[twtable$friends_count!=0])
 ```
 
     ## $gof
-    ## [1] 0.04619968
+    ## [1] 0.04985248
     ## 
     ## $xmin
-    ## [1] 249
+    ## [1] 212
     ## 
     ## $pars
-    ## [1] 2.238253
+    ## [1] 2.216048
     ## 
     ## $ntail
-    ## [1] 1524
+    ## [1] 1865
     ## 
     ## $distance
     ## [1] "ks"
