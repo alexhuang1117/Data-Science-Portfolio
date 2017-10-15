@@ -18,7 +18,7 @@ This is a repository of the projects I worked on or currently working on. It is 
 * Keywords(Python, Linear Regression, Monte Carlos Simulation, Twitter API)
 
 
-####  [Power-law or Log-normal? Baby Name and Twitter Analysis](https://github.com/alexhuang1117/Data-Science-Portfolio/blob/master/Power_Law_vs_Lognormal_US_Babynames/Power_Law_vs_Lognormal_US_Babynames.Rmd)
+####  [Power-law or Log-normal? Baby Name and Twitter Analysis](https://github.com/alexhuang1117/Data-Science-Portfolio/blob/master/Power_Law_vs_Lognormal_US_Babynames/Power_Law_vs_Lognormal_US_Babynames.md)
 * Fitted power-law and log-normal distribution to US baby names since 1960 and compared the fit.
 * Use bootstrapping techniques to find a distribution of the power-law parameters
 * Crawled Twitter to find 20000 random user and fitted power law distribution to users' friends count and followers count.
