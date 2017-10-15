@@ -38,7 +38,7 @@ This is a repository of the projects I worked on or currently working on. It is 
 * Plotted the emotions over the day and over the week and analysed the interesting results.
 * Keywords(R, Twitter API, Time Series, Sentiment Analysis)
   
-#### [GDP and Future Orientation](https://github.com/alexhuang1117/Data-Science-Portfolio/blob/master/Twitter_Sentiement_Analysis/Twitter_sentiment_Analysis.md)
+#### [GDP and Future Orientation](https://github.com/alexhuang1117/Data-Science-Portfolio/blob/master/GDP%20and%20Future%20Orientation/GDP_and_Future_Orientation.md)
 * Downloaded economic indicators using World Bank API, and cleaned data
 * Downloaded seach query of next and last year in Google for each country
 * Fitted linear regression between GDP and future orientation
