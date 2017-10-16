@@ -136,7 +136,7 @@ As we can see, the two time series are significantly correlated. This makes econ
 
 ### Finding Causality
 
-The test for Granger Causality is preformed between the weekly Bitcoin data and the weekly S&P500 data. Granger test is a test to see whether including past data of another series and improve the prediction of the model. 
+The test for Granger Causality is performed between the weekly Bitcoin data and the weekly S&P500 data. Granger test is a test to see whether including past data of another series and improve the prediction of the model. 
 ```{r warning=FALSE, message=FALSE}
 require(lmtest)
 #weekly = weekly[(length(weekly)-length(result$trend$bitcoin.)+1):length(weekly)]
@@ -145,11 +145,8 @@ require(lmtest)
 test =  grangertest(weeklybitcoin~weeklystock , order=1)
 test2 =  grangertest(weeklystock~weeklybitcoin , order=1)
 ```
-After performing a Granger we got a P value of 0.277 for S&P500 Granger causing Bitcoin price and a P value of 0.308 for Bitcoin price causing S&P500. Since the are both high than 0.05, we cannot reject the null hypothesis that changing in the value of one time series does not cause a subsequent change in the other. (The values might change as time goes on)
+After performing a Granger Causality test, we got a P value of 0.277 for S&P500 Granger causing Bitcoin price and a P value of 0.308 for Bitcoin price causing S&P500. Since the are both high than 0.05, we cannot reject the null hypothesis that change in the value of one time series does not cause a subsequent change in the other.
 
-### Result
-
-Although the price of Bitcoin and S&P500 are highly correlated, there seems to be no causal relationship between each other.
 
 ******
 
