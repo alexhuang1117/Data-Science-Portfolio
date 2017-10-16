@@ -10,7 +10,7 @@ This is a repository of the projects I worked on or currently working on. It is 
 * Keywords(R, Time Series, Causality)
 
 
-###  [Exchange Rate Analysis During Election](https://github.com/alexhuang1117/Data-Science-Portfolio/blob/master/FX_Analysis_During_Election/main.ipynb)
+###  [Exchange Rate Analysis During Election - Under Construction](https://github.com/alexhuang1117/Data-Science-Portfolio/blob/master/FX_Analysis_During_Election/main.ipynb)
 * In this project, I tried to predict US (2016) and UK (2017) election victories as the voting results of each region becomes available.
 * The prior information is the polling data and as each regions results comes out, the model is updated.
 * Monte Carlos simulation is used to simulate the winner of the election.
