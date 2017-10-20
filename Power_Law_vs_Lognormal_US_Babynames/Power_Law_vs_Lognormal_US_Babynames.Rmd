@@ -38,7 +38,7 @@ table = aggregate(count~name, data=table, FUN=sum)
 table = table[order(table$count, decreasing = TRUE),]
 head(table)
 ```
-Nice, it worked!
+It worked!
 
 
 
@@ -89,7 +89,7 @@ We see that at the tail the function drops down quite a bit. Power-law might not
 
 Using bootstrapping, we can find out the probability that the data follows a distribution. Bootstraping is sampling the data with replacement to form multiple data samples. Each sample will return a parameter for $\alpha$ and $c$. This part takes some time to run.
 ```{r}
-bs=bootstrap(mm, no_of_sims = 100, threads = 8)
+bs=bootstrap(mm, no_of_sims = 100, threads = 4)
 hist(bs$bootstraps[,2], breaks="fd", main = 'Distribution of Xmin')
 hist(bs$bootstraps[,3], breaks="fd", main = 'Distribution of alpha')
 plot(jitter(bs$bootstraps[,2], factor=1.2), bs$bootstraps[,3])

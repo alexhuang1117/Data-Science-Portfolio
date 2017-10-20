@@ -45,7 +45,7 @@ head(table)
     ## 15737 Christopher 1910203
     ## 66791      Robert 1731062
 
-Nice, it worked!
+It worked!
 
 Now let's plot the histogram of the baby names and see how it is distributed.
 
@@ -88,8 +88,6 @@ require(poweRlaw)
 ```
 
     ## Loading required package: poweRlaw
-
-    ## Warning: package 'poweRlaw' was built under R version 3.4.2
 
 ``` r
 mm=displ$new(table$count)
@@ -163,13 +161,50 @@ We see that at the tail the function drops down quite a bit. Power-law might not
 Using bootstrapping, we can find out the probability that the data follows a distribution. Bootstraping is sampling the data with replacement to form multiple data samples. Each sample will return a parameter for *α* and *c*. This part takes some time to run.
 
 ``` r
-# bs=bootstrap(mm, no_of_sims = 100, threads = 8)
-# hist(bs$bootstraps[,2], breaks="fd", main = 'Distribution of Xmin')
-# hist(bs$bootstraps[,3], breaks="fd", main = 'Distribution of alpha')
-# plot(jitter(bs$bootstraps[,2], factor=1.2), bs$bootstraps[,3])
-# bs_p=bootstrap_p(mm, no_of_sims = 200, threads=2)
-# bs_p$p
+bs=bootstrap(mm, no_of_sims = 100, threads = 4)
 ```
+
+    ## Some of your data is larger than xmax. The xmax parameter is
+    ##             the upper bound of the xmin search space. You could try increasing
+    ##             it. If the estimated values are below xmax, it's probably OK not to 
+    ##             worry about this.
+
+    ## Expected total run time for 100 sims, using 4 threads is 11200 seconds.
+
+``` r
+hist(bs$bootstraps[,2], breaks="fd", main = 'Distribution of Xmin')
+```
+
+![](Power_Law_vs_Lognormal_US_Babynames_files/figure-markdown_github-ascii_identifiers/unnamed-chunk-6-1.png)
+
+``` r
+hist(bs$bootstraps[,3], breaks="fd", main = 'Distribution of alpha')
+```
+
+![](Power_Law_vs_Lognormal_US_Babynames_files/figure-markdown_github-ascii_identifiers/unnamed-chunk-6-2.png)
+
+``` r
+plot(jitter(bs$bootstraps[,2], factor=1.2), bs$bootstraps[,3])
+```
+
+![](Power_Law_vs_Lognormal_US_Babynames_files/figure-markdown_github-ascii_identifiers/unnamed-chunk-6-3.png)
+
+``` r
+bs_p=bootstrap_p(mm, no_of_sims = 200, threads=2)
+```
+
+    ## Some of your data is larger than xmax. The xmax parameter is
+    ##             the upper bound of the xmin search space. You could try increasing
+    ##             it. If the estimated values are below xmax, it's probably OK not to 
+    ##             worry about this.
+
+    ## Expected total run time for 200 sims, using 2 threads is 44900 seconds.
+
+``` r
+bs_p$p
+```
+
+    ## [1] 0.44
 
 The above chunk of code uses bootstrapping to find a distribution of X\_min and alpha and plots the distributions. However it takes too long to run, so it is left commented at the moment. bs\_p$p shows the p value of the distribution being a power-law distribution. High p value means the disitribution is likely to follow power-law.
 
@@ -202,8 +237,6 @@ Let's see if Twitter user's attributes (i.e. friends count, followers count) fol
 Log in to Twitter using the 'twitteR' package using your log in. The code is not shown.
 
     ## Loading required package: twitteR
-
-    ## Warning: package 'twitteR' was built under R version 3.4.2
 
     ## 
     ## Attaching package: 'twitteR'
@@ -270,10 +303,10 @@ mm=displ$new(twtable$follower_count[twtable$follower_count!=0])
 ```
 
     ## $pars
-    ## [1] 1.367268
+    ## [1] 1.374162
     ## 
     ## $value
-    ## [1] 53530.14
+    ## [1] 52290.23
     ## 
     ## $counts
     ## function gradient 
@@ -293,16 +326,16 @@ mm=displ$new(twtable$follower_count[twtable$follower_count!=0])
 ```
 
     ## $gof
-    ## [1] 0.02706097
+    ## [1] 0.02471744
     ## 
     ## $xmin
-    ## [1] 250
+    ## [1] 392
     ## 
     ## $pars
-    ## [1] 2.053771
+    ## [1] 2.185089
     ## 
     ## $ntail
-    ## [1] 876
+    ## [1] 556
     ## 
     ## $distance
     ## [1] "ks"
@@ -324,10 +357,10 @@ mm=displ$new(twtable$friends_count[twtable$friends_count!=0])
 ```
 
     ## $pars
-    ## [1] 1.287557
+    ## [1] 1.288549
     ## 
     ## $value
-    ## [1] 81625.13
+    ## [1] 80561.71
     ## 
     ## $counts
     ## function gradient 
@@ -347,16 +380,16 @@ mm=displ$new(twtable$friends_count[twtable$friends_count!=0])
 ```
 
     ## $gof
-    ## [1] 0.04985248
+    ## [1] 0.05041755
     ## 
     ## $xmin
-    ## [1] 212
+    ## [1] 540
     ## 
     ## $pars
-    ## [1] 2.216048
+    ## [1] 2.616956
     ## 
     ## $ntail
-    ## [1] 1865
+    ## [1] 683
     ## 
     ## $distance
     ## [1] "ks"
