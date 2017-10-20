@@ -1,5 +1,5 @@
 ---
-title: "Exercise04 Solution"
+title: "Power-law and Log-Normal Distributions"
 output: rmarkdown::github_document
 ---
 
@@ -64,7 +64,7 @@ X = table$count
 CCDF = ecdf(X)
 xval = sort(unique(X))
 yval = CCDF(xval)
-plot(xval, 1-yval,log = "xy", main="Baby Name CCDF", ylab="P(X>x)", xlab='babies')
+plot(xval, 1-yval,log = "xy", main="Baby Name CCDF", ylab="P(X>x)", xlab='Number of Babies')
 ```
 
 
@@ -77,9 +77,9 @@ mm$getPars()
 (est=estimate_pars(mm))
 (est=estimate_xmin(mm))
 mm$setXmin(est)
-plot(mm)
+plot(mm, ylab="P(X>x)", xlab='Number of Babies')
 lines(mm, col=2)
-legend("bottomleft", "Power-law", col="red")
+legend("topright", "Power-law", col="red")
 ```
 
 
@@ -90,19 +90,17 @@ We see that at the tail the function drops down quite a bit. Power-law might not
 Using bootstrapping, we can find out the probability that the data follows a distribution. Bootstraping is sampling the data with replacement to form multiple data samples. Each sample will return a parameter for $\alpha$ and $c$. This part takes some time to run.
 ```{r}
 bs=bootstrap(mm, no_of_sims = 100, threads = 4)
-hist(bs$bootstraps[,2], breaks="fd", main = 'Distribution of Xmin')
-hist(bs$bootstraps[,3], breaks="fd", main = 'Distribution of alpha')
-plot(jitter(bs$bootstraps[,2], factor=1.2), bs$bootstraps[,3])
-bs_p=bootstrap_p(mm, no_of_sims = 200, threads=2)
+hist(bs$bootstraps[,2], breaks="fd", main = 'Distribution of Xmin',xlab='Xmin')
+hist(bs$bootstraps[,3], breaks="fd", main = 'Distribution of alpha',xlab='Alpha')
+plot(jitter(bs$bootstraps[,2], factor=1.2), bs$bootstraps[,3], xlab='Xmin', ylab='alpha', main='Bootstrap Results of Power Law Distribution')
+bs_p=bootstrap_p(mm, no_of_sims = 100, threads=4)
 bs_p$p
 
 ```
 The above chunk of code uses bootstrapping to find a distribution of X_min and alpha and plots the distributions. However it takes too long to run, so it is left commented at the moment. bs_p$p shows the p value of the distribution being a power-law distribution. High p value means the disitribution is likely to follow power-law.
 
 The result might not be a power-law distribution, we can try to fit a log-normal distribution instead. Let's see if the fit is better. Log-normal distribution is defined by the following formula.
-$$f(x) =  c
-                                    \frac{1}{x^{p}}\,
-                                    \exp\!\!\left(-\frac{\ln(x/\mu)^2}{2\sigma^2}\right)$$
+$$f(x) =  c \frac{1}{x^{p}}\, \exp\!\!\left(-\frac{\ln(x/\mu)^2}{2\sigma^2}\right)$$
                                     
 Where the log of the distribution follows a Gaussian distribution.
 ```{r}
@@ -110,7 +108,7 @@ mm2 = dislnorm$new(X)
 #mm2$setXmin(30145) #If you want to analyze the top 1000
 est2 = estimate_pars(mm2)
 mm2$setPars(est2)
-plot(mm,xlab="Baby name sample",ylab="Baby name counts", main="")
+plot(mm,xlab="Baby name sample",ylab="Baby name counts", main="Power Law vs Log Normal Fit")
 lines(mm, col=2)
 lines(mm2, col=3)
 legend("bottomleft", c("power-law","log-normal"), col=c(2,3), lwd=c(1,1))
@@ -202,5 +200,5 @@ lines(mm, col=2)
 
 
 
-It could be argue that both of these distribution are power-law distributions or another distribution. In real life it is hard to pin point the distribution with 100% certainty.
+It could be argue that both of these distribution are power-law distributions or other distributions. In real life it is hard to pin point the distribution with 100% certainty. However in these cases power-law does seem to be a good fit.
 

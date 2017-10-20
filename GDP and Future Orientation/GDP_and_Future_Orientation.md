@@ -149,7 +149,7 @@ Log in to google using your username and password. code not shown.
 
     ## Loading required package: devtools
 
-    ## Skipping install of 'gtrendsR' from a github remote, the SHA1 (6cc120f4) has not changed since last install.
+    ## Skipping install of 'gtrendsR' from a github remote, the SHA1 (0165d264) has not changed since last install.
     ##   Use `force = TRUE` to force installation
 
     ## Loading required package: gtrendsR
@@ -178,55 +178,55 @@ for(current_country in table[,"iso2c"])
 ```
 
     ## [1] "AR"
-    ## [1] 0.8791045
+    ## [1] 0.8827068
     ## [1] "AU"
-    ## [1] 0.9743291
+    ## [1] 0.9790454
     ## [1] "BD"
-    ## [1] 0.313314
+    ## [1] 0.3104197
     ## [1] "BR"
-    ## [1] 0.9115169
+    ## [1] 0.909732
     ## [1] "CA"
-    ## [1] 0.8142494
+    ## [1] 0.8132992
     ## [1] "CN"
-    ## [1] 0.5427632
+    ## [1] 0.5336948
     ## [1] "CO"
-    ## [1] 0.5757576
+    ## [1] 0.5783866
     ## [1] "DE"
-    ## [1] 1.38796
+    ## [1] 1.378913
     ## [1] "ES"
     ## [1] 0.7142857
     ## [1] "FR"
-    ## [1] 1.055313
+    ## [1] 1.049927
     ## [1] "GB"
-    ## [1] 1.099424
+    ## [1] 1.100865
     ## [1] "IN"
-    ## [1] 0.4487847
+    ## [1] 0.4503883
     ## [1] "IT"
-    ## [1] 0.9098712
+    ## [1] 0.9156118
     ## [1] "JP"
-    ## [1] 1.172336
+    ## [1] 1.174107
     ## [1] "KR"
-    ## [1] 0.5128032
+    ## [1] 0.5088874
     ## [1] "MX"
-    ## [1] 0.6952247
+    ## [1] 0.6951049
     ## [1] "NL"
-    ## [1] 1.154446
+    ## [1] 1.140458
     ## [1] "PH"
-    ## [1] 0.3449782
+    ## [1] 0.3443766
     ## [1] "PL"
-    ## [1] 0.5089202
+    ## [1] 0.5103578
     ## [1] "RU"
-    ## [1] 0.4608896
+    ## [1] 0.4633385
     ## [1] "TH"
-    ## [1] 0.3623932
+    ## [1] 0.3622942
     ## [1] "TR"
-    ## [1] 0.7066116
+    ## [1] 0.7091413
     ## [1] "UA"
-    ## [1] 0.3592233
+    ## [1] 0.3613445
     ## [1] "US"
-    ## [1] 0.8492063
+    ## [1] 0.8498024
     ## [1] "VN"
-    ## [1] 0.4278884
+    ## [1] 0.4226804
 
 ``` r
 #table = table[complete.cases(table),]
@@ -247,21 +247,22 @@ summary(reg)
     ## 
     ## Residuals:
     ##    Min     1Q Median     3Q    Max 
-    ## -18857  -6956  -1396   7893  22765 
+    ## -18848  -6734  -1525   7860  22692 
     ## 
     ## Coefficients:
     ##             Estimate Std. Error t value Pr(>|t|)    
-    ## (Intercept)    -1838       5289  -0.348    0.731    
-    ## FOI            38089       6730   5.659 9.23e-06 ***
+    ## (Intercept)    -1904       5293  -0.360    0.722    
+    ## FOI            38226       6747   5.666 9.08e-06 ***
     ## ---
     ## Signif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1
     ## 
     ## Residual standard error: 10010 on 23 degrees of freedom
-    ## Multiple R-squared:  0.582,  Adjusted R-squared:  0.5639 
-    ## F-statistic: 32.03 on 1 and 23 DF,  p-value: 9.233e-06
+    ## Multiple R-squared:  0.5826, Adjusted R-squared:  0.5645 
+    ## F-statistic:  32.1 on 1 and 23 DF,  p-value: 9.083e-06
 
 ``` r
 plot(table$FOI, table$NY.GDP.PCAP.PP.KD, main='GDP vs Future orientation', ylab='GDP per capita PPP', xlab='Future Orientation Index')
+text(table$FOI, table$NY.GDP.PCAP.PP.KD, labels=table$iso2c, cex= 0.7, pos=3)
 abline(reg, col='red')
 ```
 

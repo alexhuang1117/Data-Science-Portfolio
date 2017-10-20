@@ -138,6 +138,7 @@ Now that we have the FOI index and GPD per capita, PPP value for each country, w
 reg = lm(NY.GDP.PCAP.PP.KD~FOI, data=table)
 summary(reg)
 plot(table$FOI, table$NY.GDP.PCAP.PP.KD, main='GDP vs Future orientation', ylab='GDP per capita PPP', xlab='Future Orientation Index')
+text(table$FOI, table$NY.GDP.PCAP.PP.KD, labels=table$iso2c, cex= 0.7, pos=3)
 abline(reg, col='red')
 ```
 
