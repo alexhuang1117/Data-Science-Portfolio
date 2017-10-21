@@ -1,4 +1,4 @@
-Exercise04 Solution
+Power-law and Log-Normal Distributions
 ================
 
 Fitting Power-law and Log-Normal Distributions
@@ -73,7 +73,7 @@ X = table$count
 CCDF = ecdf(X)
 xval = sort(unique(X))
 yval = CCDF(xval)
-plot(xval, 1-yval,log = "xy", main="Baby Name CCDF", ylab="P(X>x)", xlab='babies')
+plot(xval, 1-yval,log = "xy", main="Baby Name CCDF", ylab="P(X>x)", xlab='Number of Babies')
 ```
 
     ## Warning in xy.coords(x, y, xlabel, ylabel, log): 1 y value <= 0 omitted
@@ -149,9 +149,9 @@ mm$getPars()
 
 ``` r
 mm$setXmin(est)
-plot(mm)
+plot(mm, ylab="P(X>x)", xlab='Number of Babies')
 lines(mm, col=2)
-legend("bottomleft", "Power-law", col="red")
+legend("topright", "Power-law", col="red")
 ```
 
 ![](Power_Law_vs_Lognormal_US_Babynames_files/figure-markdown_github-ascii_identifiers/unnamed-chunk-5-1.png)
@@ -169,28 +169,28 @@ bs=bootstrap(mm, no_of_sims = 100, threads = 4)
     ##             it. If the estimated values are below xmax, it's probably OK not to 
     ##             worry about this.
 
-    ## Expected total run time for 100 sims, using 4 threads is 11200 seconds.
+    ## Expected total run time for 100 sims, using 4 threads is 11400 seconds.
 
 ``` r
-hist(bs$bootstraps[,2], breaks="fd", main = 'Distribution of Xmin')
+hist(bs$bootstraps[,2], breaks="fd", main = 'Distribution of Xmin',xlab='Xmin')
 ```
 
 ![](Power_Law_vs_Lognormal_US_Babynames_files/figure-markdown_github-ascii_identifiers/unnamed-chunk-6-1.png)
 
 ``` r
-hist(bs$bootstraps[,3], breaks="fd", main = 'Distribution of alpha')
+hist(bs$bootstraps[,3], breaks="fd", main = 'Distribution of alpha',xlab='Alpha')
 ```
 
 ![](Power_Law_vs_Lognormal_US_Babynames_files/figure-markdown_github-ascii_identifiers/unnamed-chunk-6-2.png)
 
 ``` r
-plot(jitter(bs$bootstraps[,2], factor=1.2), bs$bootstraps[,3])
+plot(jitter(bs$bootstraps[,2], factor=1.2), bs$bootstraps[,3], xlab='Xmin', ylab='alpha', main='Bootstrap Results of Power Law Distribution')
 ```
 
 ![](Power_Law_vs_Lognormal_US_Babynames_files/figure-markdown_github-ascii_identifiers/unnamed-chunk-6-3.png)
 
 ``` r
-bs_p=bootstrap_p(mm, no_of_sims = 200, threads=2)
+bs_p=bootstrap_p(mm, no_of_sims = 100, threads=4)
 ```
 
     ## Some of your data is larger than xmax. The xmax parameter is
@@ -198,20 +198,18 @@ bs_p=bootstrap_p(mm, no_of_sims = 200, threads=2)
     ##             it. If the estimated values are below xmax, it's probably OK not to 
     ##             worry about this.
 
-    ## Expected total run time for 200 sims, using 2 threads is 44900 seconds.
+    ## Expected total run time for 100 sims, using 4 threads is 11200 seconds.
 
 ``` r
 bs_p$p
 ```
 
-    ## [1] 0.44
+    ## [1] 0.42
 
 The above chunk of code uses bootstrapping to find a distribution of X\_min and alpha and plots the distributions. However it takes too long to run, so it is left commented at the moment. bs\_p$p shows the p value of the distribution being a power-law distribution. High p value means the disitribution is likely to follow power-law.
 
 The result might not be a power-law distribution, we can try to fit a log-normal distribution instead. Let's see if the fit is better. Log-normal distribution is defined by the following formula.
-$$f(x) =  c
-                                    \\frac{1}{x^{p}}\\,
-                                    \\exp\\!\\!\\left(-\\frac{\\ln(x/\\mu)^2}{2\\sigma^2}\\right)$$
+$$f(x) =  c \\frac{1}{x^{p}}\\, \\exp\\!\\!\\left(-\\frac{\\ln(x/\\mu)^2}{2\\sigma^2}\\right)$$
 
 Where the log of the distribution follows a Gaussian distribution.
 
@@ -220,7 +218,7 @@ mm2 = dislnorm$new(X)
 #mm2$setXmin(30145) #If you want to analyze the top 1000
 est2 = estimate_pars(mm2)
 mm2$setPars(est2)
-plot(mm,xlab="Baby name sample",ylab="Baby name counts", main="")
+plot(mm,xlab="Baby name sample",ylab="Baby name counts", main="Power Law vs Log Normal Fit")
 lines(mm, col=2)
 lines(mm2, col=3)
 legend("bottomleft", c("power-law","log-normal"), col=c(2,3), lwd=c(1,1))
@@ -303,10 +301,10 @@ mm=displ$new(twtable$follower_count[twtable$follower_count!=0])
 ```
 
     ## $pars
-    ## [1] 1.374162
+    ## [1] 1.372037
     ## 
     ## $value
-    ## [1] 52290.23
+    ## [1] 53078.63
     ## 
     ## $counts
     ## function gradient 
@@ -326,16 +324,16 @@ mm=displ$new(twtable$follower_count[twtable$follower_count!=0])
 ```
 
     ## $gof
-    ## [1] 0.02471744
+    ## [1] 0.02820457
     ## 
     ## $xmin
-    ## [1] 392
+    ## [1] 487
     ## 
     ## $pars
-    ## [1] 2.185089
+    ## [1] 2.166762
     ## 
     ## $ntail
-    ## [1] 556
+    ## [1] 436
     ## 
     ## $distance
     ## [1] "ks"
@@ -357,10 +355,10 @@ mm=displ$new(twtable$friends_count[twtable$friends_count!=0])
 ```
 
     ## $pars
-    ## [1] 1.288549
+    ## [1] 1.287802
     ## 
     ## $value
-    ## [1] 80561.71
+    ## [1] 81196.88
     ## 
     ## $counts
     ## function gradient 
@@ -380,16 +378,16 @@ mm=displ$new(twtable$friends_count[twtable$friends_count!=0])
 ```
 
     ## $gof
-    ## [1] 0.05041755
+    ## [1] 0.05101606
     ## 
     ## $xmin
-    ## [1] 540
+    ## [1] 190
     ## 
     ## $pars
-    ## [1] 2.616956
+    ## [1] 2.18331
     ## 
     ## $ntail
-    ## [1] 683
+    ## [1] 1994
     ## 
     ## $distance
     ## [1] "ks"
@@ -405,4 +403,4 @@ lines(mm, col=2)
 
 ![](Power_Law_vs_Lognormal_US_Babynames_files/figure-markdown_github-ascii_identifiers/unnamed-chunk-12-2.png)
 
-It could be argue that both of these distribution are power-law distributions or another distribution. In real life it is hard to pin point the distribution with 100% certainty.
+It could be argue that both of these distribution are power-law distributions or other distributions. In real life it is hard to pin point the distribution with 100% certainty. However in these cases power-law does seem to be a good fit.
