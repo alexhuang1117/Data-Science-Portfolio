@@ -14,7 +14,7 @@ Since the inception of Bitcoin in 2011, the price has fluctuated significantly. 
 Introduction
 ------------
 
-This project contains two parts; the fist part investigate the correlation between Bitcoin price and S&P500; the second part fits an ARIMA model to Bitcoin price and find the bounds of the Bitcoin price for the next six months. In the first part, a cross correlation of the Bitcoin price and S&P500 is computed up to 20 lags; and a Granger causality test is performed on the two sets of data to investigate the causality relationship. In the second part, the autocorrelation coefficients and partial autocorrelation coefficients are calculated and an ARIMA model based on these coefficients is fitted to the Bitcoin price and a prediction is made for the next six months. This project is made in R and this document is made in R markdown.
+This project contains two parts; the fist part investigate the correlation between Bitcoin price and S&P500; the second part fits an ARIMA model to Bitcoin price and find the bounds of the Bitcoin price for the next six months. In the first part, a cross correlation of the Bitcoin price and S&P500 is computed up to 20 lags; and a Granger causality test is performed on the two sets of data to investigate the causality relationship. In the second part, the auto correlation coefficients and partial auto correlation coefficients are calculated and an ARIMA model based on these coefficients is fitted to the Bitcoin price and a prediction is made for the next six months. This project is made in R and this document is made in R markdown.
 
 ------------------------------------------------------------------------
 
@@ -151,7 +151,7 @@ plot(bitHP$cycle, ylab='Cycle')
 
 ### ARIMA Model Fitting
 
-Next we can try to difference the data to see if the change in Bitcoin price is a stationary serie. Both first difference and second difference is computed for the Bitcoin price.
+Next we can try to difference the data to see if the change in Bitcoin price is a stationary series. Both first difference and second difference is computed for the Bitcoin price.
 
 ``` r
 #Differencing the bitcoin data
