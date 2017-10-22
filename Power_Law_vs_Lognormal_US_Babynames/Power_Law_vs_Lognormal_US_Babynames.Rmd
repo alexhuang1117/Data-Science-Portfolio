@@ -89,11 +89,11 @@ We see that at the tail the function drops down quite a bit. Power-law might not
 
 Using bootstrapping, we can find out the probability that the data follows a distribution. Bootstrapping is sampling the data with replacement to form multiple data samples. Each sample will return a parameter for $\alpha$ and $c$. This part takes some time to run.
 ```{r}
-bs=bootstrap(mm, no_of_sims = 100, threads = 4)
+bs=bootstrap(mm, no_of_sims = 100, threads = 8)
 hist(bs$bootstraps[,2], breaks="fd", main = 'Distribution of Xmin',xlab='Xmin')
 hist(bs$bootstraps[,3], breaks="fd", main = 'Distribution of alpha',xlab='Alpha')
 plot(jitter(bs$bootstraps[,2], factor=1.2), bs$bootstraps[,3], xlab='Xmin', ylab='alpha', main='Bootstrap Results of Power Law Distribution')
-bs_p=bootstrap_p(mm, no_of_sims = 100, threads=4)
+bs_p=bootstrap_p(mm, no_of_sims = 100, threads=8)
 bs_p$p
 
 ```
