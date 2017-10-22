@@ -19,7 +19,7 @@ download.file(URL, destfile = "./data/babyname.zip")
 unzip("./data/babyname.zip", exdir = "./data")
 ```
 
-The data set contains all the babynames from 1960 to 2015. Each file contains a list of names and the count of babies with this name of a certain year. I first aggregate all the counts for each name into one big table.
+The data set contains all the baby names from 1960 to 2015. Each file contains a list of names and the count of babies with this name of a certain year. I first aggregate all the counts for each name into one big table.
 
 ``` r
 library(dplyr)
@@ -81,7 +81,7 @@ plot(xval, 1-yval,log = "xy", main="Baby Name CCDF", ylab="P(X>x)", xlab='Number
 
 ![](Power_Law_vs_Lognormal_US_Babynames_files/figure-markdown_github-ascii_identifiers/unnamed-chunk-4-1.png)
 
-Here I use the 'PoweRlaw' pakcage to fit a distribution of the baby names by minimizing the ks distance (largest distance between data and function).
+Here I use the 'PoweRlaw' package to fit a distribution of the baby names by minimizing the ks distance (largest distance between data and function).
 
 ``` r
 require(poweRlaw)
@@ -158,10 +158,10 @@ legend("topright", "Power-law", col="red")
 
 We see that at the tail the function drops down quite a bit. Power-law might not be the best fit.
 
-Using bootstrapping, we can find out the probability that the data follows a distribution. Bootstraping is sampling the data with replacement to form multiple data samples. Each sample will return a parameter for *α* and *c*. This part takes some time to run.
+Using bootstrapping, we can find out the probability that the data follows a distribution. Bootstrapping is sampling the data with replacement to form multiple data samples. Each sample will return a parameter for *α* and *c*. This part takes some time to run.
 
 ``` r
-bs=bootstrap(mm, no_of_sims = 100, threads = 4)
+bs=bootstrap(mm, no_of_sims = 100, threads = 8)
 ```
 
     ## Some of your data is larger than xmax. The xmax parameter is
@@ -169,7 +169,7 @@ bs=bootstrap(mm, no_of_sims = 100, threads = 4)
     ##             it. If the estimated values are below xmax, it's probably OK not to 
     ##             worry about this.
 
-    ## Expected total run time for 100 sims, using 4 threads is 11400 seconds.
+    ## Expected total run time for 100 sims, using 8 threads is 5930 seconds.
 
 ``` r
 hist(bs$bootstraps[,2], breaks="fd", main = 'Distribution of Xmin',xlab='Xmin')
@@ -190,7 +190,7 @@ plot(jitter(bs$bootstraps[,2], factor=1.2), bs$bootstraps[,3], xlab='Xmin', ylab
 ![](Power_Law_vs_Lognormal_US_Babynames_files/figure-markdown_github-ascii_identifiers/unnamed-chunk-6-3.png)
 
 ``` r
-bs_p=bootstrap_p(mm, no_of_sims = 100, threads=4)
+bs_p=bootstrap_p(mm, no_of_sims = 100, threads=8)
 ```
 
     ## Some of your data is larger than xmax. The xmax parameter is
@@ -198,15 +198,15 @@ bs_p=bootstrap_p(mm, no_of_sims = 100, threads=4)
     ##             it. If the estimated values are below xmax, it's probably OK not to 
     ##             worry about this.
 
-    ## Expected total run time for 100 sims, using 4 threads is 11200 seconds.
+    ## Expected total run time for 100 sims, using 8 threads is 5680 seconds.
 
 ``` r
 bs_p$p
 ```
 
-    ## [1] 0.42
+    ## [1] 0.55
 
-The above chunk of code uses bootstrapping to find a distribution of X\_min and alpha and plots the distributions. However it takes too long to run, so it is left commented at the moment. bs\_p$p shows the p value of the distribution being a power-law distribution. High p value means the disitribution is likely to follow power-law.
+The above chunk of code uses bootstrapping to find a distribution of X\_min and alpha and plots the distributions. However it takes too long to run, so it is left commented at the moment. bs\_p$p shows the p value of the distribution being a power-law distribution. High p value means the distribution is likely to follow power-law.
 
 The result might not be a power-law distribution, we can try to fit a log-normal distribution instead. Let's see if the fit is better. Log-normal distribution is defined by the following formula.
 $$f(x) =  c \\frac{1}{x^{p}}\\, \\exp\\!\\!\\left(-\\frac{\\ln(x/\\mu)^2}{2\\sigma^2}\\right)$$
@@ -301,10 +301,10 @@ mm=displ$new(twtable$follower_count[twtable$follower_count!=0])
 ```
 
     ## $pars
-    ## [1] 1.372037
+    ## [1] 1.371277
     ## 
     ## $value
-    ## [1] 53078.63
+    ## [1] 52068.52
     ## 
     ## $counts
     ## function gradient 
@@ -324,16 +324,16 @@ mm=displ$new(twtable$follower_count[twtable$follower_count!=0])
 ```
 
     ## $gof
-    ## [1] 0.02820457
+    ## [1] 0.02136918
     ## 
     ## $xmin
-    ## [1] 487
+    ## [1] 334
     ## 
     ## $pars
-    ## [1] 2.166762
+    ## [1] 2.161383
     ## 
     ## $ntail
-    ## [1] 436
+    ## [1] 609
     ## 
     ## $distance
     ## [1] "ks"
@@ -355,10 +355,10 @@ mm=displ$new(twtable$friends_count[twtable$friends_count!=0])
 ```
 
     ## $pars
-    ## [1] 1.287802
+    ## [1] 1.29106
     ## 
     ## $value
-    ## [1] 81196.88
+    ## [1] 80259.64
     ## 
     ## $counts
     ## function gradient 
@@ -378,16 +378,16 @@ mm=displ$new(twtable$friends_count[twtable$friends_count!=0])
 ```
 
     ## $gof
-    ## [1] 0.05101606
+    ## [1] 0.04697419
     ## 
     ## $xmin
-    ## [1] 190
+    ## [1] 376
     ## 
     ## $pars
-    ## [1] 2.18331
+    ## [1] 2.434236
     ## 
     ## $ntail
-    ## [1] 1994
+    ## [1] 936
     ## 
     ## $distance
     ## [1] "ks"
