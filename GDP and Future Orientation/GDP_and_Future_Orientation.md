@@ -84,7 +84,7 @@ summary(table)
     ##  NA's          :33  
     ## 
 
-The summary gave a nice overview of our data. Additionly, we can use the head() function to take a look at what the acutal data in the table looks like
+The summary gave a nice overview of our data. Additionally, we can use the head() function to take a look at what the actual data in the table looks like
 
 ``` r
 head(table)
@@ -121,7 +121,7 @@ head(table)
 
 <span style="color:maroon"> Remove unwanted entries. <span>
 
-It seems like some of the entries are not countries, but regions! We can remove them by comapring whether the region field is equal to 'Aggregates'. And we added a column column called "FOI" to calculate the FOI value for the future.
+It seems like some of the entries are not countries, but regions! We can remove them by comparing whether the region field is equal to 'Aggregates'. And we added a column column called "FOI" to calculate the FOI value for the future.
 
 ``` r
 table = table[complete.cases(table),]
@@ -145,7 +145,7 @@ table=table[!(table$INT.POP<5000000),]
 
 <span style="color:maroon"> Set up gtrendsR <span>
 
-Log in to google using your username and password. code not shown.
+Log in to Google using your username and password. code not shown.
 
     ## Loading required package: devtools
 
@@ -158,7 +158,7 @@ Log in to google using your username and password. code not shown.
 
 For each country we need the FOI, which is the ratio between the volume of searches for "2015" and "2013". Note that with Google Trends we can query a maximum of 5 countries at a time, so we won't get all the data in one go. Rather it is worth making a for loop that goes through all the country codes.
 
-Google Trends doens't give absolute volumes, but relative ones. It always sets the largest data to 100 and scales the rest accordingly. However if you search for two things at the same time, or two countries at the same time, the results will have the correct proportion to each other. This means that to get the correct FOI, for each country code you need to extract data for "2015" and "2013" searches in the same go! In other words you should only have one call of the gtrends function in your for loop.
+Google Trends doesn't give absolute volumes, but relative ones. It always sets the largest data to 100 and scales the rest accordingly. However if you search for two things at the same time, or two countries at the same time, the results will have the correct proportion to each other. This means that to get the correct FOI, for each country code you need to extract data for "2015" and "2013" searches in the same go! In other words you should only have one call of the gtrends function in your for loop.
 
 ``` r
 # start_date = as.Date("2016-01-01")
@@ -178,55 +178,55 @@ for(current_country in table[,"iso2c"])
 ```
 
     ## [1] "AR"
-    ## [1] 0.8827068
+    ## [1] 0.8784773
     ## [1] "AU"
-    ## [1] 0.9790454
+    ## [1] 0.9762752
     ## [1] "BD"
-    ## [1] 0.3104197
+    ## [1] 0.3167747
     ## [1] "BR"
-    ## [1] 0.909732
+    ## [1] 0.9069444
     ## [1] "CA"
-    ## [1] 0.8132992
+    ## [1] 0.8187744
     ## [1] "CN"
-    ## [1] 0.5336948
+    ## [1] 0.5698835
     ## [1] "CO"
-    ## [1] 0.5783866
+    ## [1] 0.5727136
     ## [1] "DE"
-    ## [1] 1.378913
+    ## [1] 1.389545
     ## [1] "ES"
-    ## [1] 0.7142857
+    ## [1] 0.7122208
     ## [1] "FR"
-    ## [1] 1.049927
+    ## [1] 1.049635
     ## [1] "GB"
-    ## [1] 1.100865
+    ## [1] 1.104651
     ## [1] "IN"
-    ## [1] 0.4503883
+    ## [1] 0.4481577
     ## [1] "IT"
-    ## [1] 0.9156118
+    ## [1] 0.9139633
     ## [1] "JP"
-    ## [1] 1.174107
+    ## [1] 1.191244
     ## [1] "KR"
-    ## [1] 0.5088874
+    ## [1] 0.5116279
     ## [1] "MX"
-    ## [1] 0.6951049
+    ## [1] 0.6933896
     ## [1] "NL"
-    ## [1] 1.140458
+    ## [1] 1.145062
     ## [1] "PH"
-    ## [1] 0.3443766
+    ## [1] 0.3491228
     ## [1] "PL"
-    ## [1] 0.5103578
+    ## [1] 0.5075758
     ## [1] "RU"
-    ## [1] 0.4633385
+    ## [1] 0.4666667
     ## [1] "TH"
-    ## [1] 0.3622942
+    ## [1] 0.3648339
     ## [1] "TR"
-    ## [1] 0.7091413
+    ## [1] 0.7069444
     ## [1] "UA"
-    ## [1] 0.3613445
+    ## [1] 0.3610574
     ## [1] "US"
-    ## [1] 0.8498024
+    ## [1] 0.8547341
     ## [1] "VN"
-    ## [1] 0.4226804
+    ## [1] 0.4272227
 
 ``` r
 #table = table[complete.cases(table),]
@@ -234,7 +234,7 @@ for(current_country in table[,"iso2c"])
 
 <span style="color:maroon"> Regress GDP per capita PPP on FOI and plot <span>
 
-Now that we have the FOI index and GPD per capita, PPP value for each country, we can make a regession and plot the result.
+Now that we have the FOI index and GDP per capita, PPP value for each country, we can make a regression and plot the result.
 
 ``` r
 reg = lm(NY.GDP.PCAP.PP.KD~FOI, data=table)
@@ -247,18 +247,18 @@ summary(reg)
     ## 
     ## Residuals:
     ##    Min     1Q Median     3Q    Max 
-    ## -18848  -6734  -1525   7860  22692 
+    ## -18606  -6804  -1323   8058  22634 
     ## 
     ## Coefficients:
     ##             Estimate Std. Error t value Pr(>|t|)    
-    ## (Intercept)    -1904       5293  -0.360    0.722    
-    ## FOI            38226       6747   5.666 9.08e-06 ***
+    ## (Intercept)    -1958       5305  -0.369    0.715    
+    ## FOI            38136       6734   5.663 9.15e-06 ***
     ## ---
     ## Signif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1
     ## 
     ## Residual standard error: 10010 on 23 degrees of freedom
-    ## Multiple R-squared:  0.5826, Adjusted R-squared:  0.5645 
-    ## F-statistic:  32.1 on 1 and 23 DF,  p-value: 9.083e-06
+    ## Multiple R-squared:  0.5823, Adjusted R-squared:  0.5642 
+    ## F-statistic: 32.07 on 1 and 23 DF,  p-value: 9.153e-06
 
 ``` r
 plot(table$FOI, table$NY.GDP.PCAP.PP.KD, main='GDP vs Future orientation', ylab='GDP per capita PPP', xlab='Future Orientation Index')
@@ -268,6 +268,6 @@ abline(reg, col='red')
 
 ![](GDP_and_Future_Orientation_files/figure-markdown_github-ascii_identifiers/unnamed-chunk-8-1.png)
 
-We can see in this plot that there is a positive correlation between FOI and GPD per capita PPP value. And the relationship is statistially significant. (high t value and low p value)
+We can see in this plot that there is a positive correlation between FOI and GDP per capita PPP value. And the relationship is statistically significant. (high t value and low p value)
 
-One might be quick to conclude that countries that look towards the future caused them to be richer. However there are more than 1 possible explaination for the result. An alternative explaination could be that richer countries have more necessities taken care of and have the ability to look forward.
+One might be quick to conclude that countries that look towards the future caused them to be richer. However determining causality is much more complicated, there are more than 1 possible explanation for the result. An alternative explanation could be that richer countries have more necessities taken care of and have the ability to look forward.

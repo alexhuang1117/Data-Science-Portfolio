@@ -50,7 +50,7 @@ table = WDI(indicator=c('NY.GDP.PCAP.PP.KD','IT.NET.BBND','SP.POP.TOTL'), countr
 summary(table)
 ```
 
-The summary gave a nice overview of our data. Additionly, we can use the head() function to take a look at what the acutal data in the table looks like
+The summary gave a nice overview of our data. Additionally, we can use the head() function to take a look at what the actual data in the table looks like
 
 ```{r}
 head(table)
@@ -60,7 +60,7 @@ head(table)
 Remove unwanted entries.
 <span>
 
-It seems like some of the entries are not countries, but regions! We can remove them by comapring whether the region field is equal to 'Aggregates'. And we added a column column called "FOI" to calculate the FOI value for the future.
+It seems like some of the entries are not countries, but regions! We can remove them by comparing whether the region field is equal to 'Aggregates'. And we added a column column called "FOI" to calculate the FOI value for the future.
 
 
 ```{r}
@@ -87,7 +87,7 @@ table=table[!(table$INT.POP<5000000),]
 Set up gtrendsR
 <span>
 
-Log in to google using your username and password. code not shown.
+Log in to Google using your username and password. code not shown.
 
 
 ```{r echo=FALSE}
@@ -107,7 +107,7 @@ Extract data from Google Trends.
 
 For each country we need the FOI, which is the ratio between the volume of searches for "2015" and "2013". Note that with Google Trends we can query a maximum of 5 countries at a time, so we won't get all the data in one go. Rather it is worth making a for loop that goes through all the country codes.
 
-Google Trends doens't give absolute volumes, but relative ones. It always sets the largest data to 100 and scales the rest accordingly. However if you search for two things at the same time, or two countries at the same time, the results will have the correct proportion to each other. This means that to get the correct FOI, for each country code you need to extract data for "2015" and "2013" searches in the same go! In other words you should only have one call of the gtrends function in your for loop.
+Google Trends doesn't give absolute volumes, but relative ones. It always sets the largest data to 100 and scales the rest accordingly. However if you search for two things at the same time, or two countries at the same time, the results will have the correct proportion to each other. This means that to get the correct FOI, for each country code you need to extract data for "2015" and "2013" searches in the same go! In other words you should only have one call of the gtrends function in your for loop.
 
 ```{r}
 # start_date = as.Date("2016-01-01")
@@ -132,7 +132,7 @@ for(current_country in table[,"iso2c"])
 Regress GDP per capita PPP on FOI and plot
 <span>
 
-Now that we have the FOI index and GPD per capita, PPP value for each country, we can make a regession and plot the result. 
+Now that we have the FOI index and GDP per capita, PPP value for each country, we can make a regression and plot the result. 
 
 ```{r}
 reg = lm(NY.GDP.PCAP.PP.KD~FOI, data=table)
@@ -142,9 +142,10 @@ text(table$FOI, table$NY.GDP.PCAP.PP.KD, labels=table$iso2c, cex= 0.7, pos=3)
 abline(reg, col='red')
 ```
 
-We can see in this plot that there is a positive correlation between FOI and GPD per capita PPP value. And the relationship is statistially significant. (high t value and low p value)
+We can see in this plot that there is a positive correlation between FOI and GDP per capita PPP value. And the relationship is statistically significant. (high t value and low p value)
 
-One might be quick to conclude that countries that look towards the future caused them to be richer. However there are more than 1 possible explaination for the result. An alternative explaination could be that richer countries have more necessities taken care of and have the ability to look forward.
+One might be quick to conclude that countries that look towards the future caused them to be richer. However determining causality is much more complicated, there are more than 1 possible explanation for the result. An alternative explanation could be that richer countries have more necessities taken care of and have the ability to look forward.
+
 
 
 

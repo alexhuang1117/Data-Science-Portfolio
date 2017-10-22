@@ -4,7 +4,7 @@ Does Time of the day and Week Influence Happiness?
 Overview
 --------
 
-In this project I want to find out how people's mood oscillates through out the day and through out the week. I will be using Twitter archive data and perform sentiment analysis on the tweet content to see how people's mood oscilliated.
+In this project I want to find out how people's mood oscillates through out the day and through out the week. I will be using Twitter archive data and perform sentiment analysis on the tweet content to see how people's mood oscillated.
 
 The following packages from R is required to run the Rmd file:
 
@@ -12,7 +12,7 @@ The following packages from R is required to run the Rmd file:
 install.packages('streamR')
 ```
 
-I will be only using the Twitter archive data from 2011/10/24 to 2011/10/30 and selecting the tweets from the UK and in english language. The reason I am only using data from 1 week is to reduce the run time (It already takes a few hours to download and process the data). I am aware of the fact that this might be a special week and the conclusion might be biased to the events that happened this week (ie. politics, economy, weather). The reason I am only using UK data is because I will be analysing how people's oscillates each hour. Having the whole country in the same timezone is very important in this respect.
+I will be only using the Twitter archive data from 2011/10/24 to 2011/10/30 and selecting the tweets from the UK and in English language. The reason I am only using data from 1 week is to reduce the run time (It already takes a few hours to download and process the data). I am aware of the fact that this might be a special week and the conclusion might be biased to the events that happened this week (ie. politics, economy, weather). The reason I am only using UK data is because I will be analysing how people's oscillates each hour. Having the whole country in the same timezone is very important in this respect.
 
 Part 1: Download Data
 ---------------------
@@ -73,7 +73,7 @@ write.csv(tweets, file = "tweets.csv",row.names=FALSE, na="")
 Part 2 Analysis
 ---------------
 
-If the Tweets from the UK has already been extracted and saved as 'tweets.csv', then start the project from there. Analyze the sentiment of the tweets using qdap package, each tweet is broken into sentences and fed to QDAP to perform sentiment analysis. QDAP returns a number which represent the sentiment of the text. A possitive value represents positive sentiment and vice versa for negetive value. The absolute value of the sentiment value represents the strength of the sentiment.
+If the Tweets from the UK has already been extracted and saved as 'tweets.csv', then start the project from there. Analyze the sentiment of the tweets using qdap package, each tweet is broken into sentences and fed to QDAP to perform sentiment analysis. QDAP returns a number which represent the sentiment of the text. A positive value represents positive sentiment and vice versa for negative value. The absolute value of the sentiment value represents the strength of the sentiment.
 
 ``` r
 require(qdap)
@@ -140,9 +140,9 @@ head(tweets[,c('text', 'postw', 'negtw')])
     ## 5     0     0
     ## 6     0     0
 
-It seeems that tweet 3 and tweet 4 are both correctly classified as negative and positive respectively. Great!
+It seems that tweet 3 and tweet 4 are both correctly classified as negative and positive respectively. Great!
 
-Now convert the data frame to a time serie and average the sentiment by hour and by day and plot the results
+Now convert the data frame to a time series and average the sentiment by hour and by day and plot the results
 
 ``` r
 require(xts)
@@ -171,6 +171,6 @@ legend(x = "bottomright", legend = c("Positive", "Negative"), lty = 1,col = c("r
 Conclusion
 ----------
 
-We can clearly see a big dip in both positive and negative tweets aroung 7:00. Positive tweets spike around 17:00 (finished work), and negative tweets spike aroung midnight.
+We can clearly see a big dip in both positive and negative tweets around 7:00. Positive tweets spike around 17:00 (finished work), and negative tweets spike around midnight.
 
 Over the week, people are happier close to the weekend and are quite negative on Sunday. This can be explained by expectation theory. On Friday, people have the weekend to look forward to where as on Sunday, people are already seeing themselves waking up early on Monday and going to work.
