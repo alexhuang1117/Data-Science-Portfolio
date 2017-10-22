@@ -180,53 +180,53 @@ for(current_country in table[,"iso2c"])
     ## [1] "AR"
     ## [1] 0.8784773
     ## [1] "AU"
-    ## [1] 0.9762752
+    ## [1] 0.9808612
     ## [1] "BD"
     ## [1] 0.3167747
     ## [1] "BR"
     ## [1] 0.9069444
     ## [1] "CA"
-    ## [1] 0.8187744
+    ## [1] 0.8101266
     ## [1] "CN"
     ## [1] 0.5698835
     ## [1] "CO"
-    ## [1] 0.5727136
+    ## [1] 0.577548
     ## [1] "DE"
     ## [1] 1.389545
     ## [1] "ES"
     ## [1] 0.7122208
     ## [1] "FR"
-    ## [1] 1.049635
+    ## [1] 1.048851
     ## [1] "GB"
-    ## [1] 1.104651
+    ## [1] 1.09
     ## [1] "IN"
-    ## [1] 0.4481577
+    ## [1] 0.447437
     ## [1] "IT"
     ## [1] 0.9139633
     ## [1] "JP"
-    ## [1] 1.191244
+    ## [1] 1.1875
     ## [1] "KR"
     ## [1] 0.5116279
     ## [1] "MX"
-    ## [1] 0.6933896
+    ## [1] 0.6908078
     ## [1] "NL"
-    ## [1] 1.145062
+    ## [1] 1.136923
     ## [1] "PH"
     ## [1] 0.3491228
     ## [1] "PL"
-    ## [1] 0.5075758
+    ## [1] 0.5132827
     ## [1] "RU"
-    ## [1] 0.4666667
+    ## [1] 0.4642032
     ## [1] "TH"
     ## [1] 0.3648339
     ## [1] "TR"
-    ## [1] 0.7069444
+    ## [1] 0.7058011
     ## [1] "UA"
-    ## [1] 0.3610574
+    ## [1] 0.3587444
     ## [1] "US"
     ## [1] 0.8547341
     ## [1] "VN"
-    ## [1] 0.4272227
+    ## [1] 0.4246682
 
 ``` r
 #table = table[complete.cases(table),]
@@ -247,18 +247,18 @@ summary(reg)
     ## 
     ## Residuals:
     ##    Min     1Q Median     3Q    Max 
-    ## -18606  -6804  -1323   8058  22634 
+    ## -18683  -6970  -1326   8010  22565 
     ## 
     ## Coefficients:
     ##             Estimate Std. Error t value Pr(>|t|)    
-    ## (Intercept)    -1958       5305  -0.369    0.715    
-    ## FOI            38136       6734   5.663 9.15e-06 ***
+    ## (Intercept)    -2019       5320  -0.379    0.708    
+    ## FOI            38288       6768   5.657 9.28e-06 ***
     ## ---
     ## Signif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1
     ## 
-    ## Residual standard error: 10010 on 23 degrees of freedom
-    ## Multiple R-squared:  0.5823, Adjusted R-squared:  0.5642 
-    ## F-statistic: 32.07 on 1 and 23 DF,  p-value: 9.153e-06
+    ## Residual standard error: 10020 on 23 degrees of freedom
+    ## Multiple R-squared:  0.5818, Adjusted R-squared:  0.5637 
+    ## F-statistic:    32 on 1 and 23 DF,  p-value: 9.283e-06
 
 ``` r
 plot(table$FOI, table$NY.GDP.PCAP.PP.KD, main='GDP vs Future orientation', ylab='GDP per capita PPP', xlab='Future Orientation Index')
