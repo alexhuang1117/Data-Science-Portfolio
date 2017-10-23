@@ -10,12 +10,19 @@ This is a repository of the projects I worked on or currently working on. It is 
 * Keywords(R, Time Series, Causality)
 
 
-###  [Exchange Rate Analysis During Election - Under Construction](https://github.com/alexhuang1117/Data-Science-Portfolio/blob/master/FX_Analysis_During_Election/main.ipynb)
-* In this project, I tried to predict US (2016) and UK (2017) election victories as the voting results of each region becomes available.
+###  [Exchange Rate Analysis During US Election - Under Construction](https://github.com/alexhuang1117/Data-Science-Portfolio/blob/master/FX_Analysis_During_US_Election/main.ipynb)
+* In this project, I tried to predict US (2016) election victories as the voting results of each region becomes available.
 * The prior information is the polling data and as each regions results comes out, the model is updated.
 * Monte Carlos simulation is used to simulate the winner of the election.
 * The result is compared with exchange rates fluctuations to see how the financial market kept up with the result.
-* Keywords(Python, Linear Regression, Monte Carlos Simulation, Twitter API)
+* Keywords(Python, Linear Regression, Monte Carlos Simulation)
+
+###  [Exchange Rate Analysis During UK Election - Under Construction](https://github.com/alexhuang1117/Data-Science-Portfolio/blob/master/FX_Analysis_During_UK_Election/main.ipynb)
+* In this project, I tried to predict UK (2017) election victories as the voting results of each region becomes available.
+* Timing of announcement of each region is retrieved from Twitter using announcement tweet timestamp
+* The prior information is the polling data and as each regions results comes out, the model is updated.
+
+* Keywords(Python, Twitter API, Merging Data)
 
 
 ###  [Power-law or Log-normal? Baby Name and Twitter Analysis](https://github.com/alexhuang1117/Data-Science-Portfolio/blob/master/Power_Law_vs_Lognormal_US_Babynames/Power_Law_vs_Lognormal_US_Babynames.md)
@@ -43,3 +50,6 @@ This is a repository of the projects I worked on or currently working on. It is 
 * Downloaded seach query of next and last year in Google for each country
 * Fitted linear regression between GDP and future orientation
 * keywords(R, World Bank API, Google API, Data Cleaning, Linear regression)
+
+
+
