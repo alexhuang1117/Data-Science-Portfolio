@@ -142,6 +142,32 @@ head(tweets[,c('text', 'postw', 'negtw')])
 
 It seems that tweet 3 and tweet 4 are both correctly classified as negative and positive respectively. Great!
 
+### Overall Sentiment Distribution
+
+``` r
+require(ggplot2)
+ggplot(tweets, aes(x = tweets$sentiment))+ 
+  stat_density(aes(y=..count..), color="black", fill="blue", alpha=0.3) +
+  scale_x_continuous(breaks=seq(-2.5,2.5, by=0.1),  expand=c(0,0)) +
+  scale_y_continuous(breaks=c(1,10,100,1000,10000,100000),trans="log1p", expand=c(0,0))+
+  labs(title = 'Density of Sentiment', x = "Sentiment Value", y='Frequency')
+```
+
+![](Twitter_sentiment_Analysis_files/figure-markdown_github-ascii_identifiers/unnamed-chunk-6-1.png)
+
+``` r
+sampled_tweets = tweets[sample(nrow(tweets), 1000), ]
+ggplot(sampled_tweets, aes(time, sentiment))  +
+  geom_point(aes(colour = cut(sentiment, c(-8, -0.3, 0.3, 8)))) +
+  scale_color_manual(name = "sentiment",
+                     values = c("(-8,-0.3]" = "blue",
+                                "(-0.3,0.3]" = "black",
+                                "(0.3,8]" = "red"),
+                     labels = c( "negative", "neutral", "positive"))
+```
+
+![](Twitter_sentiment_Analysis_files/figure-markdown_github-ascii_identifiers/unnamed-chunk-6-2.png)
+
 Now convert the data frame to a time series and average the sentiment by hour and by day and plot the results
 
 ``` r
@@ -152,13 +178,15 @@ qdaphr = period.apply(qdap["2011-10-26"], endpoints(qdap["2011-10-26"], "hours",
 #sum over day
 qdapdl = apply.daily(qdap["2011-10-24/2011-10-30"], colSums)
 index(qdapdl) = as.Date(index(qdapdl))
+```
 
+``` r
 #plot positive sentiment and negetive sentiment tweets as a percent of total tweets over a day
 plot(as.zoo(cbind(qdaphr[,1]/qdaphr[,3], qdaphr[,2]/qdaphr[,3])), main="Hourly Twitter Sentiment", col=c("red", "blue") ,ylab=c("positive", "negative"),ylim=c(0, 0.15))
 legend(x = "bottomright", legend = c("Positive", "Negative"), lty = 1,col = c("red", "blue"))
 ```
 
-![](Twitter_sentiment_Analysis_files/figure-markdown_github-ascii_identifiers/unnamed-chunk-6-1.png)
+![](Twitter_sentiment_Analysis_files/figure-markdown_github-ascii_identifiers/unnamed-chunk-8-1.png)
 
 ``` r
 #plot positive sentiment and negetive sentiment tweets as a percent of total tweets over a week
@@ -166,7 +194,7 @@ plot(as.zoo(cbind(qdapdl[,1]/qdapdl[,3], qdapdl[,2]/qdapdl[,3])), main="Daily Tw
 legend(x = "bottomright", legend = c("Positive", "Negative"), lty = 1,col = c("red", "blue"))
 ```
 
-![](Twitter_sentiment_Analysis_files/figure-markdown_github-ascii_identifiers/unnamed-chunk-6-2.png)
+![](Twitter_sentiment_Analysis_files/figure-markdown_github-ascii_identifiers/unnamed-chunk-8-2.png)
 
 Conclusion
 ----------
