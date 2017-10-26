@@ -43,7 +43,7 @@ This is a repository of the projects I worked on or currently working on. It is 
 * Parsed a few GB of Tweets to select all the tweets in UK and in English.
 * Used 'qdap' package to analyze the emotion of the Tweets
 * Plotted the emotions over the day and over the week and analysed the interesting results.
-* Keywords(R, Twitter API, Time Series, Sentiment Analysis)
+* Keywords(R, Twitter API, Time Series, Sentiment Analysis, ggplot)
   
 ### [GDP and Future Orientation](https://github.com/alexhuang1117/Data-Science-Portfolio/blob/master/GDP%20and%20Future%20Orientation/GDP_and_Future_Orientation.md)
 * Downloaded economic indicators using World Bank API, and cleaned data
