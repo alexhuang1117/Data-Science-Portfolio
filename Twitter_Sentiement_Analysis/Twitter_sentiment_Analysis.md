@@ -155,9 +155,15 @@ ggplot(tweets, aes(x = tweets$sentiment))+
 
 ![](Twitter_sentiment_Analysis_files/figure-markdown_github-ascii_identifiers/unnamed-chunk-6-1.png)
 
+Now convert the data frame to a time series and average the sentiment by hour and by day and plot the results
+
 ``` r
-sampled_tweets = tweets[sample(nrow(tweets), 1000), ]
-ggplot(sampled_tweets, aes(time, sentiment))  +
+require(xts)
+qdap = as.xts(cbind(tweets$postw, tweets$negtw, tweets$tottw, tweets$sentiment), order.by=strptime(tweets$time, "%a %b %d %H:%M:%S %z %Y", tz = "UTC"))
+colnames(qdap) = c('positive', 'negative', 'total', 'sentiment')
+
+#overall sentiment
+ggplot(qdap, aes(Index, sentiment))  +
   geom_point(aes(colour = cut(sentiment, c(-8, -0.3, 0.3, 8)))) +
   scale_color_manual(name = "sentiment",
                      values = c("(-8,-0.3]" = "blue",
@@ -166,21 +172,41 @@ ggplot(sampled_tweets, aes(time, sentiment))  +
                      labels = c( "negative", "neutral", "positive"))
 ```
 
-![](Twitter_sentiment_Analysis_files/figure-markdown_github-ascii_identifiers/unnamed-chunk-6-2.png)
-
-Now convert the data frame to a time series and average the sentiment by hour and by day and plot the results
+![](Twitter_sentiment_Analysis_files/figure-markdown_github-ascii_identifiers/unnamed-chunk-7-1.png)
 
 ``` r
-require(xts)
-qdap = as.xts(cbind(tweets$postw, tweets$negtw, tweets$tottw), order.by=strptime(tweets$time, "%a %b %d %H:%M:%S %z %Y", tz = "UTC"))
+#sentiment over a day
+wed = qdap['2011-10-25/2011-10-25']
+ggplot(wed, aes(Index, sentiment))  +
+  geom_point(aes(colour = cut(sentiment, c(-8, -0.3, 0.3, 8)))) +
+  scale_color_manual(name = "sentiment",
+                     values = c("(-8,-0.3]" = "blue",
+                                "(-0.3,0.3]" = "black",
+                                "(0.3,8]" = "red"),
+                     labels = c( "negative", "neutral", "positive"))
+```
+
+![](Twitter_sentiment_Analysis_files/figure-markdown_github-ascii_identifiers/unnamed-chunk-7-2.png)
+
+``` r
+# qdap_pos=qdap[qdap$positive==1|qdap$negative==1]
+# 
+# ggplot(qdap_pos) + 
+#   geom_boxplot(aes(x=Index, y=sentiment,group=format(index(qdap_pos), "%d")))
+# 
+# ggplot(wed) + 
+#   geom_boxplot(aes(x=Index, y=sentiment,group=format(index(wed), "%H")))
+```
+
+``` r
 #sum over hour
+
 qdaphr = period.apply(qdap["2011-10-26"], endpoints(qdap["2011-10-26"], "hours", 2), colSums)
 #sum over day
 qdapdl = apply.daily(qdap["2011-10-24/2011-10-30"], colSums)
 index(qdapdl) = as.Date(index(qdapdl))
-```
 
-``` r
+
 #plot positive sentiment and negetive sentiment tweets as a percent of total tweets over a day
 plot(as.zoo(cbind(qdaphr[,1]/qdaphr[,3], qdaphr[,2]/qdaphr[,3])), main="Hourly Twitter Sentiment", col=c("red", "blue") ,ylab=c("positive", "negative"),ylim=c(0, 0.15))
 legend(x = "bottomright", legend = c("Positive", "Negative"), lty = 1,col = c("red", "blue"))
