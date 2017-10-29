@@ -1,8 +1,8 @@
 Alex Huang
 2016-07-18
 
-Computational Economics Project - Bitcoin Price Analysis
-========================================================
+Bitcoin Price Analysis
+======================
 
 ------------------------------------------------------------------------
 

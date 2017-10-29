@@ -5,7 +5,7 @@ documentclass: report
 fontsize: 12pt
 output: rmarkdown::github_document
 ---
-Computational Economics Project - Bitcoin Price Analysis
+Bitcoin Price Analysis
 ========================================================
 
 *****
