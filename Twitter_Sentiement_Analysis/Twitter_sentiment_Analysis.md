@@ -169,7 +169,8 @@ ggplot(qdap, aes(Index, sentiment))  +
                      values = c("(-8,-0.3]" = "blue",
                                 "(-0.3,0.3]" = "black",
                                 "(0.3,8]" = "red"),
-                     labels = c( "negative", "neutral", "positive"))
+                     labels = c( "negative", "neutral", "positive"))+
+  labs(title = 'Sentiment over one week')
 ```
 
 ![](Twitter_sentiment_Analysis_files/figure-markdown_github-ascii_identifiers/unnamed-chunk-7-1.png)
@@ -183,20 +184,11 @@ ggplot(wed, aes(Index, sentiment))  +
                      values = c("(-8,-0.3]" = "blue",
                                 "(-0.3,0.3]" = "black",
                                 "(0.3,8]" = "red"),
-                     labels = c( "negative", "neutral", "positive"))
+                     labels = c( "negative", "neutral", "positive"))+
+  labs(title = 'Sentiment over one day')
 ```
 
 ![](Twitter_sentiment_Analysis_files/figure-markdown_github-ascii_identifiers/unnamed-chunk-7-2.png)
-
-``` r
-# qdap_pos=qdap[qdap$positive==1|qdap$negative==1]
-# 
-# ggplot(qdap_pos) + 
-#   geom_boxplot(aes(x=Index, y=sentiment,group=format(index(qdap_pos), "%d")))
-# 
-# ggplot(wed) + 
-#   geom_boxplot(aes(x=Index, y=sentiment,group=format(index(wed), "%H")))
-```
 
 ``` r
 #sum over hour

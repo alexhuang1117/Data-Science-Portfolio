@@ -241,7 +241,7 @@ Now that we have all the variables we will be fitting a ARIMA(2,1,1) model to th
 arorder=auto.arima(bitcoincut, ic="bic")
 bitcoinarima=arima(bitcoincut, order=c(2,1,1))
 bitcoinforcast=forecast(bitcoinarima, h=180)
-plot(bitcoinforcast)
+plot(bitcoinforcast, main='Bitcoin Price Forecast')
 ```
 
 ![](Bitcoin_Analysis_files/figure-markdown_github-ascii_identifiers/unnamed-chunk-20-1.png)
@@ -252,17 +252,17 @@ To see if our model is reasonable, we cut part of the Bitcoin data from 2016-01-
 
 ``` r
 #predict the price of Bitcoin in 2016 using 2014 - 2015 data
-bitcoinoneyear= window(bitcoincut, start(bitcoincut), c(2016))
+bitcoinoneyear= window(bitcoincut, start(bitcoincut), c(2017))
 bitcoinarima=arima(bitcoinoneyear, order=c(2,1,1))
-bitcoinforcast=forecast(bitcoinarima, h=270)
+bitcoinforcast=forecast(bitcoinarima, h=180)
 
 # plots both forcast and the actually bitcoin price
-plot(bitcoinforcast)
+plot(bitcoinforcast, main='Bitcoin Price forecast Validation')
 lines(bitcoincut)
 ```
 
 ![](Bitcoin_Analysis_files/figure-markdown_github-ascii_identifiers/unnamed-chunk-21-1.png)
 
-For the most part the price seem to lies within the 95% confidence interval, however it did over shoot the interval slightly around May 2016. This can be caused by not taking some of the coefficients from before, or another bubble in Bitcoin forming.
+Unfortunately, I was not able to predict the hugh volitility increase in the Bitcoin price at the beginning of 2017. The large jump in prices went over the 95% confidence interval. The ARIMA model is only valid if the volitility remains the same
 
 ------------------------------------------------------------------------

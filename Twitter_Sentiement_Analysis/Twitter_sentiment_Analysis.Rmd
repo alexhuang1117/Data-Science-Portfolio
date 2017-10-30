@@ -150,7 +150,8 @@ ggplot(qdap, aes(Index, sentiment))  +
                      values = c("(-8,-0.3]" = "blue",
                                 "(-0.3,0.3]" = "black",
                                 "(0.3,8]" = "red"),
-                     labels = c( "negative", "neutral", "positive"))
+                     labels = c( "negative", "neutral", "positive"))+
+  labs(title = 'Sentiment over one week')
 
 #sentiment over a day
 wed = qdap['2011-10-25/2011-10-25']
@@ -160,16 +161,9 @@ ggplot(wed, aes(Index, sentiment))  +
                      values = c("(-8,-0.3]" = "blue",
                                 "(-0.3,0.3]" = "black",
                                 "(0.3,8]" = "red"),
-                     labels = c( "negative", "neutral", "positive"))
+                     labels = c( "negative", "neutral", "positive"))+
+  labs(title = 'Sentiment over one day')
 
-
-# qdap_pos=qdap[qdap$positive==1|qdap$negative==1]
-# 
-# ggplot(qdap_pos) + 
-#   geom_boxplot(aes(x=Index, y=sentiment,group=format(index(qdap_pos), "%d")))
-# 
-# ggplot(wed) + 
-#   geom_boxplot(aes(x=Index, y=sentiment,group=format(index(wed), "%H")))
 
 
 ```
