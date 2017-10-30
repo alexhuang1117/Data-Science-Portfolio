@@ -8,7 +8,7 @@ This is a repository of the projects I worked on or currently working on. It is 
 * Plot Bitcoin Price vs S&P500 prices, and perform Granger Causality test.
 * Fitted ARIMA model on Bitcoin prices to forecast Bitcoin range of movement.
 * Keywords(R, Time Series, Causality)
-
+![](https://github.com/alexhuang1117/Data-Science-Portfolio/blob/master/Bitcoin_Analysis/Bitcoin_Analysis_files/figure-markdown_github-ascii_identifiers/unnamed-chunk-21-1.png)
 
 ###  [Exchange Rate Analysis During US Election - Under Construction](https://github.com/alexhuang1117/Data-Science-Portfolio/blob/master/FX_Analysis_During_US_Election/main.ipynb)
 * In this project, I tried to predict US (2016) election victories as the voting results of each region becomes available.
