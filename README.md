@@ -37,7 +37,7 @@ This is a repository of the projects I worked on or currently working on. It is 
 * Used ridge and lasso regularization to tackle overfitting and compared result
 * Used cross validation to select the optimal regularization strength
 * Keywords(Python, Linear Regression, Ridge and Lasso Regularization, Cross Validation) 
- 
+ ![](https://github.com/alexhuang1117/Data-Science-Portfolio/blob/master/Ridge_Lasso_CV_Comparison/results.png)
  
 ### [Twitter Sentiment Daily and Weekly Fluctuations](https://github.com/alexhuang1117/Data-Science-Portfolio/blob/master/Twitter_Sentiement_Analysis/Twitter_sentiment_Analysis.md)
 * Parsed a few GB of Tweets to select all the tweets in UK and in English.
