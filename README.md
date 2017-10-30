@@ -54,7 +54,7 @@ This is a repository of the projects I worked on or currently working on. It is 
 * Downloaded seach query of next and last year in Google for each country
 * Fitted linear regression between GDP and future orientation
 * keywords(R, World Bank API, Google API, Data Cleaning, Linear regression)
-  <img src="GDP_and_Future_Orientation/GDP_and_Future_Orientation_files/figure-markdown_github-ascii_identifiers/unnamed-chunk-8-1.png" width="500">
+  <img src="GDP%20and%20Future%20Orientation/GDP_and_Future_Orientation_files/figure-markdown_github-ascii_identifiers/unnamed-chunk-8-1.png" width="500">
 
 
 
