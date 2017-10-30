@@ -30,7 +30,7 @@ This is a repository of the projects I worked on or currently working on. It is 
 * Use bootstrapping techniques to find a distribution of the power-law parameters
 * Crawled Twitter to find 20000 random user and fitted power law distribution to users' friends count and followers count.
 * Keywords(R, Power-law, Bootstrapping, Log-normal)
-  
+ ![](https://github.com/alexhuang1117/Data-Science-Portfolio/blob/master/Power_Law_vs_Lognormal_US_Babynames/Power_Law_vs_Lognormal_US_Babynames_files/figure-markdown_github-ascii_identifiers/unnamed-chunk-7-1.png)
   
 ### [Comparing Ridge and Lasso Regularization with Cross Validation](https://github.com/alexhuang1117/Data-Science-Portfolio/blob/master/Ridge_Lasso_CV_Comparison/main.ipynb)
 * Fitted polynomial linear regression on wine quality vs wine chemical properties.
