@@ -1,5 +1,6 @@
 ---
 output: rmarkdown::github_document
+author: "Alex Huang"
 
 ---
 GDP and Future Orientation

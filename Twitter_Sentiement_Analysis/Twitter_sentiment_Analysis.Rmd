@@ -1,8 +1,7 @@
 ---
 title: "Does Time of the day and Week Influence Happiness?"
-output:
-  pdf_document: default
-  html_document: default
+output: rmarkdown::github_document
+author: "Alex Huang"
 ---
 
 ## Overview

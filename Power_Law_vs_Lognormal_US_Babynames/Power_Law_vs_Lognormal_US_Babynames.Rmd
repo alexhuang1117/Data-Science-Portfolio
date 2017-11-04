@@ -1,6 +1,7 @@
 ---
 title: "Power-law and Log-Normal Distributions"
 output: rmarkdown::github_document
+author: "Alex Huang"
 ---
 
 ## Fitting Power-law and Log-Normal Distributions
