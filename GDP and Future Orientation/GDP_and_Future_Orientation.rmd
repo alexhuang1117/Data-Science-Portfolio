@@ -1,10 +1,11 @@
 ---
+title: "GDP and Future Orientation"
 output:
   pdf_document: default
   html_document: default
+author: "Alex Huang"
+
 ---
-
-
 GDP and Future Orientation
 ========================================================
 
