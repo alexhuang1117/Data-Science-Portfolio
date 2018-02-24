@@ -1,0 +1,736 @@
+,year,month,date,time,tweet_id,tweet,time_full,Constituency
+0,2017,6,9,20.26,873275224090980352,"b'All the votes are counted, all the results are in. For full details: https://t.co/AUNBYygNO5 #GE2017 Goodnight. https://t.co/8a3rlg5MeV'",2017/6/9/20.26,"All the votes are counted, all the results are in. For full details"
+1,2017,6,9,20.23,873274411654238209,b'Kensington: LAB win #GE2017. Full results: https://t.co/XyPZZkE1tt https://t.co/zB78Iqnsmg',2017/6/9/20.23,Kensington
+2,2017,6,9,16.44,873219358939590656,"b'CORRECTION: Updated figures Southend West, CON hold #GE2017 See full results: https://t.co/XyPZZkE1tt https://t.co/hUQN3hmYFH'",2017/6/9/16.44,CORRECTION
+3,2017,6,9,15.14,873196528923533312,b'Update: Correcting LAB number of votes. Winchester CON hold  #GE2017 Full results: https://t.co/XyPZZkE1tt https://t.co/VJhnuqyii4',2017/6/9/15.14,Update
+4,2017,6,9,9.40,873112674753630212,b'Update 10:40am: Latest seat totals by party #GE2017. See full results: https://t.co/XyPZZkVCl1 https://t.co/dMDvKGJxOX',2017/6/9/9.40,Update 10
+5,2017,6,9,9.40,873112632907018240,"b'Updated result: Wells, CON hold #GE2017. See full results: https://t.co/XyPZZkVCl1 https://t.co/aoLiHxpgw3'",2017/6/9/9.40,Updated result
+6,2017,6,9,9.38,873112128621641729,b'CORRECTION: Updated image Redditch CON hold #GE2017. See full results: https://t.co/XyPZZkVCl1 https://t.co/Ijr4Emv1g5',2017/6/9/9.38,CORRECTION
+7,2017,6,9,8.59,873102302113964033,b'Update 9:59am: Latest seat totals by party #GE2017. See full results: https://t.co/XyPZZkVCl1 https://t.co/xP66ri5wxo',2017/6/9/8.59,Update 9
+8,2017,6,9,8.49,873099783061164033,b'Update 9:49am: Latest seat totals by party #GE2017. See full results: https://t.co/XyPZZkVCl1 https://t.co/AeBF0NUfB7',2017/6/9/8.49,Update 9
+9,2017,6,9,8.31,873095205984944129,b'Update 9:31am: Latest seat totals by party #GE2017. See full results: https://t.co/XyPZZkVCl1 https://t.co/ZXaAV2O5ys',2017/6/9/8.31,Update 9
+10,2017,6,9,8.27,873094155068555266,b'South East Cornwall: CON hold #GE2017. Full results: https://t.co/XyPZZkVCl1 https://t.co/jZz1QGFUsl',2017/6/9/8.27,South East Cornwall
+11,2017,6,9,8.21,873092686340792320,b'Update 9:21am: Latest seat totals by party #GE2017. See full results: https://t.co/XyPZZkVCl1 https://t.co/FHbDIHRXNj',2017/6/9/8.21,Update 9
+12,2017,6,9,8.6,873088948326744064,b'Update 9:06am: Latest seat totals by party #GE2017. See full results: https://t.co/XyPZZkVCl1 https://t.co/0k4QB6oA1l',2017/6/9/8.6,Update 9
+13,2017,6,9,8.6,873088906438131712,b'St Austell: CON hold #GE2017. Full results: https://t.co/XyPZZkVCl1 https://t.co/prePqyXcAU',2017/6/9/8.6,St Austell
+14,2017,6,9,7.43,873083195981406208,b'Update 8:43am: Latest seat totals by party #GE2017. See full results: https://t.co/XyPZZkVCl1 https://t.co/h7f9g56bom',2017/6/9/7.43,Update 8
+15,2017,6,9,6.40,873067330468585472,b'Update 7:40am: Latest seat totals by party #GE2017. See full results: https://t.co/XyPZZkVCl1 https://t.co/Eu9aPzzUfL',2017/6/9/6.40,Update 7
+16,2017,6,9,6.40,873067288898879488,b'St Ives: CON hold #GE2017. Full results: https://t.co/XyPZZkVCl1 https://t.co/G8iIJziSap',2017/6/9/6.40,St Ives
+17,2017,6,9,6.18,873061826765799425,b'Update 7:18am: Latest seat totals by party #GE2017. See full results: https://t.co/XyPZZkVCl1 https://t.co/WhRxzWLnXc',2017/6/9/6.18,Update 7
+18,2017,6,9,6.13,873060566402596864,b'Dudley North: LAB hold #GE2017. Full results: https://t.co/XyPZZkVCl1 https://t.co/ZqabelXB3H',2017/6/9/6.13,Dudley North
+19,2017,6,9,6.10,873059600412442626,b'Newcastle-under-Lyme: LAB hold #GE2017. Full results: https://t.co/XyPZZkVCl1 https://t.co/p7sYGa4Z5s',2017/6/9/6.10,Newcastle-under-Lyme
+20,2017,6,9,6.9,873059517029695489,b'Crawley: CON hold #GE2017. Full results: https://t.co/XyPZZkVCl1 https://t.co/EozsRionsS',2017/6/9/6.9,Crawley
+21,2017,6,9,6.9,873059434271883265,b'Ashfield: LAB hold #GE2017. Full results: https://t.co/XyPZZkVCl1 https://t.co/mhRmcNFRBR',2017/6/9/6.9,Ashfield
+22,2017,6,9,6.8,873059306941202433,b'Update 7:08am: Latest seat totals by party #GE2017. See full results: https://t.co/XyPZZkVCl1 https://t.co/aqkxDgvHNB',2017/6/9/6.8,Update 7
+23,2017,6,9,6.8,873059265413472257,b'Richmond Park: CON win #GE2017. Full results: https://t.co/XyPZZkVCl1 https://t.co/UGfsaUMAIu',2017/6/9/6.8,Richmond Park
+24,2017,6,9,5.55,873055822028324864,"b'Updated result: North West Hampshire, CON hold #GE2017. See full results: https://t.co/XyPZZkVCl1 https://t.co/DcyxRMHR6f'",2017/6/9/5.55,Updated result
+25,2017,6,9,5.53,873055442963841024,b'Ealing Southall: LAB hold #GE2017. Full results: https://t.co/XyPZZkVCl1 https://t.co/hSoe6CMoXy',2017/6/9/5.53,Ealing Southall
+26,2017,6,9,5.46,873053678785011714,b'Paisley and Renfrewshire North: SNP hold #GE2017. Full results: https://t.co/XyPZZkVCl1 https://t.co/FF2V95sPEl',2017/6/9/5.46,Paisley and Renfrewshire North
+27,2017,6,9,5.45,873053511138680834,"b'Updated result: Glenrothes, SNP hold #GE2017. See full results: https://t.co/XyPZZkVCl1 https://t.co/JLrdlZlhj0'",2017/6/9/5.45,Updated result
+28,2017,6,9,5.40,873052209054851074,b'Dorset West: CON hold #GE2017. Full results: https://t.co/XyPZZkVCl1 https://t.co/FvNxtONzc9',2017/6/9/5.40,Dorset West
+29,2017,6,9,5.39,873051957304344578,b'Update 6:39am: Latest seat totals by party #GE2017. See full results: https://t.co/XyPZZkVCl1 https://t.co/cX44llvXT7',2017/6/9/5.39,Update 6
+30,2017,6,9,5.38,873051705021153281,b'Totnes: CON hold #GE2017. Full results: https://t.co/XyPZZkVCl1 https://t.co/BGaiV6uUgF',2017/6/9/5.38,Totnes
+31,2017,6,9,5.36,873051243068891136,b'Tewkesbury: CON hold #GE2017. Full results: https://t.co/XyPZZkVCl1 https://t.co/mPmQEJ1hxe',2017/6/9/5.36,Tewkesbury
+32,2017,6,9,5.35,873050991368613890,b'North West Hampshire: CON hold #GE2017. Full results: https://t.co/XyPZZkVCl1 https://t.co/5HVqBRc5QA',2017/6/9/5.35,North West Hampshire
+33,2017,6,9,5.34,873050656239632384,b'Maldon: CON hold #GE2017. Full results: https://t.co/XyPZZkVCl1 https://t.co/8LQZF9J2Kg',2017/6/9/5.34,Maldon
+34,2017,6,9,5.33,873050318879072258,b'Liverpool Wavertree: LAB hold #GE2017. Full results: https://t.co/XyPZZkVCl1 https://t.co/cosLNZ7RaB',2017/6/9/5.33,Liverpool Wavertree
+35,2017,6,9,5.32,873050067376119810,"b'Updated result: Isle of Wight, CON hold #GE2017. See full results: https://t.co/XyPZZkVCl1 https://t.co/1csNBKioxc'",2017/6/9/5.32,Updated result
+36,2017,6,9,5.30,873049690404552707,b'Gedling: LAB hold #GE2017. Full results: https://t.co/XyPZZkVCl1 https://t.co/YVKnwCHVcW',2017/6/9/5.30,Gedling
+37,2017,6,9,5.30,873049522217271302,b'North East Fife: SNP hold #GE2017. Full results: https://t.co/XyPZZkVCl1 https://t.co/tBm1NpsEw1',2017/6/9/5.30,North East Fife
+38,2017,6,9,5.29,873049438356348928,b'Update 6:29am: Latest seat totals by party #GE2017. See full results: https://t.co/XyPZZkVCl1 https://t.co/kS7Ab0qRCv',2017/6/9/5.29,Update 6
+39,2017,6,9,5.28,873049017277530112,b'Truro: CON hold #GE2017. Full results: https://t.co/XyPZZkVCl1 https://t.co/q1Mqy9L4ML',2017/6/9/5.28,Truro
+40,2017,6,9,5.27,873048849031413760,b'Dewsbury: LAB hold #GE2017. Full results: https://t.co/XyPZZkVCl1 https://t.co/ICQg5dVCMX',2017/6/9/5.27,Dewsbury
+41,2017,6,9,5.26,873048597381632001,b'Chichester: CON hold #GE2017. Full results: https://t.co/XyPZZkVCl1 https://t.co/ZRJsY9SqvF',2017/6/9/5.26,Chichester
+42,2017,6,9,5.25,873048347400994818,b'Bury St Edmunds: CON hold #GE2017. Full results: https://t.co/XyPZZkVCl1 https://t.co/iNzd6LcZFc',2017/6/9/5.25,Bury St Edmunds
+43,2017,6,9,5.24,873048051924967426,b'Brentwood: CON hold #GE2017. Full results: https://t.co/XyPZZkVCl1 https://t.co/Agj8sjpCpT',2017/6/9/5.24,Brentwood
+44,2017,6,9,5.20,873047211512180737,b'Ceredigion: PC gain from LD #GE2017. Full results: https://t.co/XyPZZkVCl1 https://t.co/fRqhY4zIiC',2017/6/9/5.20,Ceredigion
+45,2017,6,9,5.20,873047003105705984,b'Brentford: LAB hold #GE2017. Full results: https://t.co/XyPZZkVCl1 https://t.co/2guzGELrve',2017/6/9/5.20,Brentford
+46,2017,6,9,5.19,873046918103941120,b'Update 6:19am: Latest seat totals by party #GE2017. See full results: https://t.co/XyPZZkVCl1 https://t.co/2mhKeZ2TPQ',2017/6/9/5.19,Update 6
+47,2017,6,9,5.18,873046582924464131,b'Bosworth: CON hold #GE2017. Full results: https://t.co/XyPZZkVCl1 https://t.co/qrSi1y85Hm',2017/6/9/5.18,Bosworth
+48,2017,6,9,5.15,873045826322350080,"b'Updated result: Weston-Super-Mare, CON hold #GE2017. See full results: https://t.co/XyPZZkVCl1 https://t.co/r7VSmK1pV2'",2017/6/9/5.15,Updated result
+49,2017,6,9,5.14,873045616535846912,b'Stoke Central: LAB hold #GE2017. Full results: https://t.co/XyPZZkVCl1 https://t.co/YBe9utsFGH',2017/6/9/5.14,Stoke Central
+50,2017,6,9,5.13,873045326860476418,b'Berwick: CON hold #GE2017. Full results: https://t.co/XyPZZkVCl1 https://t.co/nlhf488gyH',2017/6/9/5.13,Berwick
+51,2017,6,9,5.12,873045196228788228,b'Edmonton: LAB hold #GE2017. Full results: https://t.co/XyPZZkVCl1 https://t.co/YrsPguNxYV',2017/6/9/5.12,Edmonton
+52,2017,6,9,5.12,873045112611160067,b'Calder Valley: CON hold #GE2017. Full results: https://t.co/XyPZZkVCl1 https://t.co/Er7H3aCpEU',2017/6/9/5.12,Calder Valley
+53,2017,6,9,5.12,873045029085790208,b'Plymouth Moor View: CON hold #GE2017. Full results: https://t.co/XyPZZkVCl1 https://t.co/Kwapx4zUJK',2017/6/9/5.12,Plymouth Moor View
+54,2017,6,9,5.11,873044986723422212,"b'Updated result: South East Cambridgeshire, CON hold #GE2017. See full results: https://t.co/XyPZZkVCl1 https://t.co/jURvLNdlpL'",2017/6/9/5.11,Updated result
+55,2017,6,9,5.11,873044903093084160,b'Stoke North: LAB hold #GE2017. Full results: https://t.co/XyPZZkVCl1 https://t.co/wjWfTapnth',2017/6/9/5.11,Stoke North
+56,2017,6,9,5.11,873044818301145090,b'Filton: CON hold #GE2017. Full results: https://t.co/XyPZZkVCl1 https://t.co/S2lhVG4P8D',2017/6/9/5.11,Filton
+57,2017,6,9,5.10,873044524192350211,b'Soton Test: LAB hold #GE2017. Full results: https://t.co/XyPZZkVCl1 https://t.co/8JD7IadRJt',2017/6/9/5.10,Soton Test
+58,2017,6,9,5.9,873044398820409344,b'Update 6:09am: Latest seat totals by party #GE2017. See full results: https://t.co/XyPZZkVCl1 https://t.co/YI7xhT697q',2017/6/9/5.9,Update 6
+59,2017,6,9,5.9,873044357858775041,b'Beckenham: CON hold #GE2017. Full results: https://t.co/XyPZZkVCl1 https://t.co/EuESU0wKx0',2017/6/9/5.9,Beckenham
+60,2017,6,9,5.8,873044146579062784,b'Shipley: CON hold #GE2017. Full results: https://t.co/XyPZZkVCl1 https://t.co/mGMhjw7gzJ',2017/6/9/5.8,Shipley
+61,2017,6,9,5.8,873044062730764288,b'Devon East: CON hold #GE2017. Full results: https://t.co/XyPZZkVCl1 https://t.co/Sh03Xvm645',2017/6/9/5.8,Devon East
+62,2017,6,9,5.7,873043978764955650,b'South West Norfolk: CON hold #GE2017. Full results: https://t.co/XyPZZkVCl1 https://t.co/iqHjuh8mpP',2017/6/9/5.7,South West Norfolk
+63,2017,6,9,5.6,873043726557368320,b'Derby South: LAB hold #GE2017. Full results: https://t.co/XyPZZkVCl1 https://t.co/Bt23HUJI7F',2017/6/9/5.6,Derby South
+64,2017,6,9,5.6,873043518867988480,b'Livingston: SNP hold #GE2017. Full results: https://t.co/XyPZZkVCl1 https://t.co/tTzEuPVpKm',2017/6/9/5.6,Livingston
+65,2017,6,9,5.5,873043348239536129,b'Stourbridge: CON hold #GE2017. Full results: https://t.co/XyPZZkVCl1 https://t.co/A6ExVJFkcV',2017/6/9/5.5,Stourbridge
+66,2017,6,9,5.5,873043306405519360,b'Brighton Pavilion: GRN hold #GE2017. Full results: https://t.co/XyPZZkVCl1 https://t.co/aAqjpOzX3c',2017/6/9/5.5,Brighton Pavilion
+67,2017,6,9,5.5,873043264475086849,b'Devizes: CON hold #GE2017. Full results: https://t.co/XyPZZkVCl1 https://t.co/HCtMf5jxzS',2017/6/9/5.5,Devizes
+68,2017,6,9,5.4,873043223882547200,b'Bradford West: LAB hold #GE2017. Full results: https://t.co/XyPZZkVCl1 https://t.co/Iq1VoY6ooQ',2017/6/9/5.4,Bradford West
+69,2017,6,9,5.4,873043098066075649,b'Batley &amp; Spen: LAB hold #GE2017. Full results: https://t.co/XyPZZkVCl1 https://t.co/U5QNFAfuJy',2017/6/9/5.4,Batley &amp; Spen
+70,2017,6,9,5.2,873042509814915072,b'Ashton: LAB hold #GE2017. Full results: https://t.co/XyPZZkVCl1 https://t.co/xjQhEbJ8NN',2017/6/9/5.2,Ashton
+71,2017,6,9,5.1,873042424871788549,b'Rother Valley: LAB hold #GE2017. Full results: https://t.co/XyPZZkVCl1 https://t.co/gMASn0kkWy',2017/6/9/5.1,Rother Valley
+72,2017,6,9,5.1,873042342139240451,b'Staffs South: CON hold #GE2017. Full results: https://t.co/XyPZZkVCl1 https://t.co/Qw3iOD7nql',2017/6/9/5.1,Staffs South
+73,2017,6,9,5.0,873042088291467265,b'Hereford: CON hold #GE2017. Full results: https://t.co/XyPZZkVCl1 https://t.co/LjTvK8RHGs',2017/6/9/5.0,Hereford
+74,2017,6,9,5.0,873042004552200195,b'Redditch: CON hold #GE2017. Full results: https://t.co/XyPZZkVCl1 https://t.co/zCZsmrj51M',2017/6/9/5.0,Redditch
+75,2017,6,9,4.59,873041920628465673,b'Reading West: CON hold #GE2017. Full results: https://t.co/XyPZZkVCl1 https://t.co/PfF0zsKpSQ',2017/6/9/4.59,Reading West
+76,2017,6,9,4.59,873041836792725508,b'Update 5:59am: Latest seat totals by party #GE2017. See full results: https://t.co/XyPZZkVCl1 https://t.co/TP1AlDLS2P',2017/6/9/4.59,Update 5
+77,2017,6,9,4.59,873041752948482049,b'Hornsey: LAB hold #GE2017. Full results: https://t.co/XyPZZkVCl1 https://t.co/fTobvzypgg',2017/6/9/4.59,Hornsey
+78,2017,6,9,4.57,873041458915233796,b'Streatham: LAB hold #GE2017. Full results: https://t.co/XyPZZkVCl1 https://t.co/fgnydTaFsc',2017/6/9/4.57,Streatham
+79,2017,6,9,4.57,873041374454599680,b'Wyre: CON hold #GE2017. Full results: https://t.co/XyPZZkVCl1 https://t.co/ykHPtuSCYI',2017/6/9/4.57,Wyre
+80,2017,6,9,4.56,873040995989901312,b'Cardiff West: LAB hold #GE2017. Full results: https://t.co/XyPZZkVCl1 https://t.co/AdA5doSToa',2017/6/9/4.56,Cardiff West
+81,2017,6,9,4.55,873040912498147329,b'Orpington: CON hold #GE2017. Full results: https://t.co/XyPZZkVCl1 https://t.co/HPZ19GcLFv',2017/6/9/4.55,Orpington
+82,2017,6,9,4.54,873040702292111361,b'Banff: CON gain from SNP #GE2017. Full results: https://t.co/XyPZZkVCl1 https://t.co/Gf7J8tf1i2',2017/6/9/4.54,Banff
+83,2017,6,9,4.54,873040660651098114,b'Dumfriesshire: CON hold #GE2017. Full results: https://t.co/XyPZZkVCl1 https://t.co/e4d33I1TIH',2017/6/9/4.54,Dumfriesshire
+84,2017,6,9,4.54,873040619001659394,b'Rutland: CON hold #GE2017. Full results: https://t.co/XyPZZkVCl1 https://t.co/8byAkPwcdm',2017/6/9/4.54,Rutland
+85,2017,6,9,4.54,873040576668516352,b'Plymouth Sut: LAB gain from CON #GE2017. Full results: https://t.co/XyPZZkVCl1 https://t.co/PHYJW4oaKu',2017/6/9/4.54,Plymouth Sut
+86,2017,6,9,4.54,873040492723818497,b'Soton Itchen: CON hold #GE2017. Full results: https://t.co/XyPZZkVCl1 https://t.co/PeDfSctjif',2017/6/9/4.54,Soton Itchen
+87,2017,6,9,4.53,873040451174932481,b'East Ham: LAB hold #GE2017. Full results: https://t.co/XyPZZkVCl1 https://t.co/h28Iub5DWS',2017/6/9/4.53,East Ham
+88,2017,6,9,4.53,873040367813140488,b'Portsmouth North: CON hold #GE2017. Full results: https://t.co/XyPZZkVCl1 https://t.co/26gIUHaRWU',2017/6/9/4.53,Portsmouth North
+89,2017,6,9,4.53,873040240042102784,b'Edinburgh North: SNP hold #GE2017. Full results: https://t.co/XyPZZkVCl1 https://t.co/PyMh4guziE',2017/6/9/4.53,Edinburgh North
+90,2017,6,9,4.50,873039610451861504,b'Chipping Barnet: CON hold #GE2017. Full results: https://t.co/XyPZZkVCl1 https://t.co/DiFdi0GHuv',2017/6/9/4.50,Chipping Barnet
+91,2017,6,9,4.49,873039400069808128,b'Basingstoke: CON hold #GE2017. Full results: https://t.co/XyPZZkVCl1 https://t.co/3SkctuIULy',2017/6/9/4.49,Basingstoke
+92,2017,6,9,4.49,873039317383356416,b'Update 5:49am: Latest seat totals by party #GE2017. See full results: https://t.co/XyPZZkVCl1 https://t.co/NaIM9OqBfC',2017/6/9/4.49,Update 5
+93,2017,6,9,4.48,873039148617093135,"b'Updated result: City of London, CON hold #GE2017. See full results: https://t.co/XyPZZkVCl1 https://t.co/GDgiDEUiHb'",2017/6/9/4.48,Updated result
+94,2017,6,9,4.47,873038938411114497,b'Hampstead: LAB hold #GE2017. Full results: https://t.co/XyPZZkVCl1 https://t.co/kbKdCyHR9O',2017/6/9/4.47,Hampstead
+95,2017,6,9,4.47,873038897457930241,b'Hexham: CON hold #GE2017. Full results: https://t.co/XyPZZkVCl1 https://t.co/r8a2WNspPo',2017/6/9/4.47,Hexham
+96,2017,6,9,4.44,873038098812157959,b'Bermondsey: LAB hold #GE2017. Full results: https://t.co/XyPZZkVCl1 https://t.co/b426zyesf0',2017/6/9/4.44,Bermondsey
+97,2017,6,9,4.43,873037847481139203,"b'Updated result: Bridgwater, CON hold #GE2017. See full results: https://t.co/XyPZZkVCl1 https://t.co/ykEZNFfyD4'",2017/6/9/4.43,Updated result
+98,2017,6,9,4.42,873037678266073088,b'Oxford West: LD gain from CON #GE2017. Full results: https://t.co/XyPZZkVCl1 https://t.co/YQXGsftBG8',2017/6/9/4.42,Oxford West
+99,2017,6,9,4.42,873037635878506500,b'Devon West: CON hold #GE2017. Full results: https://t.co/XyPZZkVCl1 https://t.co/KrIIEXgjhE',2017/6/9/4.42,Devon West
+100,2017,6,9,4.42,873037552403398661,b'Dulwich: LAB hold #GE2017. Full results: https://t.co/XyPZZkVCl1 https://t.co/0i3rDam93J',2017/6/9/4.42,Dulwich
+101,2017,6,9,4.41,873037384643784705,b'Esher: CON hold #GE2017. Full results: https://t.co/XyPZZkVCl1 https://t.co/32DftRmV1r',2017/6/9/4.41,Esher
+102,2017,6,9,4.41,873037301009350657,b'Belfast South: DUP gain from SDLP #GE2017. Full results: https://t.co/XyPZZkVCl1 https://t.co/Gza36Dzfc1',2017/6/9/4.41,Belfast South
+103,2017,6,9,4.41,873037217005842434,b'Tottenham: LAB hold #GE2017. Full results: https://t.co/XyPZZkVCl1 https://t.co/bv6zgkCaNK',2017/6/9/4.41,Tottenham
+104,2017,6,9,4.40,873037091684233216,b'Mid Ulster: SF hold #GE2017. Full results: https://t.co/XyPZZkVCl1 https://t.co/H39IrvJeO9',2017/6/9/4.40,Mid Ulster
+105,2017,6,9,4.39,873036796174540802,b'Update 5:39am: Latest seat totals by party #GE2017. See full results: https://t.co/XyPZZkVCl1 https://t.co/6o2lTIAz7p',2017/6/9/4.39,Update 5
+106,2017,6,9,4.39,873036712359845890,b'Glasgow North West: SNP hold #GE2017. Full results: https://t.co/XyPZZkVCl1 https://t.co/PvOToFbAAd',2017/6/9/4.39,Glasgow North West
+107,2017,6,9,4.38,873036628171698176,b'Leeds East: LAB hold #GE2017. Full results: https://t.co/XyPZZkVCl1 https://t.co/SFrwl5ODCl',2017/6/9/4.38,Leeds East
+108,2017,6,9,4.38,873036545162321920,b'Hackney South: LAB hold #GE2017. Full results: https://t.co/XyPZZkVCl1 https://t.co/ylkOv6AhM4',2017/6/9/4.38,Hackney South
+109,2017,6,9,4.38,873036503550541824,b'Weston-Super-Mare: CON hold #GE2017. Full results: https://t.co/XyPZZkVCl1 https://t.co/g5QrLwKZJY',2017/6/9/4.38,Weston-Super-Mare
+110,2017,6,9,4.38,873036461200646148,b'Staffs Moor: CON hold #GE2017. Full results: https://t.co/XyPZZkVCl1 https://t.co/uI8dHEqQYa',2017/6/9/4.38,Staffs Moor
+111,2017,6,9,4.37,873036292790951936,b'Gainsborough: CON hold #GE2017. Full results: https://t.co/XyPZZkVCl1 https://t.co/35KmokOZti',2017/6/9/4.37,Gainsborough
+112,2017,6,9,4.37,873036209567563778,b'Dumfries: CON gain from SNP #GE2017. Full results: https://t.co/XyPZZkVCl1 https://t.co/fK2VWJA3vS',2017/6/9/4.37,Dumfries
+113,2017,6,9,4.36,873035998682165248,b'Croydon South: CON hold #GE2017. Full results: https://t.co/XyPZZkVCl1 https://t.co/9lHwaaj4CT',2017/6/9/4.36,Croydon South
+114,2017,6,9,4.35,873035914640990210,b'North East Hampshire: CON hold #GE2017. Full results: https://t.co/XyPZZkVCl1 https://t.co/hCa1WcIjHb',2017/6/9/4.35,North East Hampshire
+115,2017,6,9,4.35,873035747074256896,"b'Updated result: Ilford North, LAB hold #GE2017. See full results: https://t.co/XyPZZkVCl1 https://t.co/OlCs3X8hTJ'",2017/6/9/4.35,Updated result
+116,2017,6,9,4.33,873035411026722817,b'Sheff Central: LAB hold #GE2017. Full results: https://t.co/XyPZZkVCl1 https://t.co/8ZZdIPV3bi',2017/6/9/4.33,Sheff Central
+117,2017,6,9,4.33,873035285059076097,"b'Updated result: Glasgow North East, LAB gain from SNP #GE2017. See full results: https://t.co/XyPZZkVCl1 https://t.co/jpyft8xjnC'",2017/6/9/4.33,Updated result
+118,2017,6,9,4.32,873034990719705089,b'Hove: LAB hold #GE2017. Full results: https://t.co/XyPZZkVCl1 https://t.co/UBqDAKmb9J',2017/6/9/4.32,Hove
+119,2017,6,9,4.30,873034612745748481,b'Hendon: CON hold #GE2017. Full results: https://t.co/XyPZZkVCl1 https://t.co/xSsM5bHpoJ',2017/6/9/4.30,Hendon
+120,2017,6,9,4.30,873034571821928450,b'Leicester South: LAB hold #GE2017. Full results: https://t.co/XyPZZkVCl1 https://t.co/HL5lYi2sMC',2017/6/9/4.30,Leicester South
+121,2017,6,9,4.29,873034277096640513,b'Update 5:29am: Latest seat totals by party #GE2017. See full results: https://t.co/XyPZZkVCl1 https://t.co/7qly3mpObg',2017/6/9/4.29,Update 5
+122,2017,6,9,4.29,873034193596366853,b'Hemsworth: LAB hold #GE2017. Full results: https://t.co/XyPZZkVCl1 https://t.co/1CCXyuVtDO',2017/6/9/4.29,Hemsworth
+123,2017,6,9,4.28,873034151162556416,b'Lanark: SNP hold #GE2017. Full results: https://t.co/XyPZZkVCl1 https://t.co/wd79tpUudK',2017/6/9/4.28,Lanark
+124,2017,6,9,4.28,873034024976916480,b'Ipswich: LAB gain from CON #GE2017. Full results: https://t.co/XyPZZkVCl1 https://t.co/Cyr9VtT5Nj',2017/6/9/4.28,Ipswich
+125,2017,6,9,4.28,873033942441406467,b'Dunfermline: SNP hold #GE2017. Full results: https://t.co/XyPZZkVCl1 https://t.co/nkC7OxGwIm',2017/6/9/4.28,Dunfermline
+126,2017,6,9,4.27,873033899839864832,b'Ilford North: LAB hold #GE2017. Full results: https://t.co/XyPZZkVCl1 https://t.co/vfXgWiEM0E',2017/6/9/4.27,Ilford North
+127,2017,6,9,4.27,873033773356429312,b'Durham: LAB hold #GE2017. Full results: https://t.co/XyPZZkVCl1 https://t.co/B7ZpqmG54r',2017/6/9/4.27,Durham
+128,2017,6,9,4.27,873033689206185985,b'Horsham: CON hold #GE2017. Full results: https://t.co/XyPZZkVCl1 https://t.co/fwzAqgVgHY',2017/6/9/4.27,Horsham
+129,2017,6,9,4.26,873033647292465153,b'Islington South: LAB hold #GE2017. Full results: https://t.co/XyPZZkVCl1 https://t.co/JuaqTXNyJq',2017/6/9/4.26,Islington South
+130,2017,6,9,4.26,873033437812105218,b'Luton North: LAB hold #GE2017. Full results: https://t.co/XyPZZkVCl1 https://t.co/A3D5YqmGo6',2017/6/9/4.26,Luton North
+131,2017,6,9,4.25,873033226540859394,"b'Updated result: East Antrim, DUP hold #GE2017. See full results: https://t.co/XyPZZkVCl1 https://t.co/Ma4WmqQU3H'",2017/6/9/4.25,Updated result
+132,2017,6,9,4.24,873033101135405056,"b'Updated result: Rochford, CON hold #GE2017. See full results: https://t.co/XyPZZkVCl1 https://t.co/sMivDsOUcX'",2017/6/9/4.24,Updated result
+133,2017,6,9,4.24,873032974568087552,b'Blackpool South: LAB hold #GE2017. Full results: https://t.co/XyPZZkVCl1 https://t.co/w6I5KQ495F',2017/6/9/4.24,Blackpool South
+134,2017,6,9,4.23,873032849590370304,b'City of London: CON hold #GE2017. Full results: https://t.co/XyPZZkVCl1 https://t.co/McmaG0zCGm',2017/6/9/4.23,City of London
+135,2017,6,9,4.23,873032766304141313,"b'Updated result: Southend West, CON hold #GE2017. See full results: https://t.co/XyPZZkVCl1 https://t.co/x8qVMzBntf'",2017/6/9/4.23,Updated result
+136,2017,6,9,4.23,873032722771357696,b'Orkney and Shetland: LD hold #GE2017. Full results: https://t.co/XyPZZkVCl1 https://t.co/wzRX3j0SgB',2017/6/9/4.23,Orkney and Shetland
+137,2017,6,9,4.23,873032682275340289,b'Walthamstow: LAB hold #GE2017. Full results: https://t.co/XyPZZkVCl1 https://t.co/gZ7uYE4zeN',2017/6/9/4.23,Walthamstow
+138,2017,6,9,4.22,873032597953069057,b'Swansea West: LAB hold #GE2017. Full results: https://t.co/XyPZZkVCl1 https://t.co/enwMA7CZA8',2017/6/9/4.22,Swansea West
+139,2017,6,9,4.22,873032429321109506,b'North Ayrshire: SNP hold #GE2017. Full results: https://t.co/XyPZZkVCl1 https://t.co/2syfarbccw',2017/6/9/4.22,North Ayrshire
+140,2017,6,9,4.21,873032304431579138,b'Newton Abbot: CON hold #GE2017. Full results: https://t.co/XyPZZkVCl1 https://t.co/I5il5MBOk4',2017/6/9/4.21,Newton Abbot
+141,2017,6,9,4.20,873032094074642432,"b'Updated result: Angus, CON gain from SNP #GE2017. See full results: https://t.co/XyPZZkVCl1 https://t.co/vtBS2F2adk'",2017/6/9/4.20,Updated result
+142,2017,6,9,4.20,873031924582830081,b'Wansbeck: LAB hold #GE2017. Full results: https://t.co/XyPZZkVCl1 https://t.co/SQ5qNkdJVj',2017/6/9/4.20,Wansbeck
+143,2017,6,9,4.19,873031799475101697,b'Update 5:19am: Latest seat totals by party #GE2017. See full results: https://t.co/XyPZZkVCl1 https://t.co/DTOjLJTDnY',2017/6/9/4.19,Update 5
+144,2017,6,9,4.19,873031756634443786,b'Sevenoaks: CON hold #GE2017. Full results: https://t.co/XyPZZkVCl1 https://t.co/8g9YibSXCE',2017/6/9/4.19,Sevenoaks
+145,2017,6,9,4.18,873031631430234114,b'Devon Central: CON hold #GE2017. Full results: https://t.co/XyPZZkVCl1 https://t.co/q8AeDghut9',2017/6/9/4.18,Devon Central
+146,2017,6,9,4.18,873031420612034561,b'Newport West: LAB hold #GE2017. Full results: https://t.co/XyPZZkVCl1 https://t.co/n7Rw7YQrQb',2017/6/9/4.18,Newport West
+147,2017,6,9,4.17,873031253028618240,b'Gateshead: LAB hold #GE2017. Full results: https://t.co/XyPZZkVCl1 https://t.co/THq8TO6m8c',2017/6/9/4.17,Gateshead
+148,2017,6,9,4.16,873031043594428416,b'Stoke South: CON gain from LAB #GE2017. Full results: https://t.co/XyPZZkVCl1 https://t.co/SnzMPssBpy',2017/6/9/4.16,Stoke South
+149,2017,6,9,4.16,873031001982631936,b'Bracknell: CON hold #GE2017. Full results: https://t.co/XyPZZkVCl1 https://t.co/CAr4e0kGYl',2017/6/9/4.16,Bracknell
+150,2017,6,9,4.15,873030749225574401,b'Winchester: CON hold #GE2017. Full results: https://t.co/XyPZZkVCl1 https://t.co/9yW7gks88Y',2017/6/9/4.15,Winchester
+151,2017,6,9,4.14,873030455842414593,b'Stockton South: LAB gain from CON #GE2017. Full results: https://t.co/XyPZZkVCl1 https://t.co/PyYOL2gXLj',2017/6/9/4.14,Stockton South
+152,2017,6,9,4.13,873030371922788353,b'Arundel: CON hold #GE2017. Full results: https://t.co/XyPZZkVCl1 https://t.co/NQUqVOgCGg',2017/6/9/4.13,Arundel
+153,2017,6,9,4.13,873030247083409408,b'Loughborough: CON hold #GE2017. Full results: https://t.co/XyPZZkVCl1 https://t.co/cKHAIWQZTL',2017/6/9/4.13,Loughborough
+154,2017,6,9,4.12,873030120423825409,b'Update 4:59am: Latest seat totals by party #GE2017. See full results: https://t.co/XyPZZkVCl1 https://t.co/8WP3l5wRbd',2017/6/9/4.12,Update 4
+155,2017,6,9,4.11,873029783021469696,b'Thirsk: CON hold #GE2017. Full results: https://t.co/XyPZZkVCl1 https://t.co/i8NVDt8a4a',2017/6/9/4.11,Thirsk
+156,2017,6,9,4.9,873029237178892290,b'Update 5:09am: Latest seat totals by party #GE2017. See full results: https://t.co/XyPZZkVCl1 https://t.co/geO5NAgjlJ',2017/6/9/4.9,Update 5
+157,2017,6,9,4.8,873028943988662275,b'Croydon North: LAB hold #GE2017. Full results: https://t.co/XyPZZkVCl1 https://t.co/Yq8Fs3C9fC',2017/6/9/4.8,Croydon North
+158,2017,6,9,4.3,873027810108899328,b'East Worthing: CON hold #GE2017. Full results: https://t.co/XyPZZkVCl1 https://t.co/z6yCQ999U9',2017/6/9/4.3,East Worthing
+159,2017,6,9,4.0,873027012574629889,b'Poplar: LAB hold #GE2017. Full results: https://t.co/XyPZZkVCl1 https://t.co/AyPZi31F41',2017/6/9/4.0,Poplar
+160,2017,6,9,3.59,873026844555071488,b'York Central: LAB hold #GE2017. Full results: https://t.co/XyPZZkVCl1 https://t.co/Pc4JWQnYNU',2017/6/9/3.59,York Central
+161,2017,6,9,3.59,873026718839087106,b'Update 4:59am: Latest seat totals by party #GE2017. See full results: https://t.co/XyPZZkVCl1 https://t.co/OMiV232vbM',2017/6/9/3.59,Update 4
+162,2017,6,9,3.58,873026508796723205,b'Hastings: CON hold #GE2017. Full results: https://t.co/XyPZZkVCl1 https://t.co/MSlA6Yo56v',2017/6/9/3.58,Hastings
+163,2017,6,9,3.58,873026381986185216,b'Stockport: LAB hold #GE2017. Full results: https://t.co/XyPZZkVCl1 https://t.co/ue1VvGin4Q',2017/6/9/3.58,Stockport
+164,2017,6,9,3.57,873026256207360002,b'Charnwood: CON hold #GE2017. Full results: https://t.co/XyPZZkVCl1 https://t.co/ObBltMVWeP',2017/6/9/3.57,Charnwood
+165,2017,6,9,3.57,873026130772508673,b'Argyll &amp; Bute: SNP hold #GE2017. Full results: https://t.co/XyPZZkVCl1 https://t.co/uYFdqATYgM',2017/6/9/3.57,Argyll &amp; Bute
+166,2017,6,9,3.56,873025920679817216,b'Henley: CON hold #GE2017. Full results: https://t.co/XyPZZkVCl1 https://t.co/maTJFbB21F',2017/6/9/3.56,Henley
+167,2017,6,9,3.56,873025877730185216,b'Wakefield: LAB hold #GE2017. Full results: https://t.co/XyPZZkVCl1 https://t.co/G6al874Vcp',2017/6/9/3.56,Wakefield
+168,2017,6,9,3.53,873025331896008706,b'Keighley: LAB gain from CON #GE2017. Full results: https://t.co/XyPZZkVCl1 https://t.co/aOji0jTWtv',2017/6/9/3.53,Keighley
+169,2017,6,9,3.53,873025290175250436,b'Milton Keynes North: CON hold #GE2017. Full results: https://t.co/XyPZZkVCl1 https://t.co/C0jHwHvyjh',2017/6/9/3.53,Milton Keynes North
+170,2017,6,9,3.53,873025250287468545,b'North East Bedfordshire: CON hold #GE2017. Full results: https://t.co/XyPZZkVCl1 https://t.co/Q4TpYRjZka',2017/6/9/3.53,North East Bedfordshire
+171,2017,6,9,3.53,873025207149019138,b'Pudsey: CON hold #GE2017. Full results: https://t.co/XyPZZkVCl1 https://t.co/OF4dnGSCNs',2017/6/9/3.53,Pudsey
+172,2017,6,9,3.53,873025164652314625,b'Buckingham: SPK hold #GE2017. Full results: https://t.co/XyPZZkVCl1 https://t.co/vtWLq4xc1Z',2017/6/9/3.53,Buckingham
+173,2017,6,9,3.53,873025122486992896,b'Bethnal Green: LAB hold #GE2017. Full results: https://t.co/XyPZZkVCl1 https://t.co/dbY9NQ8Ipl',2017/6/9/3.53,Bethnal Green
+174,2017,6,9,3.52,873025080086872065,b'Enfield Southgate: LAB gain from CON #GE2017. Full results: https://t.co/XyPZZkVCl1 https://t.co/sgReytkdJS',2017/6/9/3.52,Enfield Southgate
+175,2017,6,9,3.52,873024870405111808,b'Sherwood: CON hold #GE2017. Full results: https://t.co/XyPZZkVCl1 https://t.co/lVOvxaj1RQ',2017/6/9/3.52,Sherwood
+176,2017,6,9,3.50,873024534865002496,b'Worthing West: CON hold #GE2017. Full results: https://t.co/XyPZZkVCl1 https://t.co/NzHUY7Ahn8',2017/6/9/3.50,Worthing West
+177,2017,6,9,3.50,873024451503194112,b'Tiverton: CON hold #GE2017. Full results: https://t.co/XyPZZkVCl1 https://t.co/Ncvmvffn6X',2017/6/9/3.50,Tiverton
+178,2017,6,9,3.49,873024240445833216,b'Update 4:49am: Latest seat totals by party #GE2017. See full results: https://t.co/XyPZZkVCl1 https://t.co/JsdmP7uxEK',2017/6/9/3.49,Update 4
+179,2017,6,9,3.49,873024198133686273,b'Broadland: CON hold #GE2017. Full results: https://t.co/XyPZZkVCl1 https://t.co/pHBv8B7sEI',2017/6/9/3.49,Broadland
+180,2017,6,9,3.48,873024072086568961,b'Camborne: CON hold #GE2017. Full results: https://t.co/XyPZZkVCl1 https://t.co/4tH5DaKZkz',2017/6/9/3.48,Camborne
+181,2017,6,9,3.48,873023862916521984,b'Finchley: CON hold #GE2017. Full results: https://t.co/XyPZZkVCl1 https://t.co/IMYteNkDK2',2017/6/9/3.48,Finchley
+182,2017,6,9,3.47,873023779856719875,b'North Thanet: CON hold #GE2017. Full results: https://t.co/XyPZZkVCl1 https://t.co/1nO8AMLdUp',2017/6/9/3.47,North Thanet
+183,2017,6,9,3.47,873023736403738627,b'North East Derbyshire: CON gain from LAB #GE2017. Full results: https://t.co/XyPZZkVCl1 https://t.co/3zGgP3c0Lp',2017/6/9/3.47,North East Derbyshire
+184,2017,6,9,3.47,873023609727369216,b'Wantage: CON hold #GE2017. Full results: https://t.co/XyPZZkVCl1 https://t.co/dxiEKKcOLa',2017/6/9/3.47,Wantage
+185,2017,6,9,3.45,873023107061039107,b'Skipton: CON hold #GE2017. Full results: https://t.co/XyPZZkVCl1 https://t.co/N3XgRuwk1G',2017/6/9/3.45,Skipton
+186,2017,6,9,3.44,873023063566188544,b'South East Cambridgeshire: CON hold #GE2017. Full results: https://t.co/XyPZZkE1tt https://t.co/FijTSMhRsE',2017/6/9/3.44,South East Cambridgeshire
+187,2017,6,9,3.43,873022812180455425,b'North Somerset: CON hold #GE2017. Full results: https://t.co/XyPZZkVCl1 https://t.co/RtyhDCofFi',2017/6/9/3.43,North Somerset
+188,2017,6,9,3.43,873022728420429824,b'Cheadle: CON hold #GE2017. Full results: https://t.co/XyPZZkE1tt https://t.co/yZ9glqUXV2',2017/6/9/3.43,Cheadle
+189,2017,6,9,3.42,873022518029725696,b'Barrow: LAB hold #GE2017. Full results: https://t.co/XyPZZkVCl1 https://t.co/484nFiDKuK',2017/6/9/3.42,Barrow
+190,2017,6,9,3.42,873022476141289476,b'Brighton Kemptown: LAB gain from CON #GE2017. Full results: https://t.co/XyPZZkVCl1 https://t.co/xPyRf9BUS8',2017/6/9/3.42,Brighton Kemptown
+191,2017,6,9,3.42,873022392293097473,b'Halesowen: CON hold #GE2017. Full results: https://t.co/XyPZZkE1tt https://t.co/OukdJh0xTH',2017/6/9/3.42,Halesowen
+192,2017,6,9,3.40,873021888297086976,b'Leeds North East: LAB hold #GE2017. Full results: https://t.co/XyPZZkE1tt https://t.co/xgzdYije70',2017/6/9/3.40,Leeds North East
+193,2017,6,9,3.40,873021846165233664,b'Foyle: SF gain from SDLP #GE2017. Full results: https://t.co/XyPZZkVCl1 https://t.co/3fpRIeKR0c',2017/6/9/3.40,Foyle
+194,2017,6,9,3.39,873021804385796096,b'Meon Valley: CON hold #GE2017. Full results: https://t.co/XyPZZkE1tt https://t.co/UH0Vhr3OHs',2017/6/9/3.39,Meon Valley
+195,2017,6,9,3.39,873021678875488256,b'Update 4:39am: Latest seat totals by party #GE2017. See full results: https://t.co/XyPZZkE1tt https://t.co/p1Hmph5P16',2017/6/9/3.39,Update 4
+196,2017,6,9,3.36,873020838416699392,b'North Shropshire: CON hold #GE2017. Full results: https://t.co/XyPZZkE1tt https://t.co/XwlzIbaz2g',2017/6/9/3.36,North Shropshire
+197,2017,6,9,3.35,873020755717627909,b'Wells: CON hold #GE2017. Full results: https://t.co/XyPZZkE1tt https://t.co/fZOuhVVuvQ',2017/6/9/3.35,Wells
+198,2017,6,9,3.34,873020501932871680,b'Liverpool Walton: LAB hold #GE2017. Full results: https://t.co/XyPZZkE1tt https://t.co/iTDdRy2TFV',2017/6/9/3.34,Liverpool Walton
+199,2017,6,9,3.34,873020501932871680,b'Liverpool Walton: LAB hold #GE2017. Full results: https://t.co/XyPZZkE1tt https://t.co/iTDdRy2TFV',2017/6/9/3.34,Liverpool Walton
+200,2017,6,9,3.34,873020460073660422,b'Macclesfield: CON hold #GE2017. Full results: https://t.co/XyPZZkE1tt https://t.co/WKVPlFagzf',2017/6/9/3.34,Macclesfield
+201,2017,6,9,3.33,873020250098286592,b'Bridgwater: CON hold #GE2017. Full results: https://t.co/XyPZZkVCl1 https://t.co/hYx6ciyAQY',2017/6/9/3.33,Bridgwater
+202,2017,6,9,3.33,873020166908502016,b'Halifax: LAB hold #GE2017. Full results: https://t.co/XyPZZkVCl1 https://t.co/EQdFOV8d16',2017/6/9/3.33,Halifax
+203,2017,6,9,3.33,873020082955223041,b'Northampton South: CON hold #GE2017. Full results: https://t.co/XyPZZkVCl1 https://t.co/t0UlIAsrU7',2017/6/9/3.33,Northampton South
+204,2017,6,9,3.32,873019998406668289,b'Camberwell: LAB hold #GE2017. Full results: https://t.co/XyPZZkE1tt https://t.co/yMR8Zi8kaF',2017/6/9/3.32,Camberwell
+205,2017,6,9,3.32,873019872388763648,b'Taunton: CON hold #GE2017. Full results: https://t.co/XyPZZkE1tt https://t.co/4D1ugoC8n9',2017/6/9/3.32,Taunton
+206,2017,6,9,3.32,873019830055645186,b'Northampton North: CON hold #GE2017. Full results: https://t.co/XyPZZkE1tt https://t.co/7htCvqTFab',2017/6/9/3.32,Northampton North
+207,2017,6,9,3.30,873019327494148096,b'Ludlow: CON hold #GE2017. Full results: https://t.co/XyPZZkE1tt https://t.co/X5D3FzVbzP',2017/6/9/3.30,Ludlow
+208,2017,6,9,3.29,873019158560210945,b'Update 4:29am: Latest seat totals by party #GE2017. See full results: https://t.co/XyPZZkE1tt https://t.co/z7BRUFZYIC',2017/6/9/3.29,Update 4
+209,2017,6,9,3.29,873019075135500296,b'Mid Derbyshire: CON hold #GE2017. Full results: https://t.co/XyPZZkE1tt https://t.co/30CixILhWQ',2017/6/9/3.29,Mid Derbyshire
+210,2017,6,9,3.28,873018823284334592,b'East Yorkshire: CON hold #GE2017. Full results: https://t.co/XyPZZkE1tt https://t.co/smzYiqhF1Q',2017/6/9/3.28,East Yorkshire
+211,2017,6,9,3.27,873018654627164161,b'Hazel Grove: CON hold #GE2017. Full results: https://t.co/XyPZZkE1tt https://t.co/iAth7kux5X',2017/6/9/3.27,Hazel Grove
+212,2017,6,9,3.26,873018402587148288,b'Colne Valley: LAB gain from CON #GE2017. Full results: https://t.co/XyPZZkE1tt https://t.co/LiV2mCmnO3',2017/6/9/3.26,Colne Valley
+213,2017,6,9,3.25,873018234919948289,b'Enfield North: LAB hold #GE2017. Full results: https://t.co/XyPZZkE1tt https://t.co/eXlyl9xTSb',2017/6/9/3.25,Enfield North
+214,2017,6,9,3.25,873018192691679232,b'Elmet Rothwell: CON hold #GE2017. Full results: https://t.co/XyPZZkE1tt https://t.co/a24mN2HxvB',2017/6/9/3.25,Elmet Rothwell
+215,2017,6,9,3.24,873017899136557056,b'Morecambe: CON hold #GE2017. Full results: https://t.co/XyPZZkE1tt https://t.co/NEzlWUVI4Z',2017/6/9/3.24,Morecambe
+216,2017,6,9,3.24,873017813895655424,b'Denton: LAB hold #GE2017. Full results: https://t.co/XyPZZkE1tt https://t.co/C8ApYQaYAh',2017/6/9/3.24,Denton
+217,2017,6,9,3.23,873017730919796741,b'Mid Dorset: CON hold #GE2017. Full results: https://t.co/XyPZZkE1tt https://t.co/bqCtYsHuvL',2017/6/9/3.23,Mid Dorset
+218,2017,6,9,3.22,873017443404435456,b'Milton Keynes South: CON hold #GE2017. Full results: https://t.co/XyPZZkE1tt https://t.co/i406vwqHq9',2017/6/9/3.22,Milton Keynes South
+219,2017,6,9,3.22,873017394687606786,b'Gordon: CON gain from SNP #GE2017. Full results: https://t.co/XyPZZkE1tt https://t.co/yNExjGxODv',2017/6/9/3.22,Gordon
+220,2017,6,9,3.22,873017351947595776,b'Holborn: LAB hold #GE2017. Full results: https://t.co/XyPZZkE1tt https://t.co/OMazoqclwr',2017/6/9/3.22,Holborn
+221,2017,6,9,3.22,873017311011188736,b'Tatton: CON hold #GE2017. Full results: https://t.co/XyPZZkE1tt https://t.co/RZ3be3VtYg',2017/6/9/3.22,Tatton
+222,2017,6,9,3.21,873017270192279554,b'Blyth Valley: LAB hold #GE2017. Full results: https://t.co/XyPZZkE1tt https://t.co/50qOfyzoQE',2017/6/9/3.21,Blyth Valley
+223,2017,6,9,3.21,873017227125170176,b'Old Bexley: CON hold #GE2017. Full results: https://t.co/XyPZZkE1tt https://t.co/ptCqIN072k',2017/6/9/3.21,Old Bexley
+224,2017,6,9,3.21,873017184968167424,b'Chatham: CON hold #GE2017. Full results: https://t.co/XyPZZkE1tt https://t.co/0Z1dRShpSQ',2017/6/9/3.21,Chatham
+225,2017,6,9,3.21,873017142240792576,b'Corby: CON hold #GE2017. Full results: https://t.co/XyPZZkE1tt https://t.co/b2tibwHZge',2017/6/9/3.21,Corby
+226,2017,6,9,3.21,873017059151667200,"b'Updated result: Belfast West, SF hold #GE2017. See full results: https://t.co/XyPZZkE1tt https://t.co/BsrX56957N'",2017/6/9/3.21,Updated result
+227,2017,6,9,3.20,873017016986324997,b'Kingswood: CON hold #GE2017. Full results: https://t.co/XyPZZkE1tt https://t.co/zosh1XFPjT',2017/6/9/3.20,Kingswood
+228,2017,6,9,3.20,873016975353622528,b'Cheltenham: CON hold #GE2017. Full results: https://t.co/XyPZZkE1tt https://t.co/R4QhmSZHQw',2017/6/9/3.20,Cheltenham
+229,2017,6,9,3.20,873016807417925633,b'Gillingham: CON hold #GE2017. Full results: https://t.co/XyPZZkE1tt https://t.co/byOljbuck3',2017/6/9/3.20,Gillingham
+230,2017,6,9,3.19,873016764833116161,b'Bolsover: LAB hold #GE2017. Full results: https://t.co/XyPZZkE1tt https://t.co/NVyZarvvhU',2017/6/9/3.19,Bolsover
+231,2017,6,9,3.19,873016681949483008,b'Update 4:19am: Latest seat totals by party #GE2017. See full results: https://t.co/XyPZZkE1tt https://t.co/N1amBP3xMK',2017/6/9/3.19,Update 4
+232,2017,6,9,3.19,873016638970441729,b'Edinburgh South West: SNP hold #GE2017. Full results: https://t.co/XyPZZkE1tt https://t.co/CABViWFWyS',2017/6/9/3.19,Edinburgh South West
+233,2017,6,9,3.19,873016596457029632,"b'Updated result: Mansfield, CON gain from LAB #GE2017. See full results: https://t.co/XyPZZkE1tt https://t.co/KeGzH60sQi'",2017/6/9/3.19,Updated result
+234,2017,6,9,3.19,873016554950209542,b'South West Hertfordshire: CON hold #GE2017. Full results: https://t.co/XyPZZkE1tt https://t.co/X4DW3Arqyv',2017/6/9/3.19,South West Hertfordshire
+235,2017,6,9,3.18,873016512172482560,b'Rochester: CON hold #GE2017. Full results: https://t.co/XyPZZkE1tt https://t.co/DPFT8rwacv',2017/6/9/3.18,Rochester
+236,2017,6,9,3.18,873016471403868162,b'Broxtowe: CON hold #GE2017. Full results: https://t.co/XyPZZkE1tt https://t.co/fh37I2GrPs',2017/6/9/3.18,Broxtowe
+237,2017,6,9,3.18,873016303111557120,b'Mansfield: CON gain from LAB #GE2017. Full results: https://t.co/XyPZZkE1tt https://t.co/752UiZY34v',2017/6/9/3.18,Mansfield
+238,2017,6,9,3.17,873016218567028736,b'Bradford East: LAB hold #GE2017. Full results: https://t.co/XyPZZkE1tt https://t.co/2pPMFDPfQN',2017/6/9/3.17,Bradford East
+239,2017,6,9,3.17,873016177404018691,b'North Herefordshire: CON hold #GE2017. Full results: https://t.co/XyPZZkE1tt https://t.co/no9NKfSj6a',2017/6/9/3.17,North Herefordshire
+240,2017,6,9,3.17,873016093568380928,b'York Outer: CON hold #GE2017. Full results: https://t.co/XyPZZkE1tt https://t.co/4gpt9iuB5J',2017/6/9/3.17,York Outer
+241,2017,6,9,3.15,873015630861139968,b'Poole: CON hold #GE2017. Full results: https://t.co/XyPZZkE1tt https://t.co/WMGU0JvQVv',2017/6/9/3.15,Poole
+242,2017,6,9,3.14,873015505438822402,b'Reading East: LAB gain from CON #GE2017. Full results: https://t.co/XyPZZkE1tt https://t.co/G98bHCSbGA',2017/6/9/3.14,Reading East
+243,2017,6,9,3.14,873015336966246400,"b'Updated result: Berwickshire, CON gain from SNP #GE2017. See full results: https://t.co/XyPZZkE1tt https://t.co/nw1w1yW88q'",2017/6/9/3.14,Updated result
+244,2017,6,9,3.14,873015295170027520,b'Brigg &amp; Goole: CON hold #GE2017. Full results: https://t.co/XyPZZkE1tt https://t.co/zzqYvOFL7X',2017/6/9/3.14,Brigg &amp; Goole
+245,2017,6,9,3.13,873015252987912192,b'Banbury: CON hold #GE2017. Full results: https://t.co/XyPZZkE1tt https://t.co/gy77vzULSR',2017/6/9/3.13,Banbury
+246,2017,6,9,3.13,873015126756134913,b'Thanet South: CON hold #GE2017. Full results: https://t.co/XyPZZkE1tt https://t.co/1unI0CXAX6',2017/6/9/3.13,Thanet South
+247,2017,6,9,3.12,873015000226570240,b'Ross &amp; Skye: SNP hold #GE2017. Full results: https://t.co/XyPZZkE1tt https://t.co/KtBIFXZmAk',2017/6/9/3.12,Ross &amp; Skye
+248,2017,6,9,3.12,873014958518304768,b'South West Surrey: CON hold #GE2017. Full results: https://t.co/XyPZZkE1tt https://t.co/MaVk6kGZK8',2017/6/9/3.12,South West Surrey
+249,2017,6,9,3.12,873014916961251328,"b'Updated result: Braintree, CON hold #GE2017. See full results: https://t.co/XyPZZkE1tt https://t.co/a3h5I3cIfE'",2017/6/9/3.12,Updated result
+250,2017,6,9,3.11,873014664946429952,b'Motherwell: SNP hold #GE2017. Full results: https://t.co/XyPZZkE1tt https://t.co/ugH1s86p6D',2017/6/9/3.11,Motherwell
+251,2017,6,9,3.11,873014622827237377,b'Edinburgh South: LAB hold #GE2017. Full results: https://t.co/XyPZZkE1tt https://t.co/J9wgOFwPDN',2017/6/9/3.11,Edinburgh South
+252,2017,6,9,3.11,873014581383319553,b'Daventry: CON hold #GE2017. Full results: https://t.co/XyPZZkE1tt https://t.co/r4Q88s5Qfl',2017/6/9/3.11,Daventry
+253,2017,6,9,3.11,873014539813519360,b'South West Devon: CON hold #GE2017. Full results: https://t.co/XyPZZkE1tt https://t.co/8HbwlC3pLl',2017/6/9/3.11,South West Devon
+254,2017,6,9,3.10,873014328823345152,b'Fermanagh: SF gain from UUP #GE2017. Full results: https://t.co/XyPZZkE1tt https://t.co/EGGUmjEWx1',2017/6/9/3.10,Fermanagh
+255,2017,6,9,3.10,873014287236816897,b'Eddisbury: CON hold #GE2017. Full results: https://t.co/XyPZZkE1tt https://t.co/grnxt03EKk',2017/6/9/3.10,Eddisbury
+256,2017,6,9,3.9,873014078092038148,b'Update 4:09am: Latest seat totals by party #GE2017. See full results: https://t.co/XyPZZkE1tt https://t.co/KXVUZWhgAy',2017/6/9/3.9,Update 4
+257,2017,6,9,3.8,873013908843491328,b'Aylesbury: CON hold #GE2017. Full results: https://t.co/XyPZZkE1tt https://t.co/pVQ6aQRChZ',2017/6/9/3.8,Aylesbury
+258,2017,6,9,3.8,873013867215036416,b'Central Ayrshire: SNP hold #GE2017. Full results: https://t.co/XyPZZkE1tt https://t.co/E7gvwnJWqq',2017/6/9/3.8,Central Ayrshire
+259,2017,6,9,3.8,873013825460723713,b'Rossendale: CON hold #GE2017. Full results: https://t.co/XyPZZkE1tt https://t.co/id8zYxdN1R',2017/6/9/3.8,Rossendale
+260,2017,6,9,3.8,873013783261851649,b'Huddersfield: LAB hold #GE2017. Full results: https://t.co/XyPZZkE1tt https://t.co/y3Deug82SQ',2017/6/9/3.8,Huddersfield
+261,2017,6,9,3.7,873013741599825922,b'Penrith: CON hold #GE2017. Full results: https://t.co/XyPZZkE1tt https://t.co/5tAOMRESvt',2017/6/9/3.7,Penrith
+262,2017,6,9,3.7,873013700097183745,b'Congleton: CON hold #GE2017. Full results: https://t.co/XyPZZkE1tt https://t.co/ib2xsdRUOR',2017/6/9/3.7,Congleton
+263,2017,6,9,3.7,873013657818583042,b'Bromley: CON hold #GE2017. Full results: https://t.co/XyPZZkE1tt https://t.co/aJQUzJaaaV',2017/6/9/3.7,Bromley
+264,2017,6,9,3.7,873013614864736256,b'Luton South: LAB hold #GE2017. Full results: https://t.co/XyPZZkE1tt https://t.co/OrKcCqSrvA',2017/6/9/3.7,Luton South
+265,2017,6,9,3.7,873013573743763456,b'Welwyn Hatfield: CON hold #GE2017. Full results: https://t.co/XyPZZkE1tt https://t.co/ml3hdWiDeg',2017/6/9/3.7,Welwyn Hatfield
+266,2017,6,9,3.4,873012901967257600,b'Leeds North West: LAB gain from LD #GE2017. Full results: https://t.co/XyPZZkE1tt https://t.co/Ik5ntqeLDg',2017/6/9/3.4,Leeds North West
+267,2017,6,9,3.4,873012817431023616,b'Warrington South: LAB gain from CON #GE2017. Full results: https://t.co/XyPZZkE1tt https://t.co/d6PlGW28MG',2017/6/9/3.4,Warrington South
+268,2017,6,9,3.4,873012776561782786,b'Brent North: LAB hold #GE2017. Full results: https://t.co/XyPZZkE1tt https://t.co/BQT7Rmc5uA',2017/6/9/3.4,Brent North
+269,2017,6,9,3.3,873012734262226948,b'North East Cambridgeshire: CON hold #GE2017. Full results: https://t.co/XyPZZkE1tt https://t.co/QeBZPOP0dN',2017/6/9/3.3,North East Cambridgeshire
+270,2017,6,9,3.3,873012692155543553,b'Lincoln: LAB gain from CON #GE2017. Full results: https://t.co/XyPZZkE1tt https://t.co/g2F0ELKOKP',2017/6/9/3.3,Lincoln
+271,2017,6,9,3.2,873012482469703681,"b'Updated result: West Aberdeenshire and Kincardine, CON gain from SNP #GE2017. See full results:\xe2\x80\xa6 https://t.co/gGFnEgLezN'",2017/6/9/3.2,Updated result
+272,2017,6,9,3.2,873012355646586880,b'Spelthorne: CON hold #GE2017. Full results: https://t.co/XyPZZkE1tt https://t.co/sP413vmfiX',2017/6/9/3.2,Spelthorne
+273,2017,6,9,3.2,873012314282348544,b'Croydon Central: LAB gain from CON #GE2017. Full results: https://t.co/XyPZZkE1tt https://t.co/4fuZjP1kGf',2017/6/9/3.2,Croydon Central
+274,2017,6,9,3.1,873012063727124480,b'Scunthorpe: LAB hold #GE2017. Full results: https://t.co/XyPZZkE1tt https://t.co/nAuZCm0NhF',2017/6/9/3.1,Scunthorpe
+275,2017,6,9,3.0,873011935960334336,b'Stirling: CON gain from SNP #GE2017. Full results: https://t.co/XyPZZkE1tt https://t.co/ztsxrqWlD6',2017/6/9/3.0,Stirling
+276,2017,6,9,3.0,873011894726033409,"b'Updated result: Perry Bar, LAB hold #GE2017. See full results: https://t.co/XyPZZkE1tt https://t.co/4hRv7J3sVD'",2017/6/9/3.0,Updated result
+277,2017,6,9,3.0,873011851679936514,"b'Updated result: Aberdeen North, SNP hold #GE2017. See full results: https://t.co/XyPZZkE1tt https://t.co/UcgyCH4q8t'",2017/6/9/3.0,Updated result
+278,2017,6,9,3.0,873011810076700672,b'West Aberdeenshire and Kincardine: CON gain from SNP #GE2017. Full results: https://t.co/XyPZZkE1tt https://t.co/LwjAEhmPFE',2017/6/9/3.0,West Aberdeenshire and Kincardine
+279,2017,6,9,2.59,873011684423733248,b'Berwickshire: CON gain from SNP #GE2017. Full results: https://t.co/XyPZZkE1tt https://t.co/yDuUfGBGGa',2017/6/9/2.59,Berwickshire
+280,2017,6,9,2.59,873011642640080898,b'Shrewsbury: CON hold #GE2017. Full results: https://t.co/XyPZZkE1tt https://t.co/uYWVHiMz8f',2017/6/9/2.59,Shrewsbury
+281,2017,6,9,2.59,873011600831242240,b'Haltemprice: CON hold #GE2017. Full results: https://t.co/XyPZZkE1tt https://t.co/3mrv3QowSR',2017/6/9/2.59,Haltemprice
+282,2017,6,9,2.59,873011557491453953,b'Update 3:59am: Latest seat totals by party #GE2017. See full results: https://t.co/XyPZZkE1tt https://t.co/0fxcXjrl7w',2017/6/9/2.59,Update 3
+283,2017,6,9,2.58,873011516538224645,b'Richmond: CON hold #GE2017. Full results: https://t.co/XyPZZkE1tt https://t.co/MY1NUFMe4O',2017/6/9/2.58,Richmond
+284,2017,6,9,2.58,873011432245342208,b'Stretford: LAB hold #GE2017. Full results: https://t.co/XyPZZkE1tt https://t.co/5cogU7mKX9',2017/6/9/2.58,Stretford
+285,2017,6,9,2.58,873011390591717380,b'Perry Bar: LAB hold #GE2017. Full results: https://t.co/XyPZZkE1tt https://t.co/is7OskEq9q',2017/6/9/2.58,Perry Bar
+286,2017,6,9,2.58,873011347893760000,b'Bexhill: CON hold #GE2017. Full results: https://t.co/XyPZZkE1tt https://t.co/xvHTLZhrnY',2017/6/9/2.58,Bexhill
+287,2017,6,9,2.58,873011305665482753,b'Witham: CON hold #GE2017. Full results: https://t.co/XyPZZkE1tt https://t.co/mT08RynKJu',2017/6/9/2.58,Witham
+288,2017,6,9,2.57,873011264498413568,b'Lancaster: LAB hold #GE2017. Full results: https://t.co/XyPZZkE1tt https://t.co/LT0nTJ5W0R',2017/6/9/2.57,Lancaster
+289,2017,6,9,2.57,873011223100608516,b'Weaver Vale: LAB gain from CON #GE2017. Full results: https://t.co/XyPZZkE1tt https://t.co/fyTeyPMijB',2017/6/9/2.57,Weaver Vale
+290,2017,6,9,2.57,873011179563700225,b'Sleaford: CON hold #GE2017. Full results: https://t.co/XyPZZkE1tt https://t.co/xiSWUuThje',2017/6/9/2.57,Sleaford
+291,2017,6,9,2.57,873011137947856896,b'Maidstone: CON hold #GE2017. Full results: https://t.co/XyPZZkE1tt https://t.co/1nq6rjyG1t',2017/6/9/2.57,Maidstone
+292,2017,6,9,2.57,873011095753166848,b'Thornbury: CON hold #GE2017. Full results: https://t.co/XyPZZkE1tt https://t.co/RVJldHTNqu',2017/6/9/2.57,Thornbury
+293,2017,6,9,2.56,873011012798205954,b'Stone: CON hold #GE2017. Full results: https://t.co/XyPZZkE1tt https://t.co/wN9v6Yyzn7',2017/6/9/2.56,Stone
+294,2017,6,9,2.56,873010970586750977,b'Altrincham: CON hold #GE2017. Full results: https://t.co/XyPZZkE1tt https://t.co/ZcDOP6nCjM',2017/6/9/2.56,Altrincham
+295,2017,6,9,2.56,873010928169738240,b'Suffolk Central: CON hold #GE2017. Full results: https://t.co/XyPZZkE1tt https://t.co/yecujp1nge',2017/6/9/2.56,Suffolk Central
+296,2017,6,9,2.56,873010843729920003,b'Faversham: CON hold #GE2017. Full results: https://t.co/XyPZZkE1tt https://t.co/8CJNPg0fNq',2017/6/9/2.56,Faversham
+297,2017,6,9,2.55,873010676435996674,b'Braintree: CON hold #GE2017. Full results: https://t.co/XyPZZkE1tt https://t.co/O34IpfvAcK',2017/6/9/2.55,Braintree
+298,2017,6,9,2.55,873010591945936897,b'Feltham: LAB hold #GE2017. Full results: https://t.co/XyPZZkE1tt https://t.co/A5GDr6nmmm',2017/6/9/2.55,Feltham
+299,2017,6,9,2.55,873010550246166528,b'Wentworth: LAB hold #GE2017. Full results: https://t.co/XyPZZkE1tt https://t.co/QHIY6ncJbG',2017/6/9/2.55,Wentworth
+300,2017,6,9,2.54,873010382830542848,b'Rotherham: LAB hold #GE2017. Full results: https://t.co/XyPZZkE1tt https://t.co/9wsDJujHTb',2017/6/9/2.54,Rotherham
+301,2017,6,9,2.54,873010298072051716,b'Erith: LAB hold #GE2017. Full results: https://t.co/XyPZZkE1tt https://t.co/Tdj03DVFC8',2017/6/9/2.54,Erith
+302,2017,6,9,2.52,873010004718178304,"b'Updated result: Dudley South, CON hold #GE2017. See full results: https://t.co/XyPZZkE1tt https://t.co/KFGyiYI8v9'",2017/6/9/2.52,Updated result
+303,2017,6,9,2.52,873009878536769536,b'Chelsea: CON hold #GE2017. Full results: https://t.co/XyPZZkE1tt https://t.co/XoqDypdL0i',2017/6/9/2.52,Chelsea
+304,2017,6,9,2.52,873009836178493442,b'Bassetlaw: LAB hold #GE2017. Full results: https://t.co/XyPZZkE1tt https://t.co/WE4FFFHD01',2017/6/9/2.52,Bassetlaw
+305,2017,6,9,2.51,873009542099083265,b'Vauxhall: LAB hold #GE2017. Full results: https://t.co/XyPZZkE1tt https://t.co/vX1UI8Ru9j',2017/6/9/2.51,Vauxhall
+306,2017,6,9,2.50,873009332086034432,b'Edinburgh West: LD gain from SNP #GE2017. Full results: https://t.co/XyPZZkE1tt https://t.co/7azYZl9pnY',2017/6/9/2.50,Edinburgh West
+307,2017,6,9,2.49,873009207108411393,b'Brent Central: LAB hold #GE2017. Full results: https://t.co/XyPZZkE1tt https://t.co/G28fH8fYVs',2017/6/9/2.49,Brent Central
+308,2017,6,9,2.49,873009038816161792,b'Update 3:49am: Latest seat totals by party #GE2017. See full results: https://t.co/XyPZZkE1tt https://t.co/KWHv7xnpXG',2017/6/9/2.49,Update 3
+309,2017,6,9,2.48,873008996990550017,b'Newry: SF hold #GE2017. Full results: https://t.co/XyPZZkE1tt https://t.co/RWwo0DPTTr',2017/6/9/2.48,Newry
+310,2017,6,9,2.48,873008954367934464,b'Newark: CON hold #GE2017. Full results: https://t.co/XyPZZkE1tt https://t.co/pCumH3bEK1',2017/6/9/2.48,Newark
+311,2017,6,9,2.48,873008912114626561,b'Oldham West: LAB hold #GE2017. Full results: https://t.co/XyPZZkE1tt https://t.co/J3lwadMh5A',2017/6/9/2.48,Oldham West
+312,2017,6,9,2.48,873008870897143809,b'Stalybridge: LAB hold #GE2017. Full results: https://t.co/XyPZZkE1tt https://t.co/apZ5W1Yu8l',2017/6/9/2.48,Stalybridge
+313,2017,6,9,2.48,873008828274683904,b'Slough: LAB hold #GE2017. Full results: https://t.co/XyPZZkE1tt https://t.co/4hIpMmg9Kh',2017/6/9/2.48,Slough
+314,2017,6,9,2.48,873008787178872834,b'Saffron Walden: CON hold #GE2017. Full results: https://t.co/XyPZZkE1tt https://t.co/jGMJ1RwTrO',2017/6/9/2.48,Saffron Walden
+315,2017,6,9,2.47,873008744988364801,b'Chester: LAB hold #GE2017. Full results: https://t.co/XyPZZkE1tt https://t.co/hZefjWFHIx',2017/6/9/2.47,Chester
+316,2017,6,9,2.47,873008619020791809,"b'Updated result: Hammersmith, LAB hold #GE2017. See full results: https://t.co/XyPZZkE1tt https://t.co/Zed0ukGRFd'",2017/6/9/2.47,Updated result
+317,2017,6,9,2.47,873008576293462016,b'Waveney: CON hold #GE2017. Full results: https://t.co/XyPZZkE1tt https://t.co/6ViyXliMRt',2017/6/9/2.47,Waveney
+318,2017,6,9,2.44,873007987706798080,b'Chesterfield: LAB hold #GE2017. Full results: https://t.co/XyPZZkE1tt https://t.co/JhGxpeDAxZ',2017/6/9/2.44,Chesterfield
+319,2017,6,9,2.44,873007945839239168,b'Dudley South: CON hold #GE2017. Full results: https://t.co/XyPZZkE1tt https://t.co/BYCkBJVmO4',2017/6/9/2.44,Dudley South
+320,2017,6,9,2.44,873007903975899136,"b'Updated result: North West Leicestershire, CON hold #GE2017. See full results: https://t.co/XyPZZkE1tt https://t.co/Oa82BueeTg'",2017/6/9/2.44,Updated result
+321,2017,6,9,2.44,873007861739261953,b'South Northamptonshire: CON hold #GE2017. Full results: https://t.co/XyPZZkE1tt https://t.co/zVrK34Vf1e',2017/6/9/2.44,South Northamptonshire
+322,2017,6,9,2.44,873007820513345536,b'North East Somerset: CON hold #GE2017. Full results: https://t.co/XyPZZkE1tt https://t.co/8TlEMfnb9m',2017/6/9/2.44,North East Somerset
+323,2017,6,9,2.44,873007779321171968,"b'Updated result: Lagan Valley, DUP hold #GE2017. See full results: https://t.co/XyPZZkE1tt https://t.co/NPnvreC5E9'",2017/6/9/2.44,Updated result
+324,2017,6,9,2.43,873007736782540800,b'Beverley: CON hold #GE2017. Full results: https://t.co/XyPZZkE1tt https://t.co/u8cslnNe6S',2017/6/9/2.43,Beverley
+325,2017,6,9,2.43,873007694269091840,"b'Updated result: Chingford, CON hold #GE2017. See full results: https://t.co/XyPZZkE1tt https://t.co/PUMvrN1McX'",2017/6/9/2.43,Updated result
+326,2017,6,9,2.43,873007653001330690,b'Suffolk South: CON hold #GE2017. Full results: https://t.co/XyPZZkE1tt https://t.co/JQCkdjGpOr',2017/6/9/2.43,Suffolk South
+327,2017,6,9,2.43,873007526895341569,b'Tyrone West: SF hold #GE2017. Full results: https://t.co/XyPZZkE1tt https://t.co/VYSlfTX8pw',2017/6/9/2.43,Tyrone West
+328,2017,6,9,2.42,873007484138643457,b'Hammersmith: LAB hold #GE2017. Full results: https://t.co/XyPZZkE1tt https://t.co/cXG307ChT9',2017/6/9/2.42,Hammersmith
+329,2017,6,9,2.42,873007400420245504,b'Thurrock: CON hold #GE2017. Full results: https://t.co/XyPZZkE1tt https://t.co/cHgi9am9eg',2017/6/9/2.42,Thurrock
+330,2017,6,9,2.42,873007357994958848,b'Leicester East: LAB hold #GE2017. Full results: https://t.co/XyPZZkE1tt https://t.co/TDZFRgSie9',2017/6/9/2.42,Leicester East
+331,2017,6,9,2.42,873007274972897280,b'Hall Green: LAB hold #GE2017. Full results: https://t.co/XyPZZkE1tt https://t.co/DRUFo1GETd',2017/6/9/2.42,Hall Green
+332,2017,6,9,2.41,873007191149641730,b'Ruislip: CON hold #GE2017. Full results: https://t.co/XyPZZkE1tt https://t.co/dCr5xL0Jse',2017/6/9/2.41,Ruislip
+333,2017,6,9,2.41,873007148552388609,b'Bexleyheath: CON hold #GE2017. Full results: https://t.co/XyPZZkE1tt https://t.co/YxoxTnXCBy',2017/6/9/2.41,Bexleyheath
+334,2017,6,9,2.40,873006854498025472,b'Cumbernauld: SNP hold #GE2017. Full results: https://t.co/XyPZZkE1tt https://t.co/uTWxoEWzwz',2017/6/9/2.40,Cumbernauld
+335,2017,6,9,2.39,873006686428155904,b'Derby Dales: CON hold #GE2017. Full results: https://t.co/XyPZZkE1tt https://t.co/2cUQQl8qaL',2017/6/9/2.39,Derby Dales
+336,2017,6,9,2.39,873006644556427264,b'Harrow East: CON hold #GE2017. Full results: https://t.co/XyPZZkE1tt https://t.co/x8Qj5npAf5',2017/6/9/2.39,Harrow East
+337,2017,6,9,2.39,873006518890901506,b'Update 3:38am: Latest seat totals by party #GE2017. See full results: https://t.co/XyPZZkE1tt https://t.co/YJRsLm8jDK',2017/6/9/2.39,Update 3
+338,2017,6,9,2.38,873006434983845889,b'Derby North: LAB gain from CON #GE2017. Full results: https://t.co/XyPZZkE1tt https://t.co/QfrHWaRu5U',2017/6/9/2.38,Derby North
+339,2017,6,9,2.38,873006309020495872,b'Bournemouth East: CON hold #GE2017. Full results: https://t.co/XyPZZkE1tt https://t.co/kcqyyHx7YX',2017/6/9/2.38,Bournemouth East
+340,2017,6,9,2.37,873006182310584320,b'Caithness: LD gain from SNP #GE2017. Full results: https://t.co/XyPZZkE1tt https://t.co/rHCC4nouoP',2017/6/9/2.37,Caithness
+341,2017,6,9,2.37,873006099296813056,b'Linlithgow: SNP hold #GE2017. Full results: https://t.co/XyPZZkE1tt https://t.co/Svc7XPLEPk',2017/6/9/2.37,Linlithgow
+342,2017,6,9,2.37,873006056502419457,b'Dorset North: CON hold #GE2017. Full results: https://t.co/XyPZZkE1tt https://t.co/fTFG6i9Amc',2017/6/9/2.37,Dorset North
+343,2017,6,9,2.37,873006015159185408,b'Harborough: CON hold #GE2017. Full results: https://t.co/XyPZZkE1tt https://t.co/sBdkZ5n5jA',2017/6/9/2.37,Harborough
+344,2017,6,9,2.36,873005972771438598,b'Carmarthen West: CON hold #GE2017. Full results: https://t.co/XyPZZkE1tt https://t.co/zfEFpTQueT',2017/6/9/2.36,Carmarthen West
+345,2017,6,9,2.36,873005846808100866,b'Kingston: LD gain from CON #GE2017. Full results: https://t.co/XyPZZkE1tt https://t.co/XiRFF2w33H',2017/6/9/2.36,Kingston
+346,2017,6,9,2.36,873005804101742592,b'Morley: CON hold #GE2017. Full results: https://t.co/XyPZZkE1tt https://t.co/y0ZX50xyt5',2017/6/9/2.36,Morley
+347,2017,6,9,2.36,873005763261853697,b'Carshalton: LD hold #GE2017. Full results: https://t.co/XyPZZkE1tt https://t.co/pUd9PwjFSV',2017/6/9/2.36,Carshalton
+348,2017,6,9,2.35,873005721515950082,b'Hodge Hill: LAB hold #GE2017. Full results: https://t.co/XyPZZkE1tt https://t.co/P9WTqDfZ6u',2017/6/9/2.35,Hodge Hill
+349,2017,6,9,2.34,873005468389711872,b'Windsor: CON hold #GE2017. Full results: https://t.co/XyPZZkE1tt https://t.co/Y9N5Powc4V',2017/6/9/2.34,Windsor
+350,2017,6,9,2.34,873005427222597632,b'Forest of Dean: CON hold #GE2017. Full results: https://t.co/XyPZZkE1tt https://t.co/yw3OQeLbS5',2017/6/9/2.34,Forest of Dean
+351,2017,6,9,2.34,873005384302309377,b'Dagenham: LAB hold #GE2017. Full results: https://t.co/XyPZZkE1tt https://t.co/23uE5bGqoi',2017/6/9/2.34,Dagenham
+352,2017,6,9,2.34,873005342627680256,b'Upper Bann: DUP hold #GE2017. Full results: https://t.co/XyPZZkE1tt https://t.co/lL9VfrpqjM',2017/6/9/2.34,Upper Bann
+353,2017,6,9,2.33,873005174612086784,b'West Ham: LAB hold #GE2017. Full results: https://t.co/XyPZZkVCl1 https://t.co/kTUl26V6lb',2017/6/9/2.33,West Ham
+354,2017,6,9,2.33,873005133248032768,b'Warrington North: LAB hold #GE2017. Full results: https://t.co/XyPZZkE1tt https://t.co/FjOjFzjtVE',2017/6/9/2.33,Warrington North
+355,2017,6,9,2.33,873005090264805376,b'Devon North: CON hold #GE2017. Full results: https://t.co/XyPZZkE1tt https://t.co/Zo6ybdop4d',2017/6/9/2.33,Devon North
+356,2017,6,9,2.33,873005049559044098,b'Bournemouth West: CON hold #GE2017. Full results: https://t.co/XyPZZkE1tt https://t.co/mMqSHgssfx',2017/6/9/2.33,Bournemouth West
+357,2017,6,9,2.33,873005006139555840,b'Warwick: LAB gain from CON #GE2017. Full results: https://t.co/XyPZZkE1tt https://t.co/KhThdPMOhm',2017/6/9/2.33,Warwick
+358,2017,6,9,2.32,873004880759316480,b'Lewisham West: LAB hold #GE2017. Full results: https://t.co/XyPZZkE1tt https://t.co/izroUCF5sB',2017/6/9/2.32,Lewisham West
+359,2017,6,9,2.32,873004754456236032,b'Barking: LAB hold #GE2017. Full results: https://t.co/XyPZZkE1tt https://t.co/G0BvES5b7J',2017/6/9/2.32,Barking
+360,2017,6,9,2.31,873004712995561474,b'Witney: CON hold #GE2017. Full results: https://t.co/XyPZZkE1tt https://t.co/Fj7mSpUqjD',2017/6/9/2.31,Witney
+361,2017,6,9,2.31,873004502835757057,b'Oldham East: LAB hold #GE2017. Full results: https://t.co/XyPZZkE1tt https://t.co/69Ld6ZML0G',2017/6/9/2.31,Oldham East
+362,2017,6,9,2.30,873004460775223296,b'Boston: CON hold #GE2017. Full results: https://t.co/XyPZZkE1tt https://t.co/MyJxjoFoqk',2017/6/9/2.30,Boston
+363,2017,6,9,2.30,873004293447573504,b'West Lancashire: LAB hold #GE2017. Full results: https://t.co/XyPZZkVCl1 https://t.co/4Yb12xkx0N',2017/6/9/2.30,West Lancashire
+364,2017,6,9,2.30,873004250430922753,b'Eastbourne: LD gain from CON #GE2017. Full results: https://t.co/XyPZZkE1tt https://t.co/P6FqFlrXXT',2017/6/9/2.30,Eastbourne
+365,2017,6,9,2.29,873004124408872960,b'Canterbury: LAB gain from CON #GE2017. Full results: https://t.co/XyPZZkE1tt https://t.co/SQKYa3Bj9V',2017/6/9/2.29,Canterbury
+366,2017,6,9,2.29,873004082906136576,b'Leeds Central: LAB hold #GE2017. Full results: https://t.co/XyPZZkE1tt https://t.co/rsB9JkVePE',2017/6/9/2.29,Leeds Central
+367,2017,6,9,2.29,873004041122570244,b'Update 3:28am: Latest seat totals by party #GE2017. See full results: https://t.co/XyPZZkE1tt https://t.co/LaXoMdGGFJ',2017/6/9/2.29,Update 3
+368,2017,6,9,2.29,873003999573790721,b'Walsall South: LAB hold #GE2017. Full results: https://t.co/XyPZZkE1tt https://t.co/y5jRCUSDCx',2017/6/9/2.29,Walsall South
+369,2017,6,9,2.28,873003957442019333,b'Hitchin: CON hold #GE2017. Full results: https://t.co/XyPZZkE1tt https://t.co/3vx3dsA1zk',2017/6/9/2.28,Hitchin
+370,2017,6,9,2.28,873003831612854272,b'Lewisham Deptford: LAB hold #GE2017. Full results: https://t.co/XyPZZkE1tt https://t.co/iqTcyVnL8T',2017/6/9/2.28,Lewisham Deptford
+371,2017,6,9,2.28,873003789199986689,b'Lichfield: CON hold #GE2017. Full results: https://t.co/XyPZZkVCl1 https://t.co/lVfIbFPF8F',2017/6/9/2.28,Lichfield
+372,2017,6,9,2.27,873003662129467393,b'Coatbridge: LAB gain from SNP #GE2017. Full results: https://t.co/XyPZZkE1tt https://t.co/1wbaIqSl8A',2017/6/9/2.27,Coatbridge
+373,2017,6,9,2.27,873003495019995136,b'East Hampshire: CON hold #GE2017. Full results: https://t.co/XyPZZkE1tt https://t.co/I4BaaF5Cpi',2017/6/9/2.27,East Hampshire
+374,2017,6,9,2.26,873003452502290436,b'Romsey: CON hold #GE2017. Full results: https://t.co/XyPZZkE1tt https://t.co/gC4NYtd0MI',2017/6/9/2.26,Romsey
+375,2017,6,9,2.26,873003411654004738,b'Exeter: LAB hold #GE2017. Full results: https://t.co/XyPZZkE1tt https://t.co/MRNFKIv5R3',2017/6/9/2.26,Exeter
+376,2017,6,9,2.26,873003369799049216,b'Sutton Cheam: CON hold #GE2017. Full results: https://t.co/XyPZZkE1tt https://t.co/A7uS64IsaX',2017/6/9/2.26,Sutton Cheam
+377,2017,6,9,2.26,873003327147167744,b'Manchester Gorton: LAB hold #GE2017. Full results: https://t.co/XyPZZkE1tt https://t.co/WVTWb9X2Z9',2017/6/9/2.26,Manchester Gorton
+378,2017,6,9,2.26,873003242816507904,b'Portsmouth South: LAB gain from CON #GE2017. Full results: https://t.co/XyPZZkE1tt https://t.co/OI6Qs1qmrx',2017/6/9/2.26,Portsmouth South
+379,2017,6,9,2.25,873003158552838148,b'Westmorland: LD hold #GE2017. Full results: https://t.co/XyPZZkE1tt https://t.co/dllhYmgxFi',2017/6/9/2.25,Westmorland
+380,2017,6,9,2.25,873003117117403136,b'Harrow West: LAB hold #GE2017. Full results: https://t.co/XyPZZkE1tt https://t.co/vOCSfaIQmu',2017/6/9/2.25,Harrow West
+381,2017,6,9,2.25,873003033831112704,b'Bognor Regis: CON hold #GE2017. Full results: https://t.co/XyPZZkE1tt https://t.co/N6nEgLmuxe',2017/6/9/2.25,Bognor Regis
+382,2017,6,9,2.25,873002991040827392,b'Woking: CON hold #GE2017. Full results: https://t.co/XyPZZkE1tt https://t.co/GWZqv5ISbR',2017/6/9/2.25,Woking
+383,2017,6,9,2.24,873002948577689600,b'Penistone: LAB hold #GE2017. Full results: https://t.co/XyPZZkE1tt https://t.co/qPAZlZOwtz',2017/6/9/2.24,Penistone
+384,2017,6,9,2.24,873002906944974849,b'Bolton West: CON hold #GE2017. Full results: https://t.co/XyPZZkE1tt https://t.co/J0YuMytxcJ',2017/6/9/2.24,Bolton West
+385,2017,6,9,2.23,873002697355603969,b'South West Wiltshire: CON hold #GE2017. Full results: https://t.co/XyPZZkE1tt https://t.co/2LvUGcIF22',2017/6/9/2.23,South West Wiltshire
+386,2017,6,9,2.23,873002655274196992,b'Mole Valley: CON hold #GE2017. Full results: https://t.co/XyPZZkE1tt https://t.co/YbhJuaqSSR',2017/6/9/2.23,Mole Valley
+387,2017,6,9,2.23,873002612450373632,b'Cardiff South: LAB hold #GE2017. Full results: https://t.co/XyPZZkE1tt https://t.co/PHk3YTeSGG',2017/6/9/2.23,Cardiff South
+388,2017,6,9,2.22,873002321864732673,b'Hackney North: LAB hold #GE2017. Full results: https://t.co/XyPZZkE1tt https://t.co/V7CkXtWZ4V',2017/6/9/2.22,Hackney North
+389,2017,6,9,2.22,873002280513097728,b'Glasgow South West: SNP hold #GE2017. Full results: https://t.co/XyPZZkE1tt https://t.co/ClM3KYbppY',2017/6/9/2.22,Glasgow South West
+390,2017,6,9,2.22,873002235235586049,b'North Norfolk: LD hold #GE2017. Full results: https://t.co/XyPZZkE1tt https://t.co/lHVz2C7X9u',2017/6/9/2.22,North Norfolk
+391,2017,6,9,2.21,873002192839507969,b'Louth: CON hold #GE2017. Full results: https://t.co/XyPZZkE1tt https://t.co/08GnIyYs7t',2017/6/9/2.21,Louth
+392,2017,6,9,2.21,873002153136332800,b'Middlesbrough South: CON gain from LAB #GE2017. Full results: https://t.co/XyPZZkE1tt https://t.co/EOIZbvyLrp',2017/6/9/2.21,Middlesbrough South
+393,2017,6,9,2.21,873002108613791746,b'Maidenhead: CON hold #GE2017. Full results: https://t.co/XyPZZkE1tt https://t.co/TOwl9heA4u',2017/6/9/2.21,Maidenhead
+394,2017,6,9,2.21,873002067505414144,b'Gloucester: CON hold #GE2017. Full results: https://t.co/XyPZZkE1tt https://t.co/Lp6hn6wo4e',2017/6/9/2.21,Gloucester
+395,2017,6,9,2.21,873002024819978240,b'Selly Oak: LAB hold #GE2017. Full results: https://t.co/XyPZZkE1tt https://t.co/kXIPyKSYG4',2017/6/9/2.21,Selly Oak
+396,2017,6,9,2.21,873001983518572544,b'North West Cambridgeshire: CON hold #GE2017. Full results: https://t.co/XyPZZkE1tt https://t.co/rhKP8NlaSH',2017/6/9/2.21,North West Cambridgeshire
+397,2017,6,9,2.20,873001940673867781,b'Leeds West: LAB hold #GE2017. Full results: https://t.co/XyPZZkE1tt https://t.co/qO6myQoQCQ',2017/6/9/2.20,Leeds West
+398,2017,6,9,2.20,873001899745824770,b'Easington: LAB hold #GE2017. Full results: https://t.co/XyPZZkE1tt https://t.co/WMXsYE4tXU',2017/6/9/2.20,Easington
+399,2017,6,9,2.20,873001899745824770,b'Easington: LAB hold #GE2017. Full results: https://t.co/XyPZZkE1tt https://t.co/WMXsYE4tXU',2017/6/9/2.20,Easington
+400,2017,6,9,2.20,873001856536018945,"b'Updated result: Islington North, LAB hold #GE2017. See full results: https://t.co/XyPZZkE1tt https://t.co/3BK2pwfys9'",2017/6/9/2.20,Updated result
+401,2017,6,9,2.20,873001815717154817,b'North Wiltshire: CON hold #GE2017. Full results: https://t.co/XyPZZkE1tt https://t.co/lOelHOceC0',2017/6/9/2.20,North Wiltshire
+402,2017,6,9,2.20,873001773090451456,b'Selby: CON hold #GE2017. Full results: https://t.co/XyPZZkE1tt https://t.co/88kIIfybwd',2017/6/9/2.20,Selby
+403,2017,6,9,2.19,873001566957166592,b'Leicester West: LAB hold #GE2017. Full results: https://t.co/XyPZZkE1tt https://t.co/5XqCViBrof',2017/6/9/2.19,Leicester West
+404,2017,6,9,2.19,873001525026709505,b'South Derbyshire: CON hold #GE2017. Full results: https://t.co/XyPZZkE1tt https://t.co/tz0oKpkUmY',2017/6/9/2.19,South Derbyshire
+405,2017,6,9,2.19,873001479686299652,b'Update 3:18am: Latest seat totals by party #GE2017. See full results: https://t.co/XyPZZkE1tt https://t.co/ocbXkL6s9d',2017/6/9/2.19,Update 3
+406,2017,6,9,2.18,873001269346041856,b'Merthyr Tydfil: LAB hold #GE2017. Full results: https://t.co/XyPZZkE1tt https://t.co/ShcLdIjrE1',2017/6/9/2.18,Merthyr Tydfil
+407,2017,6,9,2.18,873001226669051904,b'Bradford South: LAB hold #GE2017. Full results: https://t.co/XyPZZkE1tt https://t.co/WQwMAtoilo',2017/6/9/2.18,Bradford South
+408,2017,6,9,2.17,873001059488288769,b'Manchester Withington: LAB hold #GE2017. Full results: https://t.co/XyPZZkE1tt https://t.co/1Q9i9cKeZO',2017/6/9/2.17,Manchester Withington
+409,2017,6,9,2.17,873000975690326016,b'Sittingbourne: CON hold #GE2017. Full results: https://t.co/XyPZZkE1tt https://t.co/mEIojk3kfz',2017/6/9/2.17,Sittingbourne
+410,2017,6,9,2.16,873000932883255298,b'Aldridge: CON hold #GE2017. Full results: https://t.co/XyPZZkE1tt https://t.co/iFKn9wWL1i',2017/6/9/2.16,Aldridge
+411,2017,6,9,2.16,873000891447693315,b'Reigate: CON hold #GE2017. Full results: https://t.co/XyPZZkE1tt https://t.co/tpodoBhZ0e',2017/6/9/2.16,Reigate
+412,2017,6,9,2.16,873000848087031809,b'Lewisham East: LAB hold #GE2017. Full results: https://t.co/XyPZZkE1tt https://t.co/BZltkJJG4f',2017/6/9/2.16,Lewisham East
+413,2017,6,9,2.15,873000639994966018,b'Tonbridge: CON hold #GE2017. Full results: https://t.co/XyPZZkE1tt https://t.co/MyI8u5rORy',2017/6/9/2.15,Tonbridge
+414,2017,6,9,2.15,873000597104021504,b'South Down: SF gain from SDLP #GE2017. Full results: https://t.co/XyPZZkE1tt https://t.co/DJrB5FVqqu',2017/6/9/2.15,South Down
+415,2017,6,9,2.15,873000555253202947,b'Bath: LD gain from CON #GE2017. Full results: https://t.co/XyPZZkE1tt https://t.co/uhT9gYmx3e',2017/6/9/2.15,Bath
+416,2017,6,9,2.15,873000513297633280,b'Hornchurch: CON hold #GE2017. Full results: https://t.co/XyPZZkE1tt https://t.co/ifev38eqUt',2017/6/9/2.15,Hornchurch
+417,2017,6,9,2.15,873000471778250752,b'New Forest West: CON hold #GE2017. Full results: https://t.co/XyPZZkE1tt https://t.co/2dYJovNKfG',2017/6/9/2.15,New Forest West
+418,2017,6,9,2.14,873000429382184960,b'Bedford: LAB gain from CON #GE2017. Full results: https://t.co/XyPZZkE1tt https://t.co/fqS8S38V9z',2017/6/9/2.14,Bedford
+419,2017,6,9,2.14,873000387946708992,b'Great Yarmouth: CON hold #GE2017. Full results: https://t.co/XyPZZkE1tt https://t.co/ht0aONrXP8',2017/6/9/2.14,Great Yarmouth
+420,2017,6,9,2.14,873000344950898689,b'Stafford: CON hold #GE2017. Full results: https://t.co/XyPZZkE1tt https://t.co/ETGn09R7ZX',2017/6/9/2.14,Stafford
+421,2017,6,9,2.14,873000303276298242,b'Telford: CON hold #GE2017. Full results: https://t.co/XyPZZkE1tt https://t.co/hR2WqO0pv2',2017/6/9/2.14,Telford
+422,2017,6,9,2.14,873000261823975424,b'Peterborough: LAB gain from CON #GE2017. Full results: https://t.co/XyPZZkE1tt https://t.co/FgFeoUeAO8',2017/6/9/2.14,Peterborough
+423,2017,6,9,2.14,873000219780239361,b'Edinburgh East: SNP hold #GE2017. Full results: https://t.co/XyPZZkE1tt https://t.co/Be1JiBuY1B',2017/6/9/2.14,Edinburgh East
+424,2017,6,9,2.13,873000135634059264,b'Suffolk Coast: CON hold #GE2017. Full results: https://t.co/XyPZZkE1tt https://t.co/mKtLBSQYJr',2017/6/9/2.13,Suffolk Coast
+425,2017,6,9,2.13,873000093657518081,b'Kirkcaldy: LAB gain from SNP #GE2017. Full results: https://t.co/XyPZZkE1tt https://t.co/KmHU4dywWB',2017/6/9/2.13,Kirkcaldy
+426,2017,6,9,2.13,873000055120080901,b'Leyton: LAB hold #GE2017. Full results: https://t.co/XyPZZkVCl1 https://t.co/6tyhI96LUQ',2017/6/9/2.13,Leyton
+427,2017,6,9,2.13,873000012590047236,b'Dartford: CON hold #GE2017. Full results: https://t.co/XyPZZkE1tt https://t.co/IZ4NQvcr3f',2017/6/9/2.13,Dartford
+428,2017,6,9,2.13,872999966662434816,b'Perth: SNP hold #GE2017. Full results: https://t.co/XyPZZkE1tt https://t.co/a3lZuAR6WQ',2017/6/9/2.13,Perth
+429,2017,6,9,2.12,872999924723568640,b'Glasgow South: SNP hold #GE2017. Full results: https://t.co/XyPZZkE1tt https://t.co/AS5b1CHQQI',2017/6/9/2.12,Glasgow South
+430,2017,6,9,2.12,872999882814091267,b'Airdrie: SNP hold #GE2017. Full results: https://t.co/XyPZZkE1tt https://t.co/056DKeGIfw',2017/6/9/2.12,Airdrie
+431,2017,6,9,2.12,872999840766197761,b'Redcar: LAB hold #GE2017. Full results: https://t.co/XyPZZkE1tt https://t.co/LA5dzwpbka',2017/6/9/2.12,Redcar
+432,2017,6,9,2.12,872999799682936833,b'Cannock: CON hold #GE2017. Full results: https://t.co/XyPZZkE1tt https://t.co/i2e3WGAfvD',2017/6/9/2.12,Cannock
+433,2017,6,9,2.12,872999756997545984,b'Lewes: CON hold #GE2017. Full results: https://t.co/XyPZZkE1tt https://t.co/qjM1c9aQT5',2017/6/9/2.12,Lewes
+434,2017,6,9,2.12,872999715255791616,b'Greenwich: LAB hold #GE2017. Full results: https://t.co/XyPZZkE1tt https://t.co/KjHjbS1ejA',2017/6/9/2.12,Greenwich
+435,2017,6,9,2.11,872999674168430593,b'Gravesham: CON hold #GE2017. Full results: https://t.co/XyPZZkE1tt https://t.co/5UpGVWIhWJ',2017/6/9/2.11,Gravesham
+436,2017,6,9,2.11,872999631134892034,b'Norwich South: LAB hold #GE2017. Full results: https://t.co/XyPZZkE1tt https://t.co/ieEAffmNBC',2017/6/9/2.11,Norwich South
+437,2017,6,9,2.11,872999589204418560,b'South Ribble: CON hold #GE2017. Full results: https://t.co/XyPZZkE1tt https://t.co/rPVJUXP8Zu',2017/6/9/2.11,South Ribble
+438,2017,6,9,2.11,872999547894681600,b'Hayes: LAB hold #GE2017. Full results: https://t.co/XyPZZkE1tt https://t.co/OYyihgAYoM',2017/6/9/2.11,Hayes
+439,2017,6,9,2.10,872999379967385601,b'Cardiff North: LAB gain from CON #GE2017. Full results: https://t.co/XyPZZkE1tt https://t.co/ESe6fozjKz',2017/6/9/2.10,Cardiff North
+440,2017,6,9,2.10,872999337223127042,b'Belfast North: DUP hold #GE2017. Full results: https://t.co/XyPZZkE1tt https://t.co/0zkdSqxqW7',2017/6/9/2.10,Belfast North
+441,2017,6,9,2.10,872999299189231616,b'Isle of Wight: CON hold #GE2017. Full results: https://t.co/XyPZZkE1tt https://t.co/ccu9rm11CQ',2017/6/9/2.10,Isle of Wight
+442,2017,6,9,2.10,872999256633868288,b'Bolton South East: LAB hold #GE2017. Full results: https://t.co/XyPZZkE1tt https://t.co/4FX9b1x7zs',2017/6/9/2.10,Bolton South East
+443,2017,6,9,2.10,872999211670933504,b'Ellesmere Port: LAB hold #GE2017. Full results: https://t.co/XyPZZkE1tt https://t.co/XSd3Avwk6M',2017/6/9/2.10,Ellesmere Port
+444,2017,6,9,2.9,872999169341915136,b'Clacton: CON gain from UKIP #GE2017. Full results: https://t.co/XyPZZkE1tt https://t.co/ZFcVnTjzfm',2017/6/9/2.9,Clacton
+445,2017,6,9,2.9,872999127889698817,b'North West Norfolk: CON hold #GE2017. Full results: https://t.co/XyPZZkE1tt https://t.co/Q1G0eAZk3D',2017/6/9/2.9,North West Norfolk
+446,2017,6,9,2.9,872999043861012480,b'Ayr &amp; Carrick: CON gain from SNP #GE2017. Full results: https://t.co/XyPZZkE1tt https://t.co/t3Y9yfkZO6',2017/6/9/2.9,Ayr &amp; Carrick
+447,2017,6,9,2.9,872999001565560832,b'Aberdeen South: CON gain from SNP #GE2017. Full results: https://t.co/XyPZZkE1tt https://t.co/6RYzulEDmB',2017/6/9/2.9,Aberdeen South
+448,2017,6,9,2.9,872998959245131776,b'Update 3:08am: Latest seat totals by party #GE2017. See full results: https://t.co/XyPZZkE1tt https://t.co/ybMHW4TguU',2017/6/9/2.9,Update 3
+449,2017,6,9,2.8,872998874889285632,b'Sedgefield: LAB hold #GE2017. Full results: https://t.co/XyPZZkE1tt https://t.co/tBIZ42FkTZ',2017/6/9/2.8,Sedgefield
+450,2017,6,9,2.8,872998707783979009,b'Islington North: LAB hold #GE2017. Full results: https://t.co/XyPZZkE1tt https://t.co/SkKp24k9kE',2017/6/9/2.8,Islington North
+451,2017,6,9,2.7,872998623977644032,b'East Lothian: LAB gain from SNP #GE2017. Full results: https://t.co/XyPZZkE1tt https://t.co/AicYbnqmZQ',2017/6/9/2.7,East Lothian
+452,2017,6,9,2.7,872998581254356992,b'Inverness: SNP hold #GE2017. Full results: https://t.co/XyPZZkE1tt https://t.co/VwwEA1i2z9',2017/6/9/2.7,Inverness
+453,2017,6,9,2.7,872998542046003202,b'Worcester: CON hold #GE2017. Full results: https://t.co/XyPZZkE1tt https://t.co/s5vcnjILmv',2017/6/9/2.7,Worcester
+454,2017,6,9,2.7,872998499310346241,b'Chippenham: CON hold #GE2017. Full results: https://t.co/XyPZZkE1tt https://t.co/U2gfNAI4F2',2017/6/9/2.7,Chippenham
+455,2017,6,9,2.6,872998203318304769,b'Ladywood: LAB hold #GE2017. Full results: https://t.co/XyPZZkE1tt https://t.co/ZlkITPvKF3',2017/6/9/2.6,Ladywood
+456,2017,6,9,2.5,872998118513668097,b'Glasgow North: SNP hold #GE2017. Full results: https://t.co/XyPZZkE1tt https://t.co/LLt91iEW0p',2017/6/9/2.5,Glasgow North
+457,2017,6,9,2.5,872998077484945408,b'Manchester Central: LAB hold #GE2017. Full results: https://t.co/XyPZZkE1tt https://t.co/OQQ3usJ7E3',2017/6/9/2.5,Manchester Central
+458,2017,6,9,2.5,872998035059552256,b'South Dorset: CON hold #GE2017. Full results: https://t.co/XyPZZkE1tt https://t.co/uFYE6Klgno',2017/6/9/2.5,South Dorset
+459,2017,6,9,2.5,872997951102226432,b'Cotswolds: CON hold #GE2017. Full results: https://t.co/XyPZZkE1tt https://t.co/S2xV8OO7co',2017/6/9/2.5,Cotswolds
+460,2017,6,9,2.4,872997909146587136,b'Gosport: CON hold #GE2017. Full results: https://t.co/XyPZZkE1tt https://t.co/Xtb3zfddBk',2017/6/9/2.4,Gosport
+461,2017,6,9,2.3,872997573958795264,b'Beaconsfield: CON hold #GE2017. Full results: https://t.co/XyPZZkE1tt https://t.co/W89JNjGHFD',2017/6/9/2.3,Beaconsfield
+462,2017,6,9,2.3,872997531508191233,b'Wimbledon: CON hold #GE2017. Full results: https://t.co/XyPZZkE1tt https://t.co/7e0TYDRlmt',2017/6/9/2.3,Wimbledon
+463,2017,6,9,2.2,872997237273628672,b'Swansea East: LAB hold #GE2017. Full results: https://t.co/XyPZZkE1tt https://t.co/TMIi0QdXYW',2017/6/9/2.2,Swansea East
+464,2017,6,9,2.1,872997069614710789,b'Cambridge: LAB hold #GE2017. Full results: https://t.co/XyPZZkE1tt https://t.co/4UBrpiwp9M',2017/6/9/2.1,Cambridge
+465,2017,6,9,2.1,872997031241031682,b'Copeland: CON win #GE2017. Full results: https://t.co/XyPZZkE1tt https://t.co/ZkiWKmM0PG',2017/6/9/2.1,Copeland
+466,2017,6,9,2.0,872996817176317955,b'Chesham: CON hold #GE2017. Full results: https://t.co/XyPZZkE1tt https://t.co/tIaf1XM5iC',2017/6/9/2.0,Chesham
+467,2017,6,9,2.0,872996691821178880,b'Wythenshawe: LAB hold #GE2017. Full results: https://t.co/XyPZZkE1tt https://t.co/hmOJuO9hmD',2017/6/9/2.0,Wythenshawe
+468,2017,6,9,1.59,872996649634869249,b'Ribble Valley: CON hold #GE2017. Full results: https://t.co/XyPZZkE1tt https://t.co/0b99ffVg8g',2017/6/9/1.59,Ribble Valley
+469,2017,6,9,1.59,872996565610369024,b'Norwich North: CON hold #GE2017. Full results: https://t.co/XyPZZkE1tt https://t.co/r1yV4rcDX5',2017/6/9/1.59,Norwich North
+470,2017,6,9,1.59,872996482282074113,b'East Antrim: DUP hold #GE2017. Full results: https://t.co/XyPZZkE1tt https://t.co/FkMiXIGpPy',2017/6/9/1.59,East Antrim
+471,2017,6,9,1.59,872996439374405633,b'Update 2:58am: Latest seat totals by party #GE2017. See full results: https://t.co/XyPZZkE1tt https://t.co/2S09Xf7W1L',2017/6/9/1.59,Update 2
+472,2017,6,9,1.58,872996356079722497,b'Cleethorpes: CON hold #GE2017. Full results: https://t.co/XyPZZkE1tt https://t.co/x0PhaliQN7',2017/6/9/1.58,Cleethorpes
+473,2017,6,9,1.58,872996314228953088,b'Glasgow North East: LAB gain from SNP #GE2017. Full results: https://t.co/XyPZZkE1tt https://t.co/ysE7s8wd2Z',2017/6/9/1.58,Glasgow North East
+474,2017,6,9,1.58,872996274857017344,b'Salisbury: CON hold #GE2017. Full results: https://t.co/XyPZZkE1tt https://t.co/KYDnWEsJ1x',2017/6/9/1.58,Salisbury
+475,2017,6,9,1.58,872996233840914432,b'Salford: LAB hold #GE2017. Full results: https://t.co/XyPZZkE1tt https://t.co/pqvXMvz5AB',2017/6/9/1.58,Salford
+476,2017,6,9,1.58,872996187992993800,b'Nottingham East: LAB hold #GE2017. Full results: https://t.co/XyPZZkE1tt https://t.co/3vpoheIRL8',2017/6/9/1.58,Nottingham East
+477,2017,6,9,1.57,872995977304698885,b'The Wrekin: CON hold #GE2017. Full results: https://t.co/XyPZZkE1tt https://t.co/Nw77ZIpBs8',2017/6/9/1.57,The Wrekin
+478,2017,6,9,1.56,872995893703839744,b'Erdington: LAB hold #GE2017. Full results: https://t.co/XyPZZkE1tt https://t.co/VKROfAYYM4',2017/6/9/1.56,Erdington
+479,2017,6,9,1.56,872995851194564609,b'Ashford: CON hold #GE2017. Full results: https://t.co/XyPZZkE1tt https://t.co/jCnmj5sI9Q',2017/6/9/1.56,Ashford
+480,2017,6,9,1.56,872995767723712513,b'Bristol West: LAB hold #GE2017. Full results: https://t.co/XyPZZkE1tt https://t.co/jEnxZVcypY',2017/6/9/1.56,Bristol West
+481,2017,6,9,1.55,872995642175627265,b'North West Durham: LAB hold #GE2017. Full results: https://t.co/XyPZZkE1tt https://t.co/IdYsS6KY9Q',2017/6/9/1.55,North West Durham
+482,2017,6,9,1.55,872995600563929088,b'Hull West: LAB hold #GE2017. Full results: https://t.co/XyPZZkE1tt https://t.co/rVDQO8ubDw',2017/6/9/1.55,Hull West
+483,2017,6,9,1.55,872995558381826049,b'Kenilworth: CON hold #GE2017. Full results: https://t.co/XyPZZkE1tt https://t.co/gDfLVyNU2y',2017/6/9/1.55,Kenilworth
+484,2017,6,9,1.55,872995519185813504,b'Bristol North West: LAB gain from CON #GE2017. Full results: https://t.co/XyPZZkVCl1 https://t.co/ie5tOdxQFI',2017/6/9/1.55,Bristol North West
+485,2017,6,9,1.55,872995477104603136,b'Meriden: CON hold #GE2017. Full results: https://t.co/XyPZZkE1tt https://t.co/pzBOsTR5D4',2017/6/9/1.55,Meriden
+486,2017,6,9,1.54,872995306102763520,b'Twickenham: LD gain from CON #GE2017. Full results: https://t.co/XyPZZkE1tt https://t.co/xPMqS1QLx3',2017/6/9/1.54,Twickenham
+487,2017,6,9,1.54,872995263295705088,b'Clwyd West: CON hold #GE2017. Full results: https://t.co/XyPZZkE1tt https://t.co/m033P7n8ZM',2017/6/9/1.54,Clwyd West
+488,2017,6,9,1.54,872995221235257344,b'Glasgow Central: SNP hold #GE2017. Full results: https://t.co/XyPZZkE1tt https://t.co/pzsixgy2ey',2017/6/9/1.54,Glasgow Central
+489,2017,6,9,1.54,872995179652939776,b'Epsom: CON hold #GE2017. Full results: https://t.co/XyPZZkE1tt https://t.co/nWHMVQjGae',2017/6/9/1.54,Epsom
+490,2017,6,9,1.53,872995138032807936,b'Belfast East: DUP hold #GE2017. Full results: https://t.co/XyPZZkE1tt https://t.co/zgN4EPsZOx',2017/6/9/1.53,Belfast East
+491,2017,6,9,1.53,872995095653617664,b'Doncaster North: LAB hold #GE2017. Full results: https://t.co/XyPZZkE1tt https://t.co/Y7FRVwSivx',2017/6/9/1.53,Doncaster North
+492,2017,6,9,1.53,872995053752516609,b'Walsall North: CON gain from LAB #GE2017. Full results: https://t.co/XyPZZkE1tt https://t.co/DDAVfyT3LN',2017/6/9/1.53,Walsall North
+493,2017,6,9,1.53,872995012040151040,b'Stroud: LAB gain from CON #GE2017. Full results: https://t.co/XyPZZkE1tt https://t.co/cXisinThHS',2017/6/9/1.53,Stroud
+494,2017,6,9,1.53,872994970285875200,b'Colchester: CON hold #GE2017. Full results: https://t.co/XyPZZkE1tt https://t.co/pV94PcKxbZ',2017/6/9/1.53,Colchester
+495,2017,6,9,1.53,872994927336095746,b'Chingford: CON hold #GE2017. Full results: https://t.co/XyPZZkE1tt https://t.co/X0w5yESecR',2017/6/9/1.53,Chingford
+496,2017,6,9,1.52,872994886538207233,b'Scarborough: CON hold #GE2017. Full results: https://t.co/XyPZZkE1tt https://t.co/WKS8Xxgr8Y',2017/6/9/1.52,Scarborough
+497,2017,6,9,1.52,872994843529814016,b'Blackley: LAB hold #GE2017. Full results: https://t.co/XyPZZkE1tt https://t.co/kmm8jWdKgW',2017/6/9/1.52,Blackley
+498,2017,6,9,1.52,872994801746096129,b'Coventry North West: LAB hold #GE2017. Full results: https://t.co/XyPZZkE1tt https://t.co/KMocC9hddU',2017/6/9/1.52,Coventry North West
+499,2017,6,9,1.51,872994633906888709,b'Watford: CON hold #GE2017. Full results: https://t.co/XyPZZkE1tt https://t.co/MBAagncSLX',2017/6/9/1.51,Watford
+500,2017,6,9,1.51,872994592144203777,b'Don Valley: LAB hold #GE2017. Full results: https://t.co/XyPZZkE1tt https://t.co/F1JCz43dCf',2017/6/9/1.51,Don Valley
+501,2017,6,9,1.51,872994550108876800,b'South Holland: CON hold #GE2017. Full results: https://t.co/XyPZZkE1tt https://t.co/umjtgap5cV',2017/6/9/1.51,South Holland
+502,2017,6,9,1.51,872994507775778816,"b""B'ham Yardley: LAB hold #GE2017. Full results: https://t.co/XyPZZkE1tt https://t.co/f3cuNABAWV""",2017/6/9/1.51,ham Yardley
+503,2017,6,9,1.51,872994466243760130,b'Edgbaston: LAB hold #GE2017. Full results: https://t.co/XyPZZkE1tt https://t.co/sQjJfRZFur',2017/6/9/1.51,Edgbaston
+504,2017,6,9,1.50,872994297804726274,b'St Albans: CON hold #GE2017. Full results: https://t.co/XyPZZkE1tt https://t.co/FRyUOaLs8s',2017/6/9/1.50,St Albans
+505,2017,6,9,1.50,872994172415987713,b'Mid Norfolk: CON hold #GE2017. Full results: https://t.co/XyPZZkE1tt https://t.co/XStGYP75lr',2017/6/9/1.50,Mid Norfolk
+506,2017,6,9,1.49,872994130477162497,b'Guildford: CON hold #GE2017. Full results: https://t.co/XyPZZkE1tt https://t.co/v2eZX22YEq',2017/6/9/1.49,Guildford
+507,2017,6,9,1.49,872994046196711424,b'Northfield: LAB hold #GE2017. Full results: https://t.co/XyPZZkE1tt https://t.co/s0GVacg1rZ',2017/6/9/1.49,Northfield
+508,2017,6,9,1.49,872994008016007168,b'Sheff Hallam: LAB gain from LD #GE2017. Full results: https://t.co/XyPZZkE1tt https://t.co/SHZTW3AeLo',2017/6/9/1.49,Sheff Hallam
+509,2017,6,9,1.49,872993965183614976,b'New Forest East: CON hold #GE2017. Full results: https://t.co/XyPZZkVCl1 https://t.co/wOsM7ETJeo',2017/6/9/1.49,New Forest East
+510,2017,6,9,1.49,872993919558090752,b'Update 2:48am: Latest seat totals by party #GE2017. See full results: https://t.co/XyPZZkE1tt https://t.co/AkFDPky9AA',2017/6/9/1.49,Update 2
+511,2017,6,9,1.48,872993794483990528,b'Uxbridge: CON hold #GE2017. Full results: https://t.co/XyPZZkE1tt https://t.co/RFp7uUuGBz',2017/6/9/1.48,Uxbridge
+512,2017,6,9,1.48,872993751878250500,b'Romford: CON hold #GE2017. Full results: https://t.co/XyPZZkE1tt https://t.co/3cKbtoOeiq',2017/6/9/1.48,Romford
+513,2017,6,9,1.48,872993710136545280,b'Newbury: CON hold #GE2017. Full results: https://t.co/XyPZZkE1tt https://t.co/VTiJ4Q9U8W',2017/6/9/1.48,Newbury
+514,2017,6,9,1.48,872993668684275714,b'Worsley: LAB hold #GE2017. Full results: https://t.co/XyPZZkE1tt https://t.co/b3byeII7yO',2017/6/9/1.48,Worsley
+515,2017,6,9,1.47,872993626418237443,b'Hyndburn: LAB hold #GE2017. Full results: https://t.co/XyPZZkE1tt https://t.co/4ADPZ7uAUG',2017/6/9/1.47,Hyndburn
+516,2017,6,9,1.47,872993499288928256,b'Gower: LAB gain from CON #GE2017. Full results: https://t.co/XyPZZkE1tt https://t.co/FnkGzllvva',2017/6/9/1.47,Gower
+517,2017,6,9,1.47,872993459107491840,b'Glasgow East: SNP hold #GE2017. Full results: https://t.co/XyPZZkE1tt https://t.co/o3Z6zX9rcO',2017/6/9/1.47,Glasgow East
+518,2017,6,9,1.47,872993415717322752,b'Grantham: CON hold #GE2017. Full results: https://t.co/XyPZZkE1tt https://t.co/QIiEt6xosK',2017/6/9/1.47,Grantham
+519,2017,6,9,1.46,872993374852272128,b'Nottingham North: LAB hold #GE2017. Full results: https://t.co/XyPZZkE1tt https://t.co/g7p05ZWLtA',2017/6/9/1.46,Nottingham North
+520,2017,6,9,1.46,872993332628246530,b'Wealden: CON hold #GE2017. Full results: https://t.co/XyPZZkE1tt https://t.co/Ti2Mw7f4Bq',2017/6/9/1.46,Wealden
+521,2017,6,9,1.46,872993289984770048,b'Somerton: CON hold #GE2017. Full results: https://t.co/XyPZZkE1tt https://t.co/szZXtFJano',2017/6/9/1.46,Somerton
+522,2017,6,9,1.46,872993165992767488,b'Wokingham: CON hold #GE2017. Full results: https://t.co/XyPZZkE1tt https://t.co/QtsW0nLiqr',2017/6/9/1.46,Wokingham
+523,2017,6,9,1.45,872993080273756160,b'Dwyfor Meir: PC hold #GE2017. Full results: https://t.co/XyPZZkE1tt https://t.co/Or9EaNloyA',2017/6/9/1.45,Dwyfor Meir
+524,2017,6,9,1.45,872993038729187329,b'Suffolk West: CON hold #GE2017. Full results: https://t.co/XyPZZkE1tt https://t.co/DaOwKhDOLX',2017/6/9/1.45,Suffolk West
+525,2017,6,9,1.44,872992744578449408,b'Surrey Heath: CON hold #GE2017. Full results: https://t.co/XyPZZkE1tt https://t.co/T6Yzg9wUhF',2017/6/9/1.44,Surrey Heath
+526,2017,6,9,1.44,872992702153052160,b'Coventry North East: LAB hold #GE2017. Full results: https://t.co/XyPZZkE1tt https://t.co/lyGMRlWgS3',2017/6/9/1.44,Coventry North East
+527,2017,6,9,1.44,872992661078147072,b'Stevenage: CON hold #GE2017. Full results: https://t.co/XyPZZkE1tt https://t.co/IlBo2O5Q2p',2017/6/9/1.44,Stevenage
+528,2017,6,9,1.43,872992617927249921,b'Solihull: CON hold #GE2017. Full results: https://t.co/XyPZZkE1tt https://t.co/INkOTRxxth',2017/6/9/1.43,Solihull
+529,2017,6,9,1.43,872992576139399168,b'Mitcham: LAB hold #GE2017. Full results: https://t.co/XyPZZkE1tt https://t.co/Xj5rIAinzr',2017/6/9/1.43,Mitcham
+530,2017,6,9,1.43,872992534049558528,b'Eltham: LAB hold #GE2017. Full results: https://t.co/XyPZZkE1tt https://t.co/DSOZysOtIB',2017/6/9/1.43,Eltham
+531,2017,6,9,1.43,872992495197663232,b'High Peak: LAB gain from CON #GE2017. Full results: https://t.co/XyPZZkE1tt https://t.co/hkXOOcjnb6',2017/6/9/1.43,High Peak
+532,2017,6,9,1.43,872992453258862592,b'West Worcestershire: CON hold #GE2017. Full results: https://t.co/XyPZZkE1tt https://t.co/S5MMM7f4Pn',2017/6/9/1.43,West Worcestershire
+533,2017,6,9,1.42,872992366046609408,b'Alyn Deeside: LAB hold #GE2017. Full results: https://t.co/XyPZZkE1tt https://t.co/1aK3uvQ9aL',2017/6/9/1.42,Alyn Deeside
+534,2017,6,9,1.42,872992323638054913,b'East Dunbartonshire: LD gain from SNP #GE2017. Full results: https://t.co/XyPZZkE1tt https://t.co/W1y2DicitU',2017/6/9/1.42,East Dunbartonshire
+535,2017,6,9,1.42,872992282760404993,b'Bishop Auck: LAB hold #GE2017. Full results: https://t.co/XyPZZkE1tt https://t.co/y1lWQujBty',2017/6/9/1.42,Bishop Auck
+536,2017,6,9,1.42,872992197536251904,b'Bristol East: LAB hold #GE2017. Full results: https://t.co/XyPZZkE1tt https://t.co/TcEq6wPUJy',2017/6/9/1.42,Bristol East
+537,2017,6,9,1.42,872992155492634624,b'Ealing North: LAB hold #GE2017. Full results: https://t.co/XyPZZkE1tt https://t.co/AmjOFG5aQT',2017/6/9/1.42,Ealing North
+538,2017,6,9,1.41,872992115168509952,b'East Renfrewshire: CON gain from SNP #GE2017. Full results: https://t.co/XyPZZkE1tt https://t.co/hYKM1s6nYa',2017/6/9/1.41,East Renfrewshire
+539,2017,6,9,1.41,872992071715622912,b'Aberavon: LAB hold #GE2017. Full results: https://t.co/XyPZZkE1tt https://t.co/u1mDrPCNP6',2017/6/9/1.41,Aberavon
+540,2017,6,9,1.41,872991988911669248,b'Bolton North East: LAB hold #GE2017. Full results: https://t.co/XyPZZkE1tt https://t.co/kw4z0oJ25t',2017/6/9/1.41,Bolton North East
+541,2017,6,9,1.40,872991861408968704,b'North Antrim: DUP hold #GE2017. Full results: https://t.co/XyPZZkE1tt https://t.co/4CS4JnWSJn',2017/6/9/1.40,North Antrim
+542,2017,6,9,1.40,872991739627413506,b'Tunbridge Wells: CON hold #GE2017. Full results: https://t.co/XyPZZkE1tt https://t.co/jQKcno9fUU',2017/6/9/1.40,Tunbridge Wells
+543,2017,6,9,1.40,872991697126477824,b'Harwich: CON hold #GE2017. Full results: https://t.co/XyPZZkE1tt https://t.co/1itUmPbhk2',2017/6/9/1.40,Harwich
+544,2017,6,9,1.39,872991568663384066,b'Coventry South: LAB hold #GE2017. Full results: https://t.co/XyPZZkE1tt https://t.co/nUuWjznGlw',2017/6/9/1.39,Coventry South
+545,2017,6,9,1.39,872991442519683072,b'Update 2:38am: Latest seat totals by party #GE2017. See full results: https://t.co/XyPZZkE1tt https://t.co/7E1ikUGNgs',2017/6/9/1.39,Update 2
+546,2017,6,9,1.39,872991400094257154,b'Liverpool West Derby: LAB hold #GE2017. Full results: https://t.co/XyPZZkE1tt https://t.co/R3aYKtgo0Q',2017/6/9/1.39,Liverpool West Derby
+547,2017,6,9,1.38,872991190077116416,b'Brecon and Radnorshire: CON hold #GE2017. Full results: https://t.co/XyPZZkE1tt https://t.co/u9UqvXLVYa',2017/6/9/1.38,Brecon and Radnorshire
+548,2017,6,9,1.38,872991148385730560,b'Eastleigh: CON hold #GE2017. Full results: https://t.co/XyPZZkE1tt https://t.co/rfjEFHN9ze',2017/6/9/1.38,Eastleigh
+549,2017,6,9,1.37,872991064512180224,b'Nottingham South: LAB hold #GE2017. Full results: https://t.co/XyPZZkE1tt https://t.co/8Y8r3U1YFU',2017/6/9/1.37,Nottingham South
+550,2017,6,9,1.37,872990941929508864,b'Monmouth: CON hold #GE2017. Full results: https://t.co/XyPZZkE1tt https://t.co/Ey3U3cSe2o',2017/6/9/1.37,Monmouth
+551,2017,6,9,1.37,872990895930568704,b'Sheffield South East: LAB hold #GE2017. Full results: https://t.co/XyPZZkE1tt https://t.co/xCrYbhzWsb',2017/6/9/1.37,Sheffield South East
+552,2017,6,9,1.36,872990854755102720,b'Bromsgrove: CON hold #GE2017. Full results: https://t.co/XyPZZkE1tt https://t.co/pAyfdF243J',2017/6/9/1.36,Bromsgrove
+553,2017,6,9,1.36,872990812539428864,b'Burton: CON hold #GE2017. Full results: https://t.co/XyPZZkE1tt https://t.co/l34LAmFxhw',2017/6/9/1.36,Burton
+554,2017,6,9,1.36,872990770688602115,b'South West Bedfordshire: CON hold #GE2017. Full results: https://t.co/XyPZZkE1tt https://t.co/U4uJUpq0gO',2017/6/9/1.36,South West Bedfordshire
+555,2017,6,9,1.36,872990727848042496,b'Westminster North: LAB hold #GE2017. Full results: https://t.co/XyPZZkE1tt https://t.co/QguU1zhmbL',2017/6/9/1.36,Westminster North
+556,2017,6,9,1.35,872990602325053441,b'Hull East: LAB hold #GE2017. Full results: https://t.co/XyPZZkE1tt https://t.co/bv2DX5fcqC',2017/6/9/1.35,Hull East
+557,2017,6,9,1.35,872990560428187648,b'Cardiff Central: LAB hold #GE2017. Full results: https://t.co/XyPZZkE1tt https://t.co/0LhSEd0ZBV',2017/6/9/1.35,Cardiff Central
+558,2017,6,9,1.35,872990434435452929,b'Barnsley Central: LAB hold #GE2017. Full results: https://t.co/XyPZZkE1tt https://t.co/A0YWThydwW',2017/6/9/1.35,Barnsley Central
+559,2017,6,9,1.33,872990098408820736,b'Bury South: LAB hold #GE2017. Full results: https://t.co/XyPZZkE1tt https://t.co/uuuHYSrVjy',2017/6/9/1.33,Bury South
+560,2017,6,9,1.32,872989762315046913,b'Blackpool North: CON hold #GE2017. Full results: https://t.co/XyPZZkE1tt https://t.co/wHgCqa8qZN',2017/6/9/1.32,Blackpool North
+561,2017,6,9,1.32,872989636469161984,b'Aberconwy: CON hold #GE2017. Full results: https://t.co/XyPZZkE1tt https://t.co/UeW9EzszWR',2017/6/9/1.32,Aberconwy
+562,2017,6,9,1.31,872989510187048960,b'Bristol South: LAB hold #GE2017. Full results: https://t.co/XyPZZkE1tt https://t.co/GdgMv1xbGx',2017/6/9/1.31,Bristol South
+563,2017,6,9,1.31,872989471762993153,b'Wolverhampton South West: LAB hold #GE2017. Full results: https://t.co/XyPZZkE1tt https://t.co/67U2TLdDiB',2017/6/9/1.31,Wolverhampton South West
+564,2017,6,9,1.30,872989258746925057,b'Neath: LAB hold #GE2017. Full results: https://t.co/XyPZZkE1tt https://t.co/6aCdNFmfVc',2017/6/9/1.30,Neath
+565,2017,6,9,1.30,872989216514486275,b'Durham North: LAB hold #GE2017. Full results: https://t.co/XyPZZkE1tt https://t.co/tyxDr0EIyy',2017/6/9/1.30,Durham North
+566,2017,6,9,1.30,872989174990766080,b'Sheff Heeley: LAB hold #GE2017. Full results: https://t.co/XyPZZkE1tt https://t.co/J9LpJSr0wp',2017/6/9/1.30,Sheff Heeley
+567,2017,6,9,1.30,872989131663695874,b'Southport: CON gain from LD #GE2017. Full results: https://t.co/XyPZZkE1tt https://t.co/bN42FhaBhe',2017/6/9/1.30,Southport
+568,2017,6,9,1.29,872988923135488000,b'Ynys Mon: LAB hold #GE2017. Full results: https://t.co/XyPZZkE1tt https://t.co/gZfcANiTyk',2017/6/9/1.29,Ynys Mon
+569,2017,6,9,1.29,872988882501087233,b'Update 2:28am: Latest seat totals by party #GE2017. See full results: https://t.co/XyPZZkE1tt https://t.co/nHM3JvGwAm',2017/6/9/1.29,Update 2
+570,2017,6,9,1.28,872988797243465728,b'Rochdale: LAB hold #GE2017. Full results: https://t.co/XyPZZkE1tt https://t.co/Yfw10Vfqqd',2017/6/9/1.28,Rochdale
+571,2017,6,9,1.28,872988754268565505,b'Southend West: CON hold #GE2017. Full results: https://t.co/XyPZZkE1tt https://t.co/EDG53ReQZX',2017/6/9/1.28,Southend West
+572,2017,6,9,1.27,872988544037511168,b'Cynon Valley: LAB hold #GE2017. Full results: https://t.co/XyPZZkE1tt https://t.co/CKbzEgcvs6',2017/6/9/1.27,Cynon Valley
+573,2017,6,9,1.27,872988502899732480,b'Aberdeen North: SNP hold #GE2017. Full results: https://t.co/XyPZZkE1tt https://t.co/komm2vjU0O',2017/6/9/1.27,Aberdeen North
+574,2017,6,9,1.27,872988461049032705,b'South Cambridgeshire: CON hold #GE2017. Full results: https://t.co/XyPZZkE1tt https://t.co/2JkkgC36vv',2017/6/9/1.27,South Cambridgeshire
+575,2017,6,9,1.27,872988419315683328,b'South Antrim: DUP gain from UUP #GE2017. Full results: https://t.co/XyPZZkE1tt https://t.co/CQQvPpp8mI',2017/6/9/1.27,South Antrim
+576,2017,6,9,1.27,872988377242640385,b'Chorley: LAB hold #GE2017. Full results: https://t.co/XyPZZkE1tt https://t.co/CsRUYQd7no',2017/6/9/1.27,Chorley
+577,2017,6,9,1.26,872988335391879170,b'Christchurch: CON hold #GE2017. Full results: https://t.co/XyPZZkE1tt https://t.co/u3v7GEBIsw',2017/6/9/1.26,Christchurch
+578,2017,6,9,1.26,872988292387680260,b'East Surrey: CON hold #GE2017. Full results: https://t.co/XyPZZkE1tt https://t.co/GfpTeguuse',2017/6/9/1.26,East Surrey
+579,2017,6,9,1.26,872988165950377984,b'Midlothian: LAB gain from SNP #GE2017. Full results: https://t.co/XyPZZkE1tt https://t.co/HlXXAeuEoD',2017/6/9/1.26,Midlothian
+580,2017,6,9,1.25,872988083096100865,b'Montgomery: CON hold #GE2017. Full results: https://t.co/XyPZZkE1tt https://t.co/tqBJjuRrS8',2017/6/9/1.25,Montgomery
+581,2017,6,9,1.25,872988041404698624,b'Aldershot: CON hold #GE2017. Full results: https://t.co/XyPZZkE1tt https://t.co/MJTK81PGTy',2017/6/9/1.25,Aldershot
+582,2017,6,9,1.25,872987999201619969,b'Doncaster Cen: LAB hold #GE2017. Full results: https://t.co/XyPZZkE1tt https://t.co/Fa5Xovcg0F',2017/6/9/1.25,Doncaster Cen
+583,2017,6,9,1.25,872987960215564288,b'Sutton Cold: CON hold #GE2017. Full results: https://t.co/XyPZZkE1tt https://t.co/4ivP5m1Px1',2017/6/9/1.25,Sutton Cold
+584,2017,6,9,1.25,872987916708007936,b'Bridgend: LAB hold #GE2017. Full results: https://t.co/XyPZZkE1tt https://t.co/0XoVzR1YRQ',2017/6/9/1.25,Bridgend
+585,2017,6,9,1.25,872987877566795776,b'Wirral South: LAB hold #GE2017. Full results: https://t.co/XyPZZkE1tt https://t.co/jawgaVnLip',2017/6/9/1.25,Wirral South
+586,2017,6,9,1.24,872987831412674560,b'Mid Worcestershire: CON hold #GE2017. Full results: https://t.co/XyPZZkE1tt https://t.co/5tuF4O3hkD',2017/6/9/1.24,Mid Worcestershire
+587,2017,6,9,1.24,872987747581140993,b'Ochil: CON gain from SNP #GE2017. Full results: https://t.co/XyPZZkE1tt https://t.co/nNq6ImXOjZ',2017/6/9/1.24,Ochil
+588,2017,6,9,1.23,872987537408765952,b'Rochford: CON hold #GE2017. Full results: https://t.co/XyPZZkE1tt https://t.co/PaozZQsgO6',2017/6/9/1.23,Rochford
+589,2017,6,9,1.23,872987494874263554,b'Dundee West: SNP hold #GE2017. Full results: https://t.co/XyPZZkE1tt https://t.co/bVQmRH4OVX',2017/6/9/1.23,Dundee West
+590,2017,6,9,1.23,872987368910880768,b'Wyre Forest: CON hold #GE2017. Full results: https://t.co/XyPZZkE1tt https://t.co/XXcJRyqTXC',2017/6/9/1.23,Wyre Forest
+591,2017,6,9,1.22,872987326082936832,b'Pendle: CON hold #GE2017. Full results: https://t.co/XyPZZkE1tt https://t.co/5Jm5S7yA6q',2017/6/9/1.22,Pendle
+592,2017,6,9,1.22,872987285649850368,b'Wolverhampton South East: LAB hold #GE2017. Full results: https://t.co/XyPZZkE1tt https://t.co/FwGAhMRllB',2017/6/9/1.22,Wolverhampton South East
+593,2017,6,9,1.22,872987242658189312,b'Amber Valley: CON hold #GE2017. Full results: https://t.co/XyPZZkE1tt https://t.co/UwqbRybQNg',2017/6/9/1.22,Amber Valley
+594,2017,6,9,1.22,872987204511035393,b'Grimsby: LAB hold #GE2017. Full results: https://t.co/XyPZZkE1tt https://t.co/Fh11rDDxHm',2017/6/9/1.22,Grimsby
+595,2017,6,9,1.22,872987160886095872,b'Inverclyde: SNP hold #GE2017. Full results: https://t.co/XyPZZkE1tt https://t.co/Tp2gMm8J4M',2017/6/9/1.22,Inverclyde
+596,2017,6,9,1.22,872987118041223172,b'Huntingdon: CON hold #GE2017. Full results: https://t.co/XyPZZkE1tt https://t.co/lPeNlfXQyc',2017/6/9/1.22,Huntingdon
+597,2017,6,9,1.21,872987075217432576,b'Bootle: LAB hold #GE2017. Full results: https://t.co/XyPZZkE1tt https://t.co/0CjVZesvIb',2017/6/9/1.21,Bootle
+598,2017,6,9,1.20,872986822674194434,b'Rhondda: LAB hold #GE2017. Full results: https://t.co/XyPZZkE1tt https://t.co/VadwEnDGlH',2017/6/9/1.20,Rhondda
+599,2017,6,9,1.20,872986822674194434,b'Rhondda: LAB hold #GE2017. Full results: https://t.co/XyPZZkE1tt https://t.co/VadwEnDGlH',2017/6/9/1.20,Rhondda
+600,2017,6,9,1.20,872986780647264260,b'Wellingborough: CON hold #GE2017. Full results: https://t.co/XyPZZkE1tt https://t.co/SCnR6JEsgr',2017/6/9/1.20,Wellingborough
+601,2017,6,9,1.20,872986739740160001,b'Blackburn: LAB hold #GE2017. Full results: https://t.co/XyPZZkE1tt https://t.co/BWU18TGAPU',2017/6/9/1.20,Blackburn
+602,2017,6,9,1.20,872986696845021185,b'Tamworth: CON hold #GE2017. Full results: https://t.co/XyPZZkE1tt https://t.co/VuY4y5zAxx',2017/6/9/1.20,Tamworth
+603,2017,6,9,1.19,872986448789725184,b'Wycombe: CON hold #GE2017. Full results: https://t.co/XyPZZkE1tt https://t.co/NwcAVjCAzG',2017/6/9/1.19,Wycombe
+604,2017,6,9,1.19,872986403818352640,b'Garston: LAB hold #GE2017. Full results: https://t.co/XyPZZkE1tt https://t.co/hqLZjH4qpe',2017/6/9/1.19,Garston
+605,2017,6,9,1.19,872986360306696192,b'Update 2:18am: Latest seat totals by party #GE2017. See full results: https://t.co/XyPZZkE1tt https://t.co/3vhhbq4fzN',2017/6/9/1.19,Update 2
+606,2017,6,9,1.18,872986276567318528,b'Moray: CON gain from SNP #GE2017. Full results: https://t.co/XyPZZkE1tt https://t.co/o6hS5kHyDb',2017/6/9/1.18,Moray
+607,2017,6,9,1.18,872986235945570305,b'Belfast West: SF hold #GE2017. Full results: https://t.co/XyPZZkE1tt https://t.co/MnljivxKuu',2017/6/9/1.18,Belfast West
+608,2017,6,9,1.18,872986193595703296,b'Rushcliffe: CON hold #GE2017. Full results: https://t.co/XyPZZkE1tt https://t.co/FrCmk0TVII',2017/6/9/1.18,Rushcliffe
+609,2017,6,9,1.18,872986152084664320,b'Sheff Brightside: LAB hold #GE2017. Full results: https://t.co/XyPZZkE1tt https://t.co/39imAwTOq9',2017/6/9/1.18,Sheff Brightside
+610,2017,6,9,1.17,872986067380654080,b'Glenrothes: SNP hold #GE2017. Full results: https://t.co/XyPZZkE1tt https://t.co/QRD9VTjLsQ',2017/6/9/1.17,Glenrothes
+611,2017,6,9,1.17,872986025202733057,b'Wirral West: LAB hold #GE2017. Full results: https://t.co/XyPZZkE1tt https://t.co/pdAvmwQC4G',2017/6/9/1.17,Wirral West
+612,2017,6,9,1.17,872985941249597440,b'North East Hertfordshire: CON hold #GE2017. Full results: https://t.co/XyPZZkE1tt https://t.co/tslcTTDA4I',2017/6/9/1.17,North East Hertfordshire
+613,2017,6,9,1.17,872985898836791297,b'Hull North: LAB hold #GE2017. Full results: https://t.co/XyPZZkE1tt https://t.co/2LSWiKHhsJ',2017/6/9/1.17,Hull North
+614,2017,6,9,1.17,872985857728315392,b'Blaydon: LAB hold #GE2017. Full results: https://t.co/XyPZZkE1tt https://t.co/M9lGgGyxoI',2017/6/9/1.17,Blaydon
+615,2017,6,9,1.16,872985605881438208,b'Fylde: CON hold #GE2017. Full results: https://t.co/XyPZZkE1tt https://t.co/w3AMnLgSaG',2017/6/9/1.16,Fylde
+616,2017,6,9,1.15,872985520816762881,b'Eileanan Siar: SNP hold #GE2017. Full results: https://t.co/XyPZZkE1tt https://t.co/GLa1ryeE93',2017/6/9/1.15,Eileanan Siar
+617,2017,6,9,1.15,872985478441644032,b'North West Leicestershire: CON hold #GE2017. Full results: https://t.co/XyPZZkE1tt https://t.co/5Kg5R7djq8',2017/6/9/1.15,North West Leicestershire
+618,2017,6,9,1.15,872985437538840576,b'Hertford: CON hold #GE2017. Full results: https://t.co/XyPZZkE1tt https://t.co/PqemsaElGF',2017/6/9/1.15,Hertford
+619,2017,6,9,1.15,872985395390291969,b'Heywood: LAB hold #GE2017. Full results: https://t.co/XyPZZkE1tt https://t.co/zVA1kly2FN',2017/6/9/1.15,Heywood
+620,2017,6,9,1.15,872985353723969536,b'Epping Forest: CON hold #GE2017. Full results: https://t.co/XyPZZkE1tt https://t.co/rUnXhVmmpF',2017/6/9/1.15,Epping Forest
+621,2017,6,9,1.14,872985311340617728,b'Bury North: LAB gain from CON #GE2017. Full results: https://t.co/XyPZZkE1tt https://t.co/6y9biTAdH5',2017/6/9/1.14,Bury North
+622,2017,6,9,1.14,872985269250793472,b'Barnsley East: LAB hold #GE2017. Full results: https://t.co/XyPZZkE1tt https://t.co/680jfd6Gz5',2017/6/9/1.14,Barnsley East
+623,2017,6,9,1.10,872984260969472001,b'Rugby: CON hold #GE2017. Full results: https://t.co/XyPZZkE1tt https://t.co/tGe2tHAERL',2017/6/9/1.10,Rugby
+624,2017,6,9,1.10,872984093318930435,b'Falkirk: SNP hold #GE2017. Full results: https://t.co/XyPZZkE1tt https://t.co/NO87xC25NX',2017/6/9/1.10,Falkirk
+625,2017,6,9,1.8,872983799415676928,b'Update 2:08am: Latest seat totals by party #GE2017. See full results: https://t.co/XyPZZkE1tt https://t.co/YX38f2DY3c',2017/6/9/1.8,Update 2
+626,2017,6,9,1.8,872983672852369408,b'Torbay: CON hold #GE2017. Full results: https://t.co/XyPZZkVCl1 https://t.co/jXJvsHe0Q1',2017/6/9/1.8,Torbay
+627,2017,6,9,1.7,872983547149262849,b'Mid Bedfordshire: CON hold #GE2017. Full results: https://t.co/XyPZZkE1tt https://t.co/jDFajW6RhG',2017/6/9/1.7,Mid Bedfordshire
+628,2017,6,9,1.7,872983505671729156,b'Delyn: LAB hold #GE2017. Full results: https://t.co/XyPZZkE1tt https://t.co/lWQtCottLH',2017/6/9/1.7,Delyn
+629,2017,6,9,1.7,872983379767164932,b'Ealing Central: LAB hold #GE2017. Full results: https://t.co/XyPZZkE1tt https://t.co/yUG8e6filx',2017/6/9/1.7,Ealing Central
+630,2017,6,9,1.7,872983336989470721,b'East Londonderry: DUP hold #GE2017. Full results: https://t.co/XyPZZkE1tt https://t.co/GTNo5V5hsc',2017/6/9/1.7,East Londonderry
+631,2017,6,9,1.5,872983042855514113,b'Preston: LAB hold #GE2017. Full results: https://t.co/XyPZZkE1tt https://t.co/SOvSXl1BkP',2017/6/9/1.5,Preston
+632,2017,6,9,1.5,872982875490181122,b'Ogmore: LAB hold #GE2017. Full results: https://t.co/XyPZZkE1tt https://t.co/la0vQjJecw',2017/6/9/1.5,Ogmore
+633,2017,6,9,1.5,872982833236770816,b'Hemel Hemp: CON hold #GE2017. Full results: https://t.co/XyPZZkE1tt https://t.co/9Ixh1HVIlu',2017/6/9/1.5,Hemel Hemp
+634,2017,6,9,1.4,872982749895958529,b'Vale of Glam: CON hold #GE2017. Full results: https://t.co/XyPZZkE1tt https://t.co/PTpAMUl6b4',2017/6/9/1.4,Vale of Glam
+635,2017,6,9,1.4,872982707202129921,b'St Helens South: LAB hold #GE2017. Full results: https://t.co/XyPZZkE1tt https://t.co/rIgvy9kW5V',2017/6/9/1.4,St Helens South
+636,2017,6,9,1.4,872982668534788098,b'Caerphilly: LAB hold #GE2017. Full results: https://t.co/XyPZZkE1tt https://t.co/sqASkVIJ6t',2017/6/9/1.4,Caerphilly
+637,2017,6,9,1.3,872982539077640192,b'Wallasey: LAB hold #GE2017. Full results: https://t.co/XyPZZkE1tt https://t.co/CgEIw9hdGr',2017/6/9/1.3,Wallasey
+638,2017,6,9,1.3,872982497554046976,b'East Kilbride: SNP hold #GE2017. Full results: https://t.co/XyPZZkE1tt https://t.co/G7Nm04Odsd',2017/6/9/1.3,East Kilbride
+639,2017,6,9,1.2,872982244784308225,b'Battersea: LAB gain from CON #GE2017. Full results: https://t.co/XyPZZkE1tt https://t.co/2aBk3Pjy2o',2017/6/9/1.2,Battersea
+640,2017,6,9,1.2,872982120251236353,b'Update 12:16pm: Latest seat totals by party #GE2017. See full results: https://t.co/XyPZZkE1tt https://t.co/H3OrmvVjgG',2017/6/9/1.2,Update 12
+641,2017,6,9,1.1,872981913325248514,b'Blaenau Gwent: LAB hold #GE2017. Full results: https://t.co/XyPZZkE1tt https://t.co/Rageua56ht',2017/6/9/1.1,Blaenau Gwent
+642,2017,6,9,0.59,872981532331388929,b'Arfon: PC hold #GE2017. Full results: https://t.co/XyPZZkE1tt https://t.co/fMxZXKms3S',2017/6/9/0.59,Arfon
+643,2017,6,9,0.59,872981489243365376,b'Wolverhampton North East: LAB hold #GE2017. Full results: https://t.co/XyPZZkE1tt https://t.co/rsIcqSffjm',2017/6/9/0.59,Wolverhampton North East
+644,2017,6,9,0.59,872981447291932673,b'Chelmsford: CON hold #GE2017. Full results: https://t.co/XyPZZkE1tt https://t.co/v9URYxWyfX',2017/6/9/0.59,Chelmsford
+645,2017,6,9,0.59,872981405197881344,b'Fareham: CON hold #GE2017. Full results: https://t.co/XyPZZkE1tt https://t.co/K4WXyEbDHf',2017/6/9/0.59,Fareham
+646,2017,6,9,0.59,872981363468754945,b'Liverpool Riverside: LAB hold #GE2017. Full results: https://t.co/XyPZZkE1tt https://t.co/R8ULfGZVU8',2017/6/9/0.59,Liverpool Riverside
+647,2017,6,9,0.58,872981279167447041,b'Update 13:58am: Latest seat totals by party #GE2017. See full results: https://t.co/XyPZZkE1tt https://t.co/BpjtzOagZs',2017/6/9/0.58,Update 13
+648,2017,6,9,0.57,872981028008316928,b'Carmarthen East: PC hold #GE2017. Full results: https://t.co/XyPZZkE1tt https://t.co/DQ9vsLdq1B',2017/6/9/0.57,Carmarthen East
+649,2017,6,9,0.57,872980985528320000,b'Pontypridd: LAB hold #GE2017. Full results: https://t.co/XyPZZkE1tt https://t.co/eSFsENyp0S',2017/6/9/0.57,Pontypridd
+650,2017,6,9,0.57,872980859070164992,b'St Helens North: LAB hold #GE2017. Full results: https://t.co/XyPZZkE1tt https://t.co/XN4TuJeTkg',2017/6/9/0.57,St Helens North
+651,2017,6,9,0.56,872980565791830017,b'North Warwickshire: CON hold #GE2017. Full results: https://t.co/XyPZZkE1tt https://t.co/DqH2Q300q5',2017/6/9/0.56,North Warwickshire
+652,2017,6,9,0.55,872980481486311424,b'Oxford East: LAB hold #GE2017. Full results: https://t.co/XyPZZkE1tt https://t.co/ZD2wm9bGnC',2017/6/9/0.55,Oxford East
+653,2017,6,9,0.55,872980400527814656,b'Islwyn: LAB hold #GE2017. Full results: https://t.co/XyPZZkE1tt https://t.co/pblYNUFjAE',2017/6/9/0.55,Islwyn
+654,2017,6,9,0.55,872980356387012608,b'West Bromwich West: LAB hold #GE2017. Full results: https://t.co/XyPZZkE1tt https://t.co/13U6KH9NDR',2017/6/9/0.55,West Bromwich West
+655,2017,6,9,0.55,872980313705676800,b'Erewash: CON hold #GE2017. Full results: https://t.co/XyPZZkE1tt https://t.co/ZwucAcKq0L',2017/6/9/0.55,Erewash
+656,2017,6,9,0.54,872980271414611968,b'Hartlepool: LAB hold #GE2017. Full results: https://t.co/XyPZZkE1tt https://t.co/zXHdp5Cifk',2017/6/9/0.54,Hartlepool
+657,2017,6,9,0.54,872980145895821312,b'Sefton Central: LAB hold #GE2017. Full results: https://t.co/XyPZZkE1tt https://t.co/a8DlDunboW',2017/6/9/0.54,Sefton Central
+658,2017,6,9,0.53,872979893742702596,b'Dundee East: SNP hold #GE2017. Full results: https://t.co/XyPZZkE1tt https://t.co/AqStg3UNEp',2017/6/9/0.53,Dundee East
+659,2017,6,9,0.53,872979851791269888,b'North Tyneside: LAB hold #GE2017. Full results: https://t.co/XyPZZkE1tt https://t.co/PUX8Rhz75x',2017/6/9/0.53,North Tyneside
+660,2017,6,9,0.53,872979809298780160,b'Folkestone: CON hold #GE2017. Full results: https://t.co/XyPZZkE1tt https://t.co/uX379dFaHE',2017/6/9/0.53,Folkestone
+661,2017,6,9,0.52,872979767057928193,b'Angus: CON gain from SNP #GE2017. Full results: https://t.co/XyPZZkE1tt https://t.co/Ygj5wOXXBe',2017/6/9/0.52,Angus
+662,2017,6,9,0.52,872979599994609665,b'Yeovil: CON hold #GE2017. Full results: https://t.co/XyPZZkE1tt https://t.co/GTDr5rM1jQ',2017/6/9/0.52,Yeovil
+663,2017,6,9,0.51,872979515638722560,b'Torfaen: LAB hold #GE2017. Full results: https://t.co/XyPZZkE1tt https://t.co/R3e1Lp2KKz',2017/6/9/0.51,Torfaen
+664,2017,6,9,0.51,872979432104964096,b'Castle Point: CON hold #GE2017. Full results: https://t.co/XyPZZkE1tt https://t.co/k3Xa6BUKMf',2017/6/9/0.51,Castle Point
+665,2017,6,9,0.50,872979263867301894,b'Newport East: LAB hold #GE2017. Full results: https://t.co/XyPZZkE1tt https://t.co/veOpNY8aCU',2017/6/9/0.50,Newport East
+666,2017,6,9,0.50,872979137706827777,b'Kilmarnock: SNP hold #GE2017. Full results: https://t.co/XyPZZkE1tt https://t.co/w3j8RQ6nU8',2017/6/9/0.50,Kilmarnock
+667,2017,6,9,0.49,872978970333122560,b'Burnley: LAB hold #GE2017. Full results: https://t.co/XyPZZkE1tt https://t.co/hiMukgwvBz',2017/6/9/0.49,Burnley
+668,2017,6,9,0.48,872978762308218881,b'Update 13:48am: Latest seat totals by party #GE2017. See full results: https://t.co/XyPZZkE1tt https://t.co/ZhxGaJiUK7',2017/6/9/0.48,Update 13
+669,2017,6,9,0.48,872978633400430593,b'Stratford Avon: CON hold #GE2017. Full results: https://t.co/XyPZZkE1tt https://t.co/uEVlBxXyEv',2017/6/9/0.48,Stratford Avon
+670,2017,6,9,0.48,872978592212365315,b'South Norfolk: CON hold #GE2017. Full results: https://t.co/XyPZZkE1tt https://t.co/erAInyPDEU',2017/6/9/0.48,South Norfolk
+671,2017,6,9,0.47,872978507378425856,b'Havant: CON hold #GE2017. Full results: https://t.co/XyPZZkE1tt https://t.co/6uKdGN9Cbs',2017/6/9/0.47,Havant
+672,2017,6,9,0.47,872978423790096384,b'Tynemouth: LAB hold #GE2017. Full results: https://t.co/XyPZZkE1tt https://t.co/qyWdxSFa10',2017/6/9/0.47,Tynemouth
+673,2017,6,9,0.46,872978256680685569,b'Hertsmere: CON hold #GE2017. Full results: https://t.co/XyPZZkE1tt https://t.co/oiTEoQn3fp',2017/6/9/0.46,Hertsmere
+674,2017,6,9,0.45,872977877637136384,b'Warley: LAB hold #GE2017. Full results: https://t.co/XyPZZkE1tt https://t.co/Qx2Lgs94kR',2017/6/9/0.45,Warley
+675,2017,6,9,0.44,872977751577382912,b'West Dunbartonshire: SNP hold #GE2017. Full results: https://t.co/XyPZZkE1tt https://t.co/AlLGNDqkgy',2017/6/9/0.44,West Dunbartonshire
+676,2017,6,9,0.42,872977079440199681,b'Putney: CON hold #GE2017. Full results: https://t.co/XyPZZkE1tt https://t.co/ayKeoypCqe',2017/6/9/0.42,Putney
+677,2017,6,9,0.41,872976953594216448,b'Clwyd South: LAB hold #GE2017. Full results: https://t.co/XyPZZkE1tt https://t.co/Z3q0ct2aXR',2017/6/9/0.41,Clwyd South
+678,2017,6,9,0.41,872976870266068992,b'Dover: CON hold #GE2017. Full results: https://t.co/XyPZZkE1tt https://t.co/IAVMqWYcSN',2017/6/9/0.41,Dover
+679,2017,6,9,0.40,872976744575377408,b'Vale of Clwyd: LAB gain from CON #GE2017. Full results: https://t.co/XyPZZkE1tt https://t.co/GiwSY8alsg',2017/6/9/0.40,Vale of Clwyd
+680,2017,6,9,0.38,872976239547559936,b'Update 13:38am: Latest seat totals by party #GE2017. See full results: https://t.co/XyPZZkE1tt https://t.co/beIY597VjG',2017/6/9/0.38,Update 13
+681,2017,6,9,0.38,872976071968399361,b'Rayleigh: CON hold #GE2017. Full results: https://t.co/XyPZZkE1tt https://t.co/UK2R6tWDND',2017/6/9/0.38,Rayleigh
+682,2017,6,9,0.36,872975778207674373,b'Knowsley: LAB hold #GE2017. Full results: https://t.co/XyPZZkE1tt https://t.co/a9bzhRCp0m',2017/6/9/0.36,Knowsley
+683,2017,6,9,0.34,872975152761491456,b'Harlow: CON hold #GE2017. Full results: https://t.co/XyPZZkE1tt https://t.co/UcnVfjtHxZ',2017/6/9/0.34,Harlow
+684,2017,6,9,0.32,872974602636546048,b'Paisley and Renfrewshire South: SNP hold #GE2017. Full results: https://t.co/XyPZZkE1tt https://t.co/zaXEJ22II8',2017/6/9/0.32,Paisley and Renfrewshire South
+685,2017,6,9,0.31,872974308548759555,b'West Bromwich East: LAB hold #GE2017. Full results: https://t.co/XyPZZkE1tt https://t.co/iRwLfD7wYw',2017/6/9/0.31,West Bromwich East
+686,2017,6,9,0.29,872973972014587904,b'Lagan Valley: DUP hold #GE2017. Full results: https://t.co/XyPZZkE1tt https://t.co/K5WJeljTYE',2017/6/9/0.29,Lagan Valley
+687,2017,6,9,0.29,872973930230841348,b'Carlisle: CON hold #GE2017. Full results: https://t.co/XyPZZkE1tt https://t.co/mmXNDqZUsq',2017/6/9/0.29,Carlisle
+688,2017,6,9,0.28,872973762479742977,b'Strangford: DUP hold #GE2017. Full results: https://t.co/XyPZZkE1tt https://t.co/4hpACcTXHV',2017/6/9/0.28,Strangford
+689,2017,6,9,0.28,872973720238919681,b'Update 13:28am: Latest seat totals by party #GE2017. See full results: https://t.co/XyPZZkE1tt https://t.co/w5Gp1aEwmk',2017/6/9/0.28,Update 13
+690,2017,6,9,0.25,872973005999276032,b'Birkenhead: LAB hold #GE2017. Full results: https://t.co/XyPZZkE1tt https://t.co/ddD5LEGXfb',2017/6/9/0.25,Birkenhead
+691,2017,6,9,0.25,872972884448350208,b'Halton: LAB hold #GE2017. Full results: https://t.co/XyPZZkE1tt https://t.co/J9LpJ3cnL5',2017/6/9/0.25,Halton
+692,2017,6,9,0.24,872972755444133889,b'Makerfield: LAB hold #GE2017. Full results: https://t.co/XyPZZkE1tt https://t.co/iRbPhdB9i2',2017/6/9/0.24,Makerfield
+693,2017,6,9,0.24,872972712498655233,b'Tooting: LAB hold #GE2017. Full results: https://t.co/XyPZZkE1tt https://t.co/uXxEEslNEz',2017/6/9/0.24,Tooting
+694,2017,6,9,0.21,872971788732575745,b'Wigan: LAB hold #GE2017. Full results: https://t.co/XyPZZkE1tt https://t.co/jOT3mixZCY',2017/6/9/0.21,Wigan
+695,2017,6,9,0.20,872971578425868290,b'Leigh: LAB hold #GE2017. Full results: https://t.co/XyPZZkE1tt https://t.co/xNgDVKW9MQ',2017/6/9/0.20,Leigh
+696,2017,6,9,0.18,872971202930896896,b'Update 13:18am: Latest seat totals by party #GE2017. See full results: https://t.co/XyPZZkE1tt https://t.co/m2V7OgkgbY',2017/6/9/0.18,Update 13
+697,2017,6,9,0.14,872970234872942593,b'South Basildon and East Thurrock: CON hold #GE2017. Full results: https://t.co/XyPZZkE1tt https://t.co/smnJ2E2lRN',2017/6/9/0.14,South Basildon and East Thurrock
+698,2017,6,9,0.14,872970067855716352,b'Stockton North: LAB hold #GE2017. Full results: https://t.co/XyPZZkE1tt https://t.co/RDisuggZI8',2017/6/9/0.14,Stockton North
+699,2017,6,9,0.13,872969900352057344,b'Harrogate: CON hold #GE2017. Full results: https://t.co/XyPZZkE1tt https://t.co/RGu5fsfAUC',2017/6/9/0.13,Harrogate
+700,2017,6,9,0.13,872969865283416064,b'North Down: IND hold #GE2017. Full results: https://t.co/XyPZZkE1tt https://t.co/9G9UbOQwlh',2017/6/9/0.13,North Down
+701,2017,6,9,0.12,872969732206604289,b'Rutherglen: LAB gain from SNP #GE2017. Full results: https://t.co/XyPZZkE1tt https://t.co/k9QzupjgA5',2017/6/9/0.12,Rutherglen
+702,2017,6,9,0.11,872969269734252544,b'South Swindon: CON hold #GE2017. Full results: https://t.co/XyPZZkE1tt https://t.co/vDMJ2ZIEcI',2017/6/9/0.11,South Swindon
+703,2017,6,9,0.10,872969063026360324,b'Wrexham: LAB hold #GE2017. Full results: https://t.co/XyPZZkE1tt https://t.co/QaBCM1Zxxr',2017/6/9/0.10,Wrexham
+704,2017,6,9,0.9,872968976074244098,"b'Updated result: Llanelli, LAB hold #GE2017. See full results: https://t.co/XyPZZkE1tt https://t.co/Nr747xo4np'",2017/6/9/0.9,Updated result
+705,2017,6,9,0.9,872968892133650432,b'Llanelli: LAB hold #GE2017. Full results: https://t.co/XyPZZkE1tt https://t.co/ho12She5Ch',2017/6/9/0.9,Llanelli
+706,2017,6,9,0.8,872968682217107457,b'Update 13:08am: Latest seat totals by party #GE2017. See full results: https://t.co/XyPZZkE1tt https://t.co/rkbzbp018e',2017/6/9/0.8,Update 13
+707,2017,6,9,0.8,872968640185937924,b'Jarrow: LAB hold #GE2017. Full results: https://t.co/XyPZZkE1tt https://t.co/IioubQrdCe',2017/6/9/0.8,Jarrow
+708,2017,6,8,23.57,872965743318618117,b'Update 12:56pm: Latest seat totals by party #GE2017. See full results: https://t.co/XyPZZkE1tt https://t.co/J66ciGXxP1',2017/6/8/23.57,Update 12
+709,2017,6,8,23.52,872964528023240704,b'Darlington: LAB hold #GE2017. Full results: https://t.co/XyPZZkE1tt https://t.co/Ks5zXLZGnI',2017/6/8/23.52,Darlington
+710,2017,6,8,23.51,872964356388139009,b'South Shields: LAB hold #GE2017. Full results: https://t.co/XyPZZkE1tt https://t.co/fP9a7mfZOl',2017/6/8/23.51,South Shields
+711,2017,6,8,23.47,872963222952869888,b'Update 12:46pm: Latest seat totals by party #GE2017. See full results: https://t.co/XyPZZkE1tt https://t.co/YAGGaXCnu3',2017/6/8/23.47,Update 12
+712,2017,6,8,23.44,872962466468253697,b'Workington: LAB hold #GE2017. Full results: https://t.co/XyPZZkE1tt https://t.co/vrUwdfzwxp',2017/6/8/23.44,Workington
+713,2017,6,8,23.43,872962259638792192,b'Billericay: CON hold #GE2017. Full results: https://t.co/XyPZZkE1tt https://t.co/X1FOQSqRtj',2017/6/8/23.43,Billericay
+714,2017,6,8,23.41,872961921045102594,b'Broxbourne: CON hold #GE2017. Full results: https://t.co/XyPZZkE1tt https://t.co/D8LXV95lUT',2017/6/8/23.41,Broxbourne
+715,2017,6,8,23.41,872961794834354178,b'Middlesbrough: LAB hold #GE2017. Full results: https://t.co/XyPZZkE1tt https://t.co/UXmXWtTdvD',2017/6/8/23.41,Middlesbrough
+716,2017,6,8,23.36,872960660124160002,b'Update 12:36pm: Latest seat totals by party #GE2017. See full results: https://t.co/XyPZZkE1tt https://t.co/pcVMcosg2i',2017/6/8/23.36,Update 12
+717,2017,6,8,23.35,872960198465466368,b'Nuneaton: CON hold #GE2017. Full results: https://t.co/XyPZZkE1tt https://t.co/THSkNMbNTx',2017/6/8/23.35,Nuneaton
+718,2017,6,8,23.27,872958183081463808,b'Update 12:26pm: Latest seat totals by party #GE2017. See full results: https://t.co/XyPZZkE1tt https://t.co/5ZTJLEnA68',2017/6/8/23.27,Update 12
+719,2017,6,8,23.25,872957846215962625,b'Kettering: CON hold #GE2017. Full results: https://t.co/XyPZZkE1tt https://t.co/gacmpHlUyn',2017/6/8/23.25,Kettering
+720,2017,6,8,23.17,872955663739179008,b'Update 12:16pm: Latest seat totals by party #GE2017. See full results: https://t.co/XyPZZkE1tt https://t.co/lF4WiXtxFL',2017/6/8/23.17,Update 12
+721,2017,6,8,23.14,872955075349688321,b'Newcastle North: LAB hold #GE2017. Full results: https://t.co/XyPZZkE1tt https://t.co/wx6cnxnzu1',2017/6/8/23.14,Newcastle North
+722,2017,6,8,23.7,872953144644423680,b'Update 12:06pm: Latest seat totals by party #GE2017. See full results: https://t.co/XyPZZkE1tt https://t.co/dYxL2ycOcX',2017/6/8/23.7,Update 12
+723,2017,6,8,23.4,872952431352700930,b'Sunderland West: LAB hold #GE2017. Full results: https://t.co/XyPZZkE1tt https://t.co/G3rXRXZvVo',2017/6/8/23.4,Sunderland West
+724,2017,6,8,22.58,872951044153761794,b'North Swindon: CON hold #GE2017. Full results: https://t.co/XyPZZkE1tt https://t.co/joH1VLzNAk',2017/6/8/22.58,North Swindon
+725,2017,6,8,22.57,872950623737720832,b'Update 11:56pm: Latest seat totals by party #GE2017. See full results: https://t.co/XyPZZkE1tt https://t.co/iZWQkSiXAq',2017/6/8/22.57,Update 11
+726,2017,6,8,22.56,872950582687956993,b'Newcastle East: LAB hold #GE2017. Full results: https://t.co/XyPZZkE1tt https://t.co/xmQpcDgOUR',2017/6/8/22.56,Newcastle East
+727,2017,6,8,22.46,872947893551984641,b'Update 11:46pm: Latest seat totals by party #GE2017. See full results: https://t.co/XyPZZkE1tt https://t.co/tSRZS9fMZN',2017/6/8/22.46,Update 11
+728,2017,6,8,22.46,872947852808466432,b'Sunderland Central: LAB hold #GE2017. Full results: https://t.co/XyPZZkE1tt https://t.co/yx57OMpF6w',2017/6/8/22.46,Sunderland Central
+729,2017,6,8,22.11,872939200991174657,b'Update 11:11pm: Latest seat totals by party #GE2017. See full results: https://t.co/XyPZZkE1tt https://t.co/TojjMM9Bmg',2017/6/8/22.11,Update 11
+730,2017,6,8,22.10,872938948703682562,b'Sunderland South: LAB hold #GE2017. Full results: https://t.co/XyPZZkE1tt https://t.co/oAxycS8ddK',2017/6/8/22.10,Sunderland South
+731,2017,6,8,22.1,872936680088625153,b'Update 11:01pm: Latest seat totals by party #GE2017. See full results: https://t.co/XyPZZkE1tt https://t.co/P8xpT75yNq',2017/6/8/22.1,Update 11
+732,2017,6,8,22.1,872936640787992576,b'Newcastle Central: LAB hold #GE2017. Full results: https://t.co/XyPZZkE1tt https://t.co/CzpwhEDJ6e',2017/6/8/22.1,Newcastle Central
+733,2017,6,8,21.55,872935087352008704,b'Update 10:55pm: Latest seat totals by party #GE2017. See full results: https://t.co/XyPZZkE1tt https://t.co/9Gvt77cqwd',2017/6/8/21.55,Update 10
+734,2017,6,6,17.27,872142809595293696,b'Follow me for all #GE2017 results through the night on 8/9th June \n#bbcelection https://t.co/incmi9jI0v',2017/6/6/17.27,Follow me for all #GE2017 results through the night on 8/9th June \n#bbcelection https
