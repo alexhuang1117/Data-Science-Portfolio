@@ -3,6 +3,16 @@
 This is a repository of the projects I worked on or currently working on. It is updated regularly. The projects are either written in R (R markdown) or Python (Jupyter Notebook). The goal of the projects is to use data science/statistical modelling techniques to find something that is interesting. A typical project consist of finding and cleaning data, analysis, visualization and conclusion. Click on the projects to see full analysis and code.
  
 ## Projects:
+
+###  [Anomaly Detection on Beijing pm2.5 data - Under Construction](https://github.com/alexhuang1117/personal_projects/tree/master/pm25_analysis)
+* Used LSTM to fit five years of Beijing weather data 
+* Constructed anomaly scores from the difference between model prediction and real data
+* Investigated time periods with high anomaly scores
+* Results confirms that high anomaly scores corresponds with extreme weather (floods, heavy rain, firework celebration, etc)
+* **Keywords**(Anomaly Detection, Time Series, LSTM, Weather, Beijing, Semi-supervised learning)
+<img src="images/anomaly_score.png" width="500">
+
+---
  
 ###  [Bitcoin Price Analysis](https://github.com/alexhuang1117/Data-Science-Portfolio/blob/master/Bitcoin_Analysis/Bitcoin_Analysis.md)
 * Cross correlation analysis between Bitcoin Price and S&P500 price over time.
