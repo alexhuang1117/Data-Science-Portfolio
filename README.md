@@ -4,7 +4,7 @@ This is a repository of the projects I worked on or currently working on. It is 
  
 ## Projects:
 
-###  [Anomaly Detection on Beijing pm2.5 data - Under Construction](https://github.com/alexhuang1117/personal_projects/tree/master/pm25_analysis)
+###  [Anomaly Detection on Beijing pm2.5 data using LSTM - Under Construction](https://github.com/alexhuang1117/personal_projects/tree/master/pm25_analysis)
 * Used LSTM to fit five years of Beijing weather data 
 * Constructed anomaly scores from the difference between model prediction and real data
 * Investigated time periods with high anomaly scores
