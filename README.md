@@ -15,7 +15,7 @@ This is a repository of the projects I worked on or currently working on. It is 
 ---
  
 ###  [Exchange Rate Analysis During US Election - Under Construction](https://github.com/alexhuang1117/Data-Science-Portfolio/blob/master/FX_Analysis_During_US_Election/main.ipynb)
-* Predicted US (2016) election victories as the voting results of each region becomes available.
+* Predicted US (2016) election results in realtime as the voting results of each region becomes available.
 * Regressed states with results against polling data and predicted results for the remaining states
 * Monte Carlos simulation used to simulate the winner of the election.
 * Compared simulated results with exchange rates fluctuations to see if market is efficient.
