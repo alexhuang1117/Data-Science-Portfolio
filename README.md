@@ -12,7 +12,7 @@ Please contact me on [Linkedin](https://www.linkedin.com/in/alexzilihuang) if yo
 * Investigated time periods with high anomaly scores
 * Results confirms that high anomaly scores corresponds with extreme weather (floods, heavy rain, firework celebration, etc)
 * **Keywords**(Anomaly Detection, Time Series, LSTM, Weather, Beijing, Semi-supervised learning)
-<img src="images/anomaly_score.png" width="600">
+![image](https://github.com/alexhuang1117/personal_projects/blob/master/pm25_analysis/images/pollution_train.png?raw=true)
 
 ---
  
