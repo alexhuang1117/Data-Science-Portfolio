@@ -16,7 +16,7 @@ Please contact me on [Linkedin](https://www.linkedin.com/in/alexzilihuang) if yo
 
 ---
  
-###  [Exchange Rate Analysis During US Election - Under Construction](https://github.com/alexhuang1117/Data-Science-Portfolio/blob/master/FX_Analysis_During_US_Election/main.ipynb)
+###  [Exchange Rate Analysis During US Election](https://github.com/alexhuang1117/Data-Science-Portfolio/blob/master/FX_Analysis_During_US_Election/main.ipynb)
 * Predicted US (2016) election results in realtime as the voting results of each region becomes available.
 * Regressed states with results against polling data and predicted results for the remaining states
 * Monte Carlos simulation used to simulate the winner of the election.
