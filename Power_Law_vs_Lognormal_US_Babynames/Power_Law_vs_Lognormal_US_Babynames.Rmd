@@ -123,10 +123,10 @@ Let's see if Twitter user's attributes (i.e. friends count, followers count) fol
 Log in to Twitter using the 'twitteR' package using your log in. The code is not shown.
 ```{r echo=FALSE}
 require(twitteR)
-consumer_key = '4BByuBKYk19fpSl5iMIkju3c0'
-consumer_secret = '2EK91aT0s7uMJ1oWECBRUwkXrxGykigrsmtqtOIAvFBPXiucQq'
-access_token = '892729320736739328-E30nIY5dacqxeugxPoe3TXB2fIjITZB'
-access_secret = 'WMViNA7y1d1trkb5nt7L5dOAHdScmYBMHm33sLeUVZrWT'
+CONSUMER_KEY = # 'your key'
+CONSUMER_SECRET = # 'your secret'
+ACCESS_TOKEN = # 'your token'
+ACCESS_TOKEN_SECRET = # 'your secret'
 
 setup_twitter_oauth(consumer_key, consumer_secret, access_token, access_secret)
 ```
